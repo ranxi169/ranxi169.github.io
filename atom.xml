@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="http://blog.onefly.top/atom.xml" rel="self"/>
+  <link href="https://ranxi2001.github.io/atom.xml" rel="self"/>
   
-  <link href="http://blog.onefly.top/"/>
+  <link href="https://ranxi2001.github.io/"/>
   <updated>2022-09-13T13:49:15.333Z</updated>
-  <id>http://blog.onefly.top/</id>
+  <id>https://ranxi2001.github.io/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://blog.onefly.top/2022/09/13/hello-world/"/>
-    <id>http://blog.onefly.top/2022/09/13/hello-world/</id>
+    <link href="https://ranxi2001.github.io/2022/09/13/hello-world/"/>
+    <id>https://ranxi2001.github.io/2022/09/13/hello-world/</id>
     <published>2022-09-13T13:49:15.333Z</published>
     <updated>2022-09-13T13:49:15.333Z</updated>
     
