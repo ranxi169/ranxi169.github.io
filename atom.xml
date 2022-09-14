@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Onefly&#39;Blog|孤飞的博客</title>
   
   
   <link href="https://ranxi2001.github.io/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://ranxi2001.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Onefly</name>
     
   </author>
   
