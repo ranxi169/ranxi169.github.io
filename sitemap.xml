@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ranxi2001.github.io/about/index.html</loc>
+    
+    <lastmod>2022-09-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ranxi2001.github.io/404/index.html</loc>
+    
+    <lastmod>2022-09-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ranxi2001.github.io/posts/43427.html</loc>
     
     <lastmod>2022-09-14</lastmod>
@@ -48,15 +66,6 @@
   
   <url>
     <loc>https://ranxi2001.github.io/friends/index.html</loc>
-    
-    <lastmod>2022-09-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ranxi2001.github.io/about/index.html</loc>
     
     <lastmod>2022-09-13</lastmod>
     
