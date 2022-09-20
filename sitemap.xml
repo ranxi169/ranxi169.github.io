@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ranxi2001.github.io/posts/13141.html</loc>
+    
+    <lastmod>2022-09-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ranxi2001.github.io/posts/13140.html</loc>
     
     <lastmod>2022-09-20</lastmod>
@@ -124,6 +133,20 @@
   </url>
   
   <url>
+    <loc>https://ranxi2001.github.io/tags/numpy/</loc>
+    <lastmod>2022-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ranxi2001.github.io/tags/pandas/</loc>
+    <lastmod>2022-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://ranxi2001.github.io/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/</loc>
     <lastmod>2022-09-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -131,14 +154,14 @@
   </url>
   
   <url>
-    <loc>https://ranxi2001.github.io/tags/%E5%BC%80%E5%8F%91/</loc>
+    <loc>https://ranxi2001.github.io/tags/%E7%BB%8F%E7%AE%A1/</loc>
     <lastmod>2022-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://ranxi2001.github.io/tags/%E7%BB%8F%E7%AE%A1/</loc>
+    <loc>https://ranxi2001.github.io/tags/%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2022-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
