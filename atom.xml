@@ -3,11 +3,11 @@
   <title>孤飞的博客</title>
   
   <subtitle>Onefly&#39;s Blog</subtitle>
-  <link href="https://ranxi2001.github.io/atom.xml" rel="self"/>
+  <link href="https://blog.onefly.top/atom.xml" rel="self"/>
   
-  <link href="https://ranxi2001.github.io/"/>
+  <link href="https://blog.onefly.top/"/>
   <updated>2022-09-21T07:10:45.285Z</updated>
-  <id>https://ranxi2001.github.io/</id>
+  <id>https://blog.onefly.top/</id>
   
   <author>
     <name>Onefly</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Python数据分析教程（二）：Pandas</title>
-    <link href="https://ranxi2001.github.io/posts/13141.html"/>
-    <id>https://ranxi2001.github.io/posts/13141.html</id>
+    <link href="https://blog.onefly.top/posts/13141.html"/>
+    <id>https://blog.onefly.top/posts/13141.html</id>
     <published>2022-09-20T13:06:51.000Z</published>
     <updated>2022-09-21T07:10:45.285Z</updated>
     
@@ -34,21 +34,21 @@
     
     
     
-    <category term="数据分析" scheme="https://ranxi2001.github.io/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    <category term="数据分析" scheme="https://blog.onefly.top/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
     
-    <category term="数据分析" scheme="https://ranxi2001.github.io/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    <category term="数据分析" scheme="https://blog.onefly.top/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
-    <category term="python" scheme="https://ranxi2001.github.io/tags/python/"/>
+    <category term="python" scheme="https://blog.onefly.top/tags/python/"/>
     
-    <category term="pandas" scheme="https://ranxi2001.github.io/tags/pandas/"/>
+    <category term="pandas" scheme="https://blog.onefly.top/tags/pandas/"/>
     
   </entry>
   
   <entry>
     <title>Python数据分析教程（一）：Numpy</title>
-    <link href="https://ranxi2001.github.io/posts/13140.html"/>
-    <id>https://ranxi2001.github.io/posts/13140.html</id>
+    <link href="https://blog.onefly.top/posts/13140.html"/>
+    <id>https://blog.onefly.top/posts/13140.html</id>
     <published>2022-09-19T16:06:51.000Z</published>
     <updated>2022-09-20T13:16:21.615Z</updated>
     
@@ -64,49 +64,21 @@
     
     
     
-    <category term="数据分析" scheme="https://ranxi2001.github.io/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    <category term="数据分析" scheme="https://blog.onefly.top/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
     
-    <category term="数据分析" scheme="https://ranxi2001.github.io/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    <category term="数据分析" scheme="https://blog.onefly.top/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
-    <category term="python" scheme="https://ranxi2001.github.io/tags/python/"/>
+    <category term="python" scheme="https://blog.onefly.top/tags/python/"/>
     
-    <category term="numpy" scheme="https://ranxi2001.github.io/tags/numpy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一行代码Android（第3版）pdf</title>
-    <link href="https://ranxi2001.github.io/posts/43427.html"/>
-    <id>https://ranxi2001.github.io/posts/43427.html</id>
-    <published>2022-09-13T16:06:51.000Z</published>
-    <updated>2022-09-20T01:24:19.192Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;2020年人民邮电出版社出版的图书&lt;br&gt;《第一行代码Android（第3版）》是2020年4月人民邮电出版社出版的图书，作者是郭霖。&lt;/p&gt;
-&lt;p&gt;封面：&lt;br&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="电子书" scheme="https://ranxi2001.github.io/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
-    
-    
-    <category term="电子书" scheme="https://ranxi2001.github.io/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
-    
-    <category term="开发" scheme="https://ranxi2001.github.io/tags/%E5%BC%80%E5%8F%91/"/>
+    <category term="numpy" scheme="https://blog.onefly.top/tags/numpy/"/>
     
   </entry>
   
   <entry>
     <title>投资学博迪第十版.pdf下载</title>
-    <link href="https://ranxi2001.github.io/posts/15785.html"/>
-    <id>https://ranxi2001.github.io/posts/15785.html</id>
+    <link href="https://blog.onefly.top/posts/15785.html"/>
+    <id>https://blog.onefly.top/posts/15785.html</id>
     <published>2022-09-13T16:06:51.000Z</published>
     <updated>2022-09-20T01:24:17.068Z</updated>
     
@@ -122,19 +94,47 @@
     
     
     
-    <category term="电子书" scheme="https://ranxi2001.github.io/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+    <category term="电子书" scheme="https://blog.onefly.top/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
     
     
-    <category term="电子书" scheme="https://ranxi2001.github.io/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+    <category term="电子书" scheme="https://blog.onefly.top/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
     
-    <category term="经管" scheme="https://ranxi2001.github.io/tags/%E7%BB%8F%E7%AE%A1/"/>
+    <category term="经管" scheme="https://blog.onefly.top/tags/%E7%BB%8F%E7%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一行代码Android（第3版）pdf</title>
+    <link href="https://blog.onefly.top/posts/43427.html"/>
+    <id>https://blog.onefly.top/posts/43427.html</id>
+    <published>2022-09-13T16:06:51.000Z</published>
+    <updated>2022-09-20T01:24:19.192Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2020年人民邮电出版社出版的图书&lt;br&gt;《第一行代码Android（第3版）》是2020年4月人民邮电出版社出版的图书，作者是郭霖。&lt;/p&gt;
+&lt;p&gt;封面：&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="电子书" scheme="https://blog.onefly.top/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+    
+    
+    <category term="电子书" scheme="https://blog.onefly.top/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+    
+    <category term="开发" scheme="https://blog.onefly.top/tags/%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://ranxi2001.github.io/posts/16107.html"/>
-    <id>https://ranxi2001.github.io/posts/16107.html</id>
+    <link href="https://blog.onefly.top/posts/16107.html"/>
+    <id>https://blog.onefly.top/posts/16107.html</id>
     <published>2022-09-13T13:49:15.333Z</published>
     <updated>2022-09-14T02:45:43.740Z</updated>
     
