@@ -1,253 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Python数据分析教程（一）：Numpy</title>
-    <url>/posts/13140.html</url>
-    <content><![CDATA[<h2 id="数据的纬度"><a href="#数据的纬度" class="headerlink" title="数据的纬度"></a>数据的纬度</h2><p>一维数据：列表和集合类型</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000249971-1418691440.png"></p>
-<p>二维数据：列表类型</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000618175-248885984.png"></p>
-<p>多维数据：列表类型</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000627314-315089200.png"></p>
-<p>高维数据：字典类型或数据表示格式，如<code>json</code>、<code>xml</code>、<code>yaml</code></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000636576-992489207.png"></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000320410-1397054611.png"></p>
-<p><strong>维度：一组数据的组织形式</strong></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000408689-1436965707.png"></p>
-<p><strong>列表和数组</strong>：<strong>一组数据的有序结构</strong></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000446411-1600490984.png"></p>
-<h2 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a>Numpy</h2><h3 id="Numpy介绍"><a href="#Numpy介绍" class="headerlink" title="Numpy介绍"></a>Numpy介绍</h3><ul>
-<li><p>NumPy是一个开源的Python科学计算基础库，包含：</p>
-<ul>
-<li><p>一个强大的N维数组对象ndarray</p>
-</li>
-<li><p>广播功能函数</p>
-</li>
-<li><p>整合C/C++/Fortran代码的工具</p>
-</li>
-<li><p>线性代数、傅里叶变换、随机数生成等功能</p>
-</li>
-</ul>
-</li>
-<li><p>NumPy是SciPy、Pandas等数据处理或科学计算库的基础</p>
-</li>
-</ul>
-<p><strong>模块导入：</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> numpy <span class="token keyword">as</span> np<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h3 id="N维数组对象：ndarray"><a href="#N维数组对象：ndarray" class="headerlink" title="N维数组对象：ndarray"></a><strong>N维数组对象：ndarray</strong></h3><ul>
-<li><p>数组对象可以去掉元素间运算所需的循环，使一维向量更像单个数据</p>
-</li>
-<li><p>设置专门的数组对象，经过优化，可以提升这类应用的运算速度————科学计算中，一个维度所有数据的类型往往相同</p>
-</li>
-<li><p>数组对象采用相同的数据类型，有助于节省运算和存储空间</p>
-</li>
-</ul>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920001445590-1835589251.png"></p>
-<h3 id="ndarray实例"><a href="#ndarray实例" class="headerlink" title="ndarray实例"></a><strong>ndarray实例</strong></h3><ul>
-<li>ndarray是一个多维数组对象，由两部分构成：<ul>
-<li>实际的数据</li>
-<li>描述这些数据的元数据（数据维度、数据类型等）</li>
-</ul>
-</li>
-<li>ndarray数组一般要求所有元素类型相同（同质），数组下标从0开始</li>
-</ul>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920001543215-76244284.png"></p>
-<h3 id="ndarray对象的属性"><a href="#ndarray对象的属性" class="headerlink" title="ndarray对象的属性"></a><strong>ndarray对象的属性</strong></h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#属性&amp;说明</span>
-<span class="token punctuation">.</span>ndim <span class="token comment">#秩，即轴的数量或维度的数量</span>
-<span class="token punctuation">.</span>shape <span class="token comment">#ndarray对象的尺度，对于矩阵，n行m列</span>
-<span class="token punctuation">.</span>size <span class="token comment">#ndarray对象元素的个数，相当于.shape中n*m的值</span>
-<span class="token punctuation">.</span>dtype <span class="token comment">#ndarray对象的元素类型</span>
-<span class="token punctuation">.</span>itemsize <span class="token comment">#ndarray对象中每个元素的大小，以字节为单位</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002133785-897537873.png"></p>
-<h4 id="ndarray的元素类型"><a href="#ndarray的元素类型" class="headerlink" title="ndarray的元素类型"></a><strong>ndarray的元素类型</strong></h4><p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002045637-1873947497.png"></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002050016-1829180101.png"></p>
-<h3 id="ndarray数组的创建方法"><a href="#ndarray数组的创建方法" class="headerlink" title="ndarray数组的创建方法"></a><strong>ndarray数组的创建方法</strong></h3><ul>
-<li>从Python中的列表、元组等类型创建ndarray数组</li>
-<li>使用NumPy中函数创建ndarray数组，如：arange, ones, zeros等</li>
-<li>从字节流（raw bytes）中创建ndarray数组</li>
-<li>从文件中读取特定格式，创建ndarray数组</li>
-</ul>
-<p><strong>通过列表创建ndarray:</strong></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002306999-2099371921.png"></p>
-<p><strong>使用函数创建ndarray:</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span>n<span class="token punctuation">)</span> <span class="token comment">#类似range()函数，返回ndarray类型，元素从0到n-1</span>
-np<span class="token punctuation">.</span>ones<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shapes生成一个全l数组，shape是元组类型</span>
-np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shape生成一个全数组，shape是元组类型</span>
-np<span class="token punctuation">.</span>full<span class="token punctuation">(</span>shape<span class="token punctuation">,</span>val<span class="token punctuation">)</span> <span class="token comment">#根据shape:生成一个数组，每个元素值都是val</span>
-np<span class="token punctuation">.</span>eye<span class="token punctuation">(</span>n<span class="token punctuation">)</span> <span class="token comment">#创建一个正方的n*n单位矩阵，对角线为1，其余为0</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>ndarray数组的变换:</strong></p>
-<p>对于创建后的ndarray数组，可以对其进行维度变换和元素类型变换</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#方法&amp;说明</span>
-<span class="token punctuation">.</span>reshape<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#不改变数组元素，返回一个shape形状的数组，原数组不变</span>
-<span class="token punctuation">.</span>resize<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#与.reshape()功能一致，但修改原数组</span>
-<span class="token punctuation">.</span>swapaxes<span class="token punctuation">(</span>ax1<span class="token punctuation">,</span>ax2<span class="token punctuation">)</span> <span class="token comment">#将数组n个维度中两个维度进行调换</span>
-<span class="token punctuation">.</span>flatten<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#对数组进行降维，返回折叠后的一维数组，原数组不变</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002943743-1325252769.png"></p>
-<p><strong>数组的索引和切片</strong></p>
-<ul>
-<li>索引：获取数组中特定位置元素的过程</li>
-<li>切片：获取数组元素子集的过程</li>
-</ul>
-<p>一维数组的索引和切片</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003101445-981037972.png"></p>
-<p>多维数组索引</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003139141-484127738.png"></p>
-<p>多维数组切片</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003159689-806595432.png"></p>
-<h3 id="ndarray数组的运算"><a href="#ndarray数组的运算" class="headerlink" title="ndarray数组的运算"></a><strong>ndarray数组的运算</strong></h3><p><strong>NumPy一元函数:</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-np<span class="token punctuation">.</span><span class="token builtin">abs</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fabs<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的绝对值</span>
-np<span class="token punctuation">.</span>sqrt<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的平方根</span>
-np<span class="token punctuation">.</span>square<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的平方</span>
-np<span class="token punctuation">.</span>log<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>1og10<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>1og2<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的自然对数、10底对数和2底对数</span>
-np<span class="token punctuation">.</span>ceil<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>floor<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的ceiling值或f1oor值</span>
-np<span class="token punctuation">.</span>rint<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的四舍五入值</span>
-np<span class="token punctuation">.</span>modf<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#将数组各元素的小数和整数部分以两个独立数组形式返回</span>
-np<span class="token punctuation">.</span>cos<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>cosh<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>sin<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>sinh<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的普通型和双曲型三角函数</span>
-np<span class="token punctuation">.</span>tan<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>tanh<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>exp<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的指数值</span>
-np<span class="token punctuation">.</span>sign<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的符号值，1(+)，0，-1(-)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>NumPy二元函数:</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-<span class="token operator">+</span> <span class="token operator">-</span> <span class="token operator">*</span> <span class="token operator">/</span> <span class="token operator">**</span> <span class="token comment">#两个数组各元素进行对应运算</span>
-np<span class="token punctuation">.</span>maximum<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fmax<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>minimum<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fmin<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#元素级的最大值/最小值计算</span>
-np<span class="token punctuation">.</span>mod<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span> <span class="token comment">#元素级的模运算</span>
-np<span class="token punctuation">.</span>copysign<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span> <span class="token comment">#将数组y中各元素值的符号赋值给数组x对应元素</span>
-<span class="token operator">&gt;</span><span class="token operator">&lt;</span> <span class="token operator">&gt;=</span> <span class="token operator">&lt;=</span> <span class="token operator">==</span> <span class="token operator">!=</span> <span class="token comment">#算术比较，产生布尔型数组</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>Numpy数据存取:</strong></p>
-<p>csv格式:</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920004240502-1839875867.png"></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>savetxt<span class="token punctuation">(</span>frame<span class="token punctuation">,</span>array<span class="token punctuation">,</span>fmt<span class="token operator">=</span><span class="token string">'%.18e'</span><span class="token punctuation">,</span>delimiter<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<ul>
-<li>frame：文件、字符串或产生器，可以是.gz或.bz2的压缩文件</li>
-<li>array:存入文件的数组</li>
-<li>fmt:写入文件的格式，例如：%d%.2f%.18e</li>
-<li>delimiter:分割字符串，默认是任何空格</li>
-</ul>
-<p>其他：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>loadtxt<span class="token punctuation">(</span>frame<span class="token punctuation">,</span>dtype<span class="token operator">=</span>np<span class="token punctuation">.</span><span class="token builtin">float</span><span class="token punctuation">,</span>delimiter<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span>
-unpack<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<ul>
-<li>frame:文件、字符串或产生器，可以是.gz或.bz2的压缩文件</li>
-<li>dtype:数据类型，可选</li>
-<li>delimiter:分割字符串，默认是任何空格</li>
-<li>unpack:如果True,读入属性将分别写入不同变量</li>
-</ul>
-<p>其他：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">.</span>tofile<span class="token punctuation">(</span>frame<span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">,</span> <span class="token builtin">format</span><span class="token operator">=</span><span class="token string">'%s'</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fromfile<span class="token punctuation">(</span>frame<span class="token punctuation">,</span> dtype<span class="token operator">=</span><span class="token builtin">float</span><span class="token punctuation">,</span> count<span class="token operator">=</span>‐<span class="token number">1</span><span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p><strong>numpy随机数函数子库:</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span><span class="token operator">*</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-rand<span class="token punctuation">(</span>d0<span class="token punctuation">,</span>d1<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span>dn<span class="token punctuation">)</span> <span class="token comment">#根据d0-dn创建随机数数组，浮点数，[0,1)，均匀分布</span>
-randn<span class="token punctuation">(</span>d0<span class="token punctuation">,</span>d1<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span>dn<span class="token punctuation">)</span> <span class="token comment">#根据d0-dn创建随机数数组，标准正态分布</span>
-randint<span class="token punctuation">(</span>low<span class="token punctuation">[</span><span class="token punctuation">,</span>high<span class="token punctuation">,</span>shape<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#根据shapet创建随机整数或整数数组，范围是[low,high)</span>
-seed<span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token comment">#随机数种子，s是给定的种子值</span>
-shuffle<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#根据数组a的第1轴进行随排列，改变数组×</span>
-permutation<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#根据数组a的第1轴产生一个新的乱序数组，不改变数组x</span>
-choice<span class="token punctuation">(</span>a<span class="token punctuation">[</span><span class="token punctuation">,</span>size<span class="token punctuation">,</span>replace<span class="token punctuation">,</span>p<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#从一维数组a中以概率p抽取元素，形成size形状新数组 replace表示是否可以重用元素，默认为False</span>
-uniform<span class="token punctuation">(</span>low<span class="token punctuation">,</span>high<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有均匀分布的数组，low起始值，high结束值，size形状</span>
-normal<span class="token punctuation">(</span>loc<span class="token punctuation">,</span>scale<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有正态分布的数组，loc均值，scale标准差，size形状</span>
-poisson<span class="token punctuation">(</span>lam<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有泊松分布的数组，lam随机事件发生率，size形状</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>numpy统计函数:</strong></p>
-<pre class="line-numbers language-none"><code class="language-none">np.*<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-<span class="token builtin">sum</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素之和，axis整数或元组</span>
-mean<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的期望，axis整数或元组</span>
-average<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span>weights<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的加权平均值</span>
-std<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的标准差</span>
-var<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的方差</span>
-<span class="token builtin">min</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>
-<span class="token builtin">max</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素的最小值、最大值</span>
-argmin<span class="token punctuation">(</span>a<span class="token punctuation">)</span>
-argmax<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素最小值、最大值的降一维后下标</span>
-unravel_index<span class="token punctuation">(</span>index<span class="token punctuation">,</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shape?将一维下标index转换成多维下标</span>
-ptp<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素最大值与最小值的差</span>
-median<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素的中位数（中值）</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>numpy替换函数:</strong></p>
-<ul>
-<li>np.where(condition, x, y) ——满足条件(condition)，输出x，不满足输出y。</li>
-<li>只有条件 (condition)，没有x和y，则输出满足条件 (即非0) 元素的坐标 (等价于numpy.nonzero)</li>
-</ul>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920005642662-1268532120.png"></p>
-<h3 id="numpy数据存取与函数"><a href="#numpy数据存取与函数" class="headerlink" title="numpy数据存取与函数**"></a><strong>numpy</strong>数据存取与函数**</h3><p>CSV文件</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>loadtxt<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>savetxt<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p>多维数据存取</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">.</span>tofile<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fromfile<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>save<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>savez<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>load<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>随机函数</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>rand<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randn<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>seed<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>shuffle<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>permutation<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>choice<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-]]></content>
-      <categories>
-        <category>数据分析</category>
-      </categories>
-      <tags>
-        <tag>数据分析</tag>
-        <tag>python</tag>
-        <tag>numpy</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PyCharm专业版最简单的破解教程，永久适用</title>
-    <url>/posts/15000.html</url>
-    <content><![CDATA[<h1 id="PyCharm专业版最简单的破解教程，永久适用"><a href="#PyCharm专业版最简单的破解教程，永久适用" class="headerlink" title="PyCharm专业版最简单的破解教程，永久适用"></a>PyCharm专业版最简单的破解教程，永久适用</h1><h2 id="1-从官网下载PyCharm"><a href="#1-从官网下载PyCharm" class="headerlink" title="1.从官网下载PyCharm"></a>1.从官网下载PyCharm</h2><p>官网的下载速度是很快的！</p>
-<p>PyCharm官网：<a href="https://www.jetbrains.com/pycharm/">PyCharm: the Python IDE for Professional Developers by JetBrains</a></p>
-<p>重点：必须下载2021.2.2及之前的版本，否则只能首次试用30天，之后不可试用（要登录官网账号验证是否试用过）</p>
-<p>下载链接直接放下面了：</p>
-<p>方式一：<strong>直接下载</strong>：<a href="https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1">https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1</a></p>
-<p>方式二：进入下载页面下载：<a href="https://www.jetbrains.com/pycharm/download/other.html">Other Versions - PyCharm (jetbrains.com)</a></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922145852780-920855323.png"></p>
-<h2 id="2-使用脚本清空试用天数续期【无限续期】"><a href="#2-使用脚本清空试用天数续期【无限续期】" class="headerlink" title="2.使用脚本清空试用天数续期【无限续期】"></a>2.使用脚本清空试用天数续期【无限续期】</h2><p>等到过期的时候再使用脚本<code>reset_jetbrains_eval_windows.vbs</code>清空天数就ok</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922150445043-2094612096.png"></p>
-<p>使用方法：双击脚本即可</p>
-<p>另外这个脚本对于所有的<code>JetBrain</code>的产品都是有效的，记住软件版本选择<code>2021.2.2</code>以前的</p>
-<p>脚本下载链接：<a href="https://wwp.lanzoub.com/iQk4t0c5wm7e">https://wwp.lanzoub.com/iQk4t0c5wm7e</a></p>
-]]></content>
-      <categories>
-        <category>破解资源</category>
-      </categories>
-      <tags>
-        <tag>破解软件</tag>
-        <tag>JetBrain</tag>
-        <tag>PyCharm</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Github和git使用指南：以PyCharm为例</title>
     <url>/posts/16889.html</url>
     <content><![CDATA[<h2 id="登录注册"><a href="#登录注册" class="headerlink" title="登录注册"></a>登录注册</h2><p>github一般在白天是可以直接访问的，不需要挂梯子，晚上一般需要vpn才能打开。</p>
@@ -500,9 +253,256 @@ np<span class="token punctuation">.</span>random<span class="token punctuation">
         <category>数据分析</category>
       </categories>
       <tags>
-        <tag>数据分析</tag>
         <tag>python</tag>
+        <tag>数据分析</tag>
         <tag>pandas</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PyCharm专业版最简单的破解教程，永久适用</title>
+    <url>/posts/15000.html</url>
+    <content><![CDATA[<h1 id="PyCharm专业版最简单的破解教程，永久适用"><a href="#PyCharm专业版最简单的破解教程，永久适用" class="headerlink" title="PyCharm专业版最简单的破解教程，永久适用"></a>PyCharm专业版最简单的破解教程，永久适用</h1><h2 id="1-从官网下载PyCharm"><a href="#1-从官网下载PyCharm" class="headerlink" title="1.从官网下载PyCharm"></a>1.从官网下载PyCharm</h2><p>官网的下载速度是很快的！</p>
+<p>PyCharm官网：<a href="https://www.jetbrains.com/pycharm/">PyCharm: the Python IDE for Professional Developers by JetBrains</a></p>
+<p>重点：必须下载2021.2.2及之前的版本，否则只能首次试用30天，之后不可试用（要登录官网账号验证是否试用过）</p>
+<p>下载链接直接放下面了：</p>
+<p>方式一：<strong>直接下载</strong>：<a href="https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1">https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1</a></p>
+<p>方式二：进入下载页面下载：<a href="https://www.jetbrains.com/pycharm/download/other.html">Other Versions - PyCharm (jetbrains.com)</a></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922145852780-920855323.png"></p>
+<h2 id="2-使用脚本清空试用天数续期【无限续期】"><a href="#2-使用脚本清空试用天数续期【无限续期】" class="headerlink" title="2.使用脚本清空试用天数续期【无限续期】"></a>2.使用脚本清空试用天数续期【无限续期】</h2><p>等到过期的时候再使用脚本<code>reset_jetbrains_eval_windows.vbs</code>清空天数就ok</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922150445043-2094612096.png"></p>
+<p>使用方法：双击脚本即可</p>
+<p>另外这个脚本对于所有的<code>JetBrain</code>的产品都是有效的，记住软件版本选择<code>2021.2.2</code>以前的</p>
+<p>脚本下载链接：<a href="https://wwp.lanzoub.com/iQk4t0c5wm7e">https://wwp.lanzoub.com/iQk4t0c5wm7e</a></p>
+]]></content>
+      <categories>
+        <category>破解资源</category>
+      </categories>
+      <tags>
+        <tag>破解软件</tag>
+        <tag>JetBrain</tag>
+        <tag>PyCharm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python数据分析教程（一）：Numpy</title>
+    <url>/posts/13140.html</url>
+    <content><![CDATA[<h2 id="数据的纬度"><a href="#数据的纬度" class="headerlink" title="数据的纬度"></a>数据的纬度</h2><p>一维数据：列表和集合类型</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000249971-1418691440.png"></p>
+<p>二维数据：列表类型</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000618175-248885984.png"></p>
+<p>多维数据：列表类型</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000627314-315089200.png"></p>
+<p>高维数据：字典类型或数据表示格式，如<code>json</code>、<code>xml</code>、<code>yaml</code></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000636576-992489207.png"></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000320410-1397054611.png"></p>
+<p><strong>维度：一组数据的组织形式</strong></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000408689-1436965707.png"></p>
+<p><strong>列表和数组</strong>：<strong>一组数据的有序结构</strong></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000446411-1600490984.png"></p>
+<h2 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a>Numpy</h2><h3 id="Numpy介绍"><a href="#Numpy介绍" class="headerlink" title="Numpy介绍"></a>Numpy介绍</h3><ul>
+<li><p>NumPy是一个开源的Python科学计算基础库，包含：</p>
+<ul>
+<li><p>一个强大的N维数组对象ndarray</p>
+</li>
+<li><p>广播功能函数</p>
+</li>
+<li><p>整合C/C++/Fortran代码的工具</p>
+</li>
+<li><p>线性代数、傅里叶变换、随机数生成等功能</p>
+</li>
+</ul>
+</li>
+<li><p>NumPy是SciPy、Pandas等数据处理或科学计算库的基础</p>
+</li>
+</ul>
+<p><strong>模块导入：</strong></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> numpy <span class="token keyword">as</span> np<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="N维数组对象：ndarray"><a href="#N维数组对象：ndarray" class="headerlink" title="N维数组对象：ndarray"></a><strong>N维数组对象：ndarray</strong></h3><ul>
+<li><p>数组对象可以去掉元素间运算所需的循环，使一维向量更像单个数据</p>
+</li>
+<li><p>设置专门的数组对象，经过优化，可以提升这类应用的运算速度————科学计算中，一个维度所有数据的类型往往相同</p>
+</li>
+<li><p>数组对象采用相同的数据类型，有助于节省运算和存储空间</p>
+</li>
+</ul>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920001445590-1835589251.png"></p>
+<h3 id="ndarray实例"><a href="#ndarray实例" class="headerlink" title="ndarray实例"></a><strong>ndarray实例</strong></h3><ul>
+<li>ndarray是一个多维数组对象，由两部分构成：<ul>
+<li>实际的数据</li>
+<li>描述这些数据的元数据（数据维度、数据类型等）</li>
+</ul>
+</li>
+<li>ndarray数组一般要求所有元素类型相同（同质），数组下标从0开始</li>
+</ul>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920001543215-76244284.png"></p>
+<h3 id="ndarray对象的属性"><a href="#ndarray对象的属性" class="headerlink" title="ndarray对象的属性"></a><strong>ndarray对象的属性</strong></h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#属性&amp;说明</span>
+<span class="token punctuation">.</span>ndim <span class="token comment">#秩，即轴的数量或维度的数量</span>
+<span class="token punctuation">.</span>shape <span class="token comment">#ndarray对象的尺度，对于矩阵，n行m列</span>
+<span class="token punctuation">.</span>size <span class="token comment">#ndarray对象元素的个数，相当于.shape中n*m的值</span>
+<span class="token punctuation">.</span>dtype <span class="token comment">#ndarray对象的元素类型</span>
+<span class="token punctuation">.</span>itemsize <span class="token comment">#ndarray对象中每个元素的大小，以字节为单位</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002133785-897537873.png"></p>
+<h4 id="ndarray的元素类型"><a href="#ndarray的元素类型" class="headerlink" title="ndarray的元素类型"></a><strong>ndarray的元素类型</strong></h4><p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002045637-1873947497.png"></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002050016-1829180101.png"></p>
+<h3 id="ndarray数组的创建方法"><a href="#ndarray数组的创建方法" class="headerlink" title="ndarray数组的创建方法"></a><strong>ndarray数组的创建方法</strong></h3><ul>
+<li>从Python中的列表、元组等类型创建ndarray数组</li>
+<li>使用NumPy中函数创建ndarray数组，如：arange, ones, zeros等</li>
+<li>从字节流（raw bytes）中创建ndarray数组</li>
+<li>从文件中读取特定格式，创建ndarray数组</li>
+</ul>
+<p><strong>通过列表创建ndarray:</strong></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002306999-2099371921.png"></p>
+<p><strong>使用函数创建ndarray:</strong></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
+np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span>n<span class="token punctuation">)</span> <span class="token comment">#类似range()函数，返回ndarray类型，元素从0到n-1</span>
+np<span class="token punctuation">.</span>ones<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shapes生成一个全l数组，shape是元组类型</span>
+np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shape生成一个全数组，shape是元组类型</span>
+np<span class="token punctuation">.</span>full<span class="token punctuation">(</span>shape<span class="token punctuation">,</span>val<span class="token punctuation">)</span> <span class="token comment">#根据shape:生成一个数组，每个元素值都是val</span>
+np<span class="token punctuation">.</span>eye<span class="token punctuation">(</span>n<span class="token punctuation">)</span> <span class="token comment">#创建一个正方的n*n单位矩阵，对角线为1，其余为0</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>ndarray数组的变换:</strong></p>
+<p>对于创建后的ndarray数组，可以对其进行维度变换和元素类型变换</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#方法&amp;说明</span>
+<span class="token punctuation">.</span>reshape<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#不改变数组元素，返回一个shape形状的数组，原数组不变</span>
+<span class="token punctuation">.</span>resize<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#与.reshape()功能一致，但修改原数组</span>
+<span class="token punctuation">.</span>swapaxes<span class="token punctuation">(</span>ax1<span class="token punctuation">,</span>ax2<span class="token punctuation">)</span> <span class="token comment">#将数组n个维度中两个维度进行调换</span>
+<span class="token punctuation">.</span>flatten<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#对数组进行降维，返回折叠后的一维数组，原数组不变</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002943743-1325252769.png"></p>
+<p><strong>数组的索引和切片</strong></p>
+<ul>
+<li>索引：获取数组中特定位置元素的过程</li>
+<li>切片：获取数组元素子集的过程</li>
+</ul>
+<p>一维数组的索引和切片</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003101445-981037972.png"></p>
+<p>多维数组索引</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003139141-484127738.png"></p>
+<p>多维数组切片</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003159689-806595432.png"></p>
+<h3 id="ndarray数组的运算"><a href="#ndarray数组的运算" class="headerlink" title="ndarray数组的运算"></a><strong>ndarray数组的运算</strong></h3><p><strong>NumPy一元函数:</strong></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
+np<span class="token punctuation">.</span><span class="token builtin">abs</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>fabs<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的绝对值</span>
+np<span class="token punctuation">.</span>sqrt<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的平方根</span>
+np<span class="token punctuation">.</span>square<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的平方</span>
+np<span class="token punctuation">.</span>log<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>1og10<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>1og2<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的自然对数、10底对数和2底对数</span>
+np<span class="token punctuation">.</span>ceil<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>floor<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的ceiling值或f1oor值</span>
+np<span class="token punctuation">.</span>rint<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的四舍五入值</span>
+np<span class="token punctuation">.</span>modf<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#将数组各元素的小数和整数部分以两个独立数组形式返回</span>
+np<span class="token punctuation">.</span>cos<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>cosh<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>sin<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>sinh<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的普通型和双曲型三角函数</span>
+np<span class="token punctuation">.</span>tan<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>tanh<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>exp<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的指数值</span>
+np<span class="token punctuation">.</span>sign<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的符号值，1(+)，0，-1(-)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>NumPy二元函数:</strong></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
+<span class="token operator">+</span> <span class="token operator">-</span> <span class="token operator">*</span> <span class="token operator">/</span> <span class="token operator">**</span> <span class="token comment">#两个数组各元素进行对应运算</span>
+np<span class="token punctuation">.</span>maximum<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>fmax<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>minimum<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>fmin<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#元素级的最大值/最小值计算</span>
+np<span class="token punctuation">.</span>mod<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span> <span class="token comment">#元素级的模运算</span>
+np<span class="token punctuation">.</span>copysign<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span> <span class="token comment">#将数组y中各元素值的符号赋值给数组x对应元素</span>
+<span class="token operator">&gt;</span><span class="token operator">&lt;</span> <span class="token operator">&gt;=</span> <span class="token operator">&lt;=</span> <span class="token operator">==</span> <span class="token operator">!=</span> <span class="token comment">#算术比较，产生布尔型数组</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>Numpy数据存取:</strong></p>
+<p>csv格式:</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920004240502-1839875867.png"></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>savetxt<span class="token punctuation">(</span>frame<span class="token punctuation">,</span>array<span class="token punctuation">,</span>fmt<span class="token operator">=</span><span class="token string">'%.18e'</span><span class="token punctuation">,</span>delimiter<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ul>
+<li>frame：文件、字符串或产生器，可以是.gz或.bz2的压缩文件</li>
+<li>array:存入文件的数组</li>
+<li>fmt:写入文件的格式，例如：%d%.2f%.18e</li>
+<li>delimiter:分割字符串，默认是任何空格</li>
+</ul>
+<p>其他：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>loadtxt<span class="token punctuation">(</span>frame<span class="token punctuation">,</span>dtype<span class="token operator">=</span>np<span class="token punctuation">.</span><span class="token builtin">float</span><span class="token punctuation">,</span>delimiter<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span>
+unpack<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<ul>
+<li>frame:文件、字符串或产生器，可以是.gz或.bz2的压缩文件</li>
+<li>dtype:数据类型，可选</li>
+<li>delimiter:分割字符串，默认是任何空格</li>
+<li>unpack:如果True,读入属性将分别写入不同变量</li>
+</ul>
+<p>其他：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">.</span>tofile<span class="token punctuation">(</span>frame<span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">,</span> <span class="token builtin">format</span><span class="token operator">=</span><span class="token string">'%s'</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>fromfile<span class="token punctuation">(</span>frame<span class="token punctuation">,</span> dtype<span class="token operator">=</span><span class="token builtin">float</span><span class="token punctuation">,</span> count<span class="token operator">=</span>‐<span class="token number">1</span><span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p><strong>numpy随机数函数子库:</strong></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span><span class="token operator">*</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
+rand<span class="token punctuation">(</span>d0<span class="token punctuation">,</span>d1<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span>dn<span class="token punctuation">)</span> <span class="token comment">#根据d0-dn创建随机数数组，浮点数，[0,1)，均匀分布</span>
+randn<span class="token punctuation">(</span>d0<span class="token punctuation">,</span>d1<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span>dn<span class="token punctuation">)</span> <span class="token comment">#根据d0-dn创建随机数数组，标准正态分布</span>
+randint<span class="token punctuation">(</span>low<span class="token punctuation">[</span><span class="token punctuation">,</span>high<span class="token punctuation">,</span>shape<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#根据shapet创建随机整数或整数数组，范围是[low,high)</span>
+seed<span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token comment">#随机数种子，s是给定的种子值</span>
+shuffle<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#根据数组a的第1轴进行随排列，改变数组×</span>
+permutation<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#根据数组a的第1轴产生一个新的乱序数组，不改变数组x</span>
+choice<span class="token punctuation">(</span>a<span class="token punctuation">[</span><span class="token punctuation">,</span>size<span class="token punctuation">,</span>replace<span class="token punctuation">,</span>p<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#从一维数组a中以概率p抽取元素，形成size形状新数组 replace表示是否可以重用元素，默认为False</span>
+uniform<span class="token punctuation">(</span>low<span class="token punctuation">,</span>high<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有均匀分布的数组，low起始值，high结束值，size形状</span>
+normal<span class="token punctuation">(</span>loc<span class="token punctuation">,</span>scale<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有正态分布的数组，loc均值，scale标准差，size形状</span>
+poisson<span class="token punctuation">(</span>lam<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有泊松分布的数组，lam随机事件发生率，size形状</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>numpy统计函数:</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">np.*<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
+<span class="token builtin">sum</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素之和，axis整数或元组</span>
+mean<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的期望，axis整数或元组</span>
+average<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span>weights<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的加权平均值</span>
+std<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的标准差</span>
+var<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的方差</span>
+<span class="token builtin">min</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+<span class="token builtin">max</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素的最小值、最大值</span>
+argmin<span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+argmax<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素最小值、最大值的降一维后下标</span>
+unravel_index<span class="token punctuation">(</span>index<span class="token punctuation">,</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shape?将一维下标index转换成多维下标</span>
+ptp<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素最大值与最小值的差</span>
+median<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素的中位数（中值）</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>numpy替换函数:</strong></p>
+<ul>
+<li>np.where(condition, x, y) ——满足条件(condition)，输出x，不满足输出y。</li>
+<li>只有条件 (condition)，没有x和y，则输出满足条件 (即非0) 元素的坐标 (等价于numpy.nonzero)</li>
+</ul>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920005642662-1268532120.png"></p>
+<h3 id="numpy数据存取与函数"><a href="#numpy数据存取与函数" class="headerlink" title="numpy数据存取与函数**"></a><strong>numpy</strong>数据存取与函数**</h3><p>CSV文件</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>loadtxt<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>savetxt<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>多维数据存取</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">.</span>tofile<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>fromfile<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>save<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>savez<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>load<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>随机函数</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>rand<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randn<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>seed<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>shuffle<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>permutation<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>choice<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+]]></content>
+      <categories>
+        <category>数据分析</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>数据分析</tag>
+        <tag>numpy</tag>
       </tags>
   </entry>
   <entry>
