@@ -125,6 +125,20 @@
       </tags>
   </entry>
   <entry>
+    <title></title>
+    <url>/posts/0.html</url>
+    <content><![CDATA[<blockquote>
+<p>以《庄子》和《道德经》为依据，庄子对“道”作何了解？与老子讲的“道”有何异同？他的这一思想的意义何在?</p>
+</blockquote>
+<p>于《庄子》而言，道是作为一种境域来展开的，人的存在过程没有办法彻彻底底疏离于道，但这一过程中不同的存在境况制约着人对外部世界的认识，影响着人内部精神的架构。以达道作为方向，以虚静、心斋来涤荡心灵，以离形来返归个体自身。</p>
+<p>“道”，是道家思想核心，最早由老子提出。庄子继承了老子的思想并且进行了一定程度的发挥，两者区别在于，老子认为道是一种客观独立自存的精神实体，庄子则认为道是主观认识的东西。</p>
+<p>第一，在庄子看来，产生世界万物的不是物，而是道。任何有形的事物甚至是“五行”之实、阴阳之气，都摆脱不了具体实物性，都还是“不得先物”而存在的有限之物。只有使万物成为万物的那个“非物”的绝对，也就是自本自根的道才能先于物，而存在并成为万物的根本。所以，庄子认为寻求宇宙的本根，就必须向先于“物”的地方寻找，但是宇宙的终极原因是永远无法推知的。老子的“有生于无”的观点也没有说明世界的起源问题，这就导致庄子对物质世界的客观存在持绝对怀疑的态度。</p>
+<p>第二，“道”是自本自根性。在庄子看来“道”是万有的终极原因。虽然道无形无象，但却是真实无妄的实在，是化生万物的终极原因，是先天地而独立自在的根本。</p>
+<p>第三，“道”遍在万物，无所不在，道不仅存在于天地日月之中，而且存在于所有的事物之中。在庄子看来道与物没有分界，没有分界的分界，是分界中的无分界。</p>
+<p>第四，“道”是自然无为。庄子认为宇宙万物的生化，无非一道也。道的运作，非有意制造，而是自然无为。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Python数据分析教程（一）：Numpy</title>
     <url>/posts/13140.html</url>
     <content><![CDATA[<h2 id="数据的纬度"><a href="#数据的纬度" class="headerlink" title="数据的纬度"></a>数据的纬度</h2><p>一维数据：列表和集合类型</p>
@@ -347,6 +361,27 @@ np<span class="token punctuation">.</span>random<span class="token punctuation">
       </tags>
   </entry>
   <entry>
+    <title>投资学博迪第十版.pdf下载</title>
+    <url>/posts/15785.html</url>
+    <content><![CDATA[<p>作者：（美）滋维&amp;middot;博迪（Zvi Bodie）,（美）亚历克斯&amp;middot;凯恩（Alex Kane）,（美）艾伦J.马库斯（Alan J.Marcus）</p>
+<p>出版社：<a href="http://www.txtepub.com/tag/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE">机械工业出版社</a></p>
+格式: PDF
+
+<p>封面：</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083837829-995145796.png"></p>
+<p>下载链接：扫描下方<u>二维码</u>关注<code>公众号</code>并回复<code>投资学</code>免费下载</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221014121626471-157482862.png"></p>
+<p>资源来自于互联网，如分享有损你的权益，请联系我删除！</p>
+]]></content>
+      <categories>
+        <category>电子书</category>
+      </categories>
+      <tags>
+        <tag>电子书</tag>
+        <tag>经管</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python数据分析教程（二）：Pandas</title>
     <url>/posts/13141.html</url>
     <content><![CDATA[<h2 id="Pandas介绍"><a href="#Pandas介绍" class="headerlink" title="Pandas介绍"></a>Pandas介绍</h2><h3 id="Pandas导入"><a href="#Pandas导入" class="headerlink" title="Pandas导入"></a><strong>Pandas导入</strong></h3><ul>
@@ -506,44 +541,6 @@ np<span class="token punctuation">.</span>random<span class="token punctuation">
       </tags>
   </entry>
   <entry>
-    <title>投资学博迪第十版.pdf下载</title>
-    <url>/posts/15785.html</url>
-    <content><![CDATA[<p>作者：（美）滋维&amp;middot;博迪（Zvi Bodie）,（美）亚历克斯&amp;middot;凯恩（Alex Kane）,（美）艾伦J.马库斯（Alan J.Marcus）</p>
-<p>出版社：<a href="http://www.txtepub.com/tag/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE">机械工业出版社</a></p>
-格式: PDF
-
-<p>封面：</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083837829-995145796.png"></p>
-<p>下载链接：扫描下方<u>二维码</u>关注<code>公众号</code>并回复<code>投资学</code>免费下载</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221014121626471-157482862.png"></p>
-<p>资源来自于互联网，如分享有损你的权益，请联系我删除！</p>
-]]></content>
-      <categories>
-        <category>电子书</category>
-      </categories>
-      <tags>
-        <tag>电子书</tag>
-        <tag>经管</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一行代码Android（第3版）pdf</title>
-    <url>/posts/43427.html</url>
-    <content><![CDATA[<p>2020年人民邮电出版社出版的图书<br>《第一行代码Android（第3版）》是2020年4月人民邮电出版社出版的图书，作者是郭霖。</p>
-<p>封面：<br><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083910008-28177591.png"></p>
-<p>内容简介：<br>《第一行代码 Android 第3版》被Android开发者誉为“Android学习第一书”。全书系统全面、循序渐进地介绍了Android软件开发的必备知识、经验和技巧。<br>《第一行代码 Android 第3版》基于Android 10.0对第2版进行了全面更新，不仅将所有知识点都在Android 10.0系统上进行了重新适配，同时加入Kotlin语言的全面讲解，使用Kotlin对全书代码进行重写，而且还介绍了最新系统特性以及Jetpack架构组件的使用，使本书更加实用。<br>《第一行代码 Android 第3版》内容通俗易懂，由浅入深，既是Android初学者的入门必备，也是Android开发者的进阶首选。 </p>
-<p>下载地址：<a href="https://wwp.lanzoub.com/iNBcu0bh15xi">https://wwp.lanzoub.com/iNBcu0bh15xi</a></p>
-<p>资源来自于互联网，如分享有损你的权益，请私信我删除！</p>
-]]></content>
-      <categories>
-        <category>电子书</category>
-      </categories>
-      <tags>
-        <tag>电子书</tag>
-        <tag>开发</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>翻墙使用Google学术科研|简易clash使用教程</title>
     <url>/posts/16888.html</url>
     <content><![CDATA[<h2 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h2><p>中文版<strong>clash</strong>下载链接：<a href="https://wwp.lanzoub.com/i7FB10dicexg">Clash.for.Windows.Setup.0.20.5.exe - 蓝奏云 (lanzoub.com)</a></p>
@@ -551,7 +548,7 @@ np<span class="token punctuation">.</span>random<span class="token punctuation">
 <p>软件需要配合<code>机场节点</code>使用</p>
 <h2 id="购买节点"><a href="#购买节点" class="headerlink" title="购买节点"></a>购买节点</h2><p>先购买节点才能配合软件开启代理，订阅链接：<code>[强烈推荐按量订阅]</code></p>
 <p><strong>按月订阅</strong>节点<code>8元/月100g</code>：<a href="https://sub.srayx.com/#/register?code=Ly4kohLa">https://sub.srayx.com/#/register?code=Ly4kohLa</a></p>
-<p><strong>按量订阅</strong>节点<code>12元/130g</code>不限时长不限使用人数：<a href="https://www.mojie.cyou/#/register?code=BdNpTosz">https://www.mojie.cyou/#/register?code=BdNpTosz</a></p>
+<p><strong>按量订阅</strong>节点<code>12元/130g</code>不限时长不限使用人数：<a href="https://mojie.buzz/#/register?code=BdNpTosz">https://mojie.buzz/#/register?code=BdNpTosz</a></p>
 <p>针对上面机场链接有的时候打不开，我们可以先用免费节点挂上代理之后再进入网站购买（要先有魔法才能购买魔法）：<a href="https://pre.paimon.gq/clash.yaml">https://pre.paimon.gq/clash.yaml</a></p>
 <img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029111112829-2111008929.png" alt="" style="zoom:50%;">
 
@@ -573,6 +570,23 @@ np<span class="token punctuation">.</span>random<span class="token punctuation">
         <tag>资源分享</tag>
         <tag>软件</tag>
         <tag>翻墙</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一行代码Android（第3版）pdf</title>
+    <url>/posts/43427.html</url>
+    <content><![CDATA[<p>2020年人民邮电出版社出版的图书<br>《第一行代码Android（第3版）》是2020年4月人民邮电出版社出版的图书，作者是郭霖。</p>
+<p>封面：<br><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083910008-28177591.png"></p>
+<p>内容简介：<br>《第一行代码 Android 第3版》被Android开发者誉为“Android学习第一书”。全书系统全面、循序渐进地介绍了Android软件开发的必备知识、经验和技巧。<br>《第一行代码 Android 第3版》基于Android 10.0对第2版进行了全面更新，不仅将所有知识点都在Android 10.0系统上进行了重新适配，同时加入Kotlin语言的全面讲解，使用Kotlin对全书代码进行重写，而且还介绍了最新系统特性以及Jetpack架构组件的使用，使本书更加实用。<br>《第一行代码 Android 第3版》内容通俗易懂，由浅入深，既是Android初学者的入门必备，也是Android开发者的进阶首选。 </p>
+<p>下载地址：<a href="https://wwp.lanzoub.com/iNBcu0bh15xi">https://wwp.lanzoub.com/iNBcu0bh15xi</a></p>
+<p>资源来自于互联网，如分享有损你的权益，请私信我删除！</p>
+]]></content>
+      <categories>
+        <category>电子书</category>
+      </categories>
+      <tags>
+        <tag>电子书</tag>
+        <tag>开发</tag>
       </tags>
   </entry>
 </search>
