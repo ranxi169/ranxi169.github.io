@@ -186,14 +186,14 @@
   </url>
   
   <url>
-    <loc>https://blog.onefly.top/tags/numpy/</loc>
+    <loc>https://blog.onefly.top/tags/pandas/</loc>
     <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.onefly.top/tags/pandas/</loc>
+    <loc>https://blog.onefly.top/tags/numpy/</loc>
     <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
