@@ -6,7 +6,7 @@
   <link href="https://onefly.top/atom.xml" rel="self"/>
   
   <link href="https://onefly.top/"/>
-  <updated>2023-07-11T03:57:15.109Z</updated>
+  <updated>2023-07-11T03:57:15.000Z</updated>
   <id>https://onefly.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://onefly.top/posts/23711.html"/>
     <id>https://onefly.top/posts/23711.html</id>
     <published>2023-07-11T03:15:51.000Z</published>
-    <updated>2023-07-11T03:57:15.109Z</updated>
+    <updated>2023-07-11T03:57:15.000Z</updated>
     
     
       
@@ -51,7 +51,7 @@
     <link href="https://onefly.top/posts/23703.html"/>
     <id>https://onefly.top/posts/23703.html</id>
     <published>2023-07-03T03:15:51.000Z</published>
-    <updated>2023-07-01T16:23:32.000Z</updated>
+    <updated>2023-07-01T16:23:32.151Z</updated>
     
     
       
@@ -82,7 +82,7 @@
     <link href="https://onefly.top/posts/23702.html"/>
     <id>https://onefly.top/posts/23702.html</id>
     <published>2023-07-02T03:15:51.000Z</published>
-    <updated>2023-07-01T15:11:30.000Z</updated>
+    <updated>2023-07-01T15:11:30.053Z</updated>
     
     
       
@@ -111,7 +111,7 @@
     <link href="https://onefly.top/posts/23701.html"/>
     <id>https://onefly.top/posts/23701.html</id>
     <published>2023-07-01T03:15:51.000Z</published>
-    <updated>2023-07-01T12:55:51.000Z</updated>
+    <updated>2023-07-01T12:55:51.626Z</updated>
     
     
       
@@ -141,7 +141,7 @@
     <link href="https://onefly.top/posts/16890.html"/>
     <id>https://onefly.top/posts/16890.html</id>
     <published>2023-05-06T03:15:51.000Z</published>
-    <updated>2023-07-02T12:02:16.000Z</updated>
+    <updated>2023-07-02T12:02:16.210Z</updated>
     
     
       
@@ -187,9 +187,9 @@
     <category term="人工智能" scheme="https://onefly.top/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
     
-    <category term="AI" scheme="https://onefly.top/tags/AI/"/>
-    
     <category term="github" scheme="https://onefly.top/tags/github/"/>
+    
+    <category term="AI" scheme="https://onefly.top/tags/AI/"/>
     
     <category term="Copilot X" scheme="https://onefly.top/tags/Copilot-X/"/>
     
