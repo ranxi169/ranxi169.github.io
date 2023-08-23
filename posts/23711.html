@@ -314,6 +314,55 @@
 
 </header>
 
+    <!-- _partial/sidebar.ejs -->
+
+<style>
+    .sidebar {
+        width: 250px; 
+        background-color: #f5f5f5;
+        padding: 20px; 
+        float: left; 
+    }
+
+    .profile .profile-pic {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .sidebar-nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sidebar-nav li {
+        margin: 10px 0; 
+    }
+
+    .sidebar-nav a {
+        text-decoration: none;
+        color: #333;
+    }
+</style>
+<!-- _partial/sidebar.ejs -->
+
+<aside class="sidebar">
+    <div class="profile">
+        <img src="path_to_your_image.jpg" alt="Profile Picture" class="profile-pic">
+        <h3>您的名字</h3>
+        <p>一些关于您的简短描述。</p>
+    </div>
+
+    <nav class="sidebar-nav">
+        <ul>
+            <li><a href="链接1的URL">链接1</a></li>
+            <li><a href="链接2的URL">链接2</a></li>
+            <!-- ... 其他链接 ... -->
+        </ul>
+    </nav>
+</aside>
     
 
 
@@ -1520,16 +1569,16 @@
                 
                 <div class="card-action article-tags">
                     
+                    <a href="/tags/chatgpt/">
+                        <span class="chip bg-color">chatgpt</span>
+                    </a>
+                    
                     <a href="/tags/visa/">
                         <span class="chip bg-color">visa</span>
                     </a>
                     
                     <a href="/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1/">
                         <span class="chip bg-color">信用卡</span>
-                    </a>
-                    
-                    <a href="/tags/chatgpt/">
-                        <span class="chip bg-color">chatgpt</span>
                     </a>
                     
                 </div>
