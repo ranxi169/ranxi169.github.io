@@ -555,15 +555,21 @@ N
         </div>
         <!-- 正文内容结束 -->
         <!-- 侧边栏开始 -->
-        <div style="width: 250px;">
+        <div style="width: 350px;">
             <!-- sidebar.ejs -->
 
 <style>
     .sidebar {
         width: 250px; 
         background-color: #f5f5f5;
-        padding: 20px; 
-        float: left; 
+        padding: 20px;
+        position: fixed;         /* 使用 fixed 定位 */
+        top: 50%;                /* 垂直居中 */
+        right: 50px;            /* 从右侧边缘偏移 50px */
+        transform: translateY(-50%); /* 使用 translateY 确保完全垂直居中 */
+        border-radius: 15px;    /* 四角圆弧形边框 */
+        height: 60%;            /* 设置高度 */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加轻微的阴影效果 */
     }
 
     .profile .profile-pic {
@@ -589,10 +595,11 @@ N
     }
 </style>
 
+
 <aside class="sidebar">
     <div class="profile">
         <img src="path_to_your_image.jpg" alt="Profile Picture" class="profile-pic">
-        <h3>您的名字</h3>
+        <h3>孤飞</h3>
         <p>一些关于您的简短描述。</p>
     </div>
 
