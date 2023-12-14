@@ -250,296 +250,6 @@
       </tags>
   </entry>
   <entry>
-    <title>PyCharm专业版最简单的破解教程，永久适用</title>
-    <url>/posts/15000.html</url>
-    <content><![CDATA[<h1 id="PyCharm专业版最简单的破解教程，永久适用"><a href="#PyCharm专业版最简单的破解教程，永久适用" class="headerlink" title="PyCharm专业版最简单的破解教程，永久适用"></a>PyCharm专业版最简单的破解教程，永久适用</h1><h2 id="1-从官网下载PyCharm"><a href="#1-从官网下载PyCharm" class="headerlink" title="1.从官网下载PyCharm"></a>1.从官网下载PyCharm</h2><p>官网的下载速度是很快的！</p>
-<p>PyCharm官网：<a href="https://www.jetbrains.com/pycharm/">PyCharm: the Python IDE for Professional Developers by JetBrains</a></p>
-<p>重点：必须下载2021.2.2及之前的版本，否则只能首次试用30天，之后不可试用（要登录官网账号验证是否试用过）</p>
-<p>下载链接直接放下面了：</p>
-<p>方式一：<strong>直接下载</strong>：<a href="https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1">https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1</a></p>
-<p>方式二：进入下载页面下载：<a href="https://www.jetbrains.com/pycharm/download/other.html">Other Versions - PyCharm (jetbrains.com)</a></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922145852780-920855323.png"></p>
-<h2 id="2-使用脚本清空试用天数续期【无限续期】"><a href="#2-使用脚本清空试用天数续期【无限续期】" class="headerlink" title="2.使用脚本清空试用天数续期【无限续期】"></a>2.使用脚本清空试用天数续期【无限续期】</h2><p>等到过期的时候再使用脚本<code>reset_jetbrains_eval_windows.vbs</code>清空天数就ok</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922150445043-2094612096.png"></p>
-<p>使用方法：双击脚本即可</p>
-<p>另外这个脚本对于所有的<code>JetBrain</code>的产品都是有效的，记住软件版本选择<code>2021.2.2</code>以前的</p>
-<p>脚本下载链接：<a href="https://wwp.lanzoub.com/iQk4t0c5wm7e">https://wwp.lanzoub.com/iQk4t0c5wm7e</a></p>
-]]></content>
-      <categories>
-        <category>破解资源</category>
-      </categories>
-      <tags>
-        <tag>破解软件</tag>
-        <tag>JetBrain</tag>
-        <tag>PyCharm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python数据分析教程（一）：Numpy</title>
-    <url>/posts/13140.html</url>
-    <content><![CDATA[<h2 id="数据的纬度"><a href="#数据的纬度" class="headerlink" title="数据的纬度"></a>数据的纬度</h2><p>一维数据：列表和集合类型</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000249971-1418691440.png"></p>
-<p>二维数据：列表类型</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000618175-248885984.png"></p>
-<p>多维数据：列表类型</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000627314-315089200.png"></p>
-<p>高维数据：字典类型或数据表示格式，如<code>json</code>、<code>xml</code>、<code>yaml</code></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000636576-992489207.png"></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000320410-1397054611.png"></p>
-<p><strong>维度：一组数据的组织形式</strong></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000408689-1436965707.png"></p>
-<p><strong>列表和数组</strong>：<strong>一组数据的有序结构</strong></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000446411-1600490984.png"></p>
-<h2 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a>Numpy</h2><h3 id="Numpy介绍"><a href="#Numpy介绍" class="headerlink" title="Numpy介绍"></a>Numpy介绍</h3><ul>
-<li><p>NumPy是一个开源的Python科学计算基础库，包含：</p>
-<ul>
-<li><p>一个强大的N维数组对象ndarray</p>
-</li>
-<li><p>广播功能函数</p>
-</li>
-<li><p>整合C/C++/Fortran代码的工具</p>
-</li>
-<li><p>线性代数、傅里叶变换、随机数生成等功能</p>
-</li>
-</ul>
-</li>
-<li><p>NumPy是SciPy、Pandas等数据处理或科学计算库的基础</p>
-</li>
-</ul>
-<p><strong>模块导入：</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> numpy <span class="token keyword">as</span> np<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<h3 id="N维数组对象：ndarray"><a href="#N维数组对象：ndarray" class="headerlink" title="N维数组对象：ndarray"></a><strong>N维数组对象：ndarray</strong></h3><ul>
-<li><p>数组对象可以去掉元素间运算所需的循环，使一维向量更像单个数据</p>
-</li>
-<li><p>设置专门的数组对象，经过优化，可以提升这类应用的运算速度————科学计算中，一个维度所有数据的类型往往相同</p>
-</li>
-<li><p>数组对象采用相同的数据类型，有助于节省运算和存储空间</p>
-</li>
-</ul>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920001445590-1835589251.png"></p>
-<h3 id="ndarray实例"><a href="#ndarray实例" class="headerlink" title="ndarray实例"></a><strong>ndarray实例</strong></h3><ul>
-<li>ndarray是一个多维数组对象，由两部分构成：<ul>
-<li>实际的数据</li>
-<li>描述这些数据的元数据（数据维度、数据类型等）</li>
-</ul>
-</li>
-<li>ndarray数组一般要求所有元素类型相同（同质），数组下标从0开始</li>
-</ul>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920001543215-76244284.png"></p>
-<h3 id="ndarray对象的属性"><a href="#ndarray对象的属性" class="headerlink" title="ndarray对象的属性"></a><strong>ndarray对象的属性</strong></h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#属性&amp;说明</span>
-<span class="token punctuation">.</span>ndim <span class="token comment">#秩，即轴的数量或维度的数量</span>
-<span class="token punctuation">.</span>shape <span class="token comment">#ndarray对象的尺度，对于矩阵，n行m列</span>
-<span class="token punctuation">.</span>size <span class="token comment">#ndarray对象元素的个数，相当于.shape中n*m的值</span>
-<span class="token punctuation">.</span>dtype <span class="token comment">#ndarray对象的元素类型</span>
-<span class="token punctuation">.</span>itemsize <span class="token comment">#ndarray对象中每个元素的大小，以字节为单位</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002133785-897537873.png"></p>
-<h4 id="ndarray的元素类型"><a href="#ndarray的元素类型" class="headerlink" title="ndarray的元素类型"></a><strong>ndarray的元素类型</strong></h4><p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002045637-1873947497.png"></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002050016-1829180101.png"></p>
-<h3 id="ndarray数组的创建方法"><a href="#ndarray数组的创建方法" class="headerlink" title="ndarray数组的创建方法"></a><strong>ndarray数组的创建方法</strong></h3><ul>
-<li>从Python中的列表、元组等类型创建ndarray数组</li>
-<li>使用NumPy中函数创建ndarray数组，如：arange, ones, zeros等</li>
-<li>从字节流（raw bytes）中创建ndarray数组</li>
-<li>从文件中读取特定格式，创建ndarray数组</li>
-</ul>
-<p><strong>通过列表创建ndarray:</strong></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002306999-2099371921.png"></p>
-<p><strong>使用函数创建ndarray:</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span>n<span class="token punctuation">)</span> <span class="token comment">#类似range()函数，返回ndarray类型，元素从0到n-1</span>
-np<span class="token punctuation">.</span>ones<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shapes生成一个全l数组，shape是元组类型</span>
-np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shape生成一个全数组，shape是元组类型</span>
-np<span class="token punctuation">.</span>full<span class="token punctuation">(</span>shape<span class="token punctuation">,</span>val<span class="token punctuation">)</span> <span class="token comment">#根据shape:生成一个数组，每个元素值都是val</span>
-np<span class="token punctuation">.</span>eye<span class="token punctuation">(</span>n<span class="token punctuation">)</span> <span class="token comment">#创建一个正方的n*n单位矩阵，对角线为1，其余为0</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>ndarray数组的变换:</strong></p>
-<p>对于创建后的ndarray数组，可以对其进行维度变换和元素类型变换</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#方法&amp;说明</span>
-<span class="token punctuation">.</span>reshape<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#不改变数组元素，返回一个shape形状的数组，原数组不变</span>
-<span class="token punctuation">.</span>resize<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#与.reshape()功能一致，但修改原数组</span>
-<span class="token punctuation">.</span>swapaxes<span class="token punctuation">(</span>ax1<span class="token punctuation">,</span>ax2<span class="token punctuation">)</span> <span class="token comment">#将数组n个维度中两个维度进行调换</span>
-<span class="token punctuation">.</span>flatten<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#对数组进行降维，返回折叠后的一维数组，原数组不变</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002943743-1325252769.png"></p>
-<p><strong>数组的索引和切片</strong></p>
-<ul>
-<li>索引：获取数组中特定位置元素的过程</li>
-<li>切片：获取数组元素子集的过程</li>
-</ul>
-<p>一维数组的索引和切片</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003101445-981037972.png"></p>
-<p>多维数组索引</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003139141-484127738.png"></p>
-<p>多维数组切片</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003159689-806595432.png"></p>
-<h3 id="ndarray数组的运算"><a href="#ndarray数组的运算" class="headerlink" title="ndarray数组的运算"></a><strong>ndarray数组的运算</strong></h3><p><strong>NumPy一元函数:</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-np<span class="token punctuation">.</span><span class="token builtin">abs</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fabs<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的绝对值</span>
-np<span class="token punctuation">.</span>sqrt<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的平方根</span>
-np<span class="token punctuation">.</span>square<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的平方</span>
-np<span class="token punctuation">.</span>log<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>1og10<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>1og2<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的自然对数、10底对数和2底对数</span>
-np<span class="token punctuation">.</span>ceil<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>floor<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的ceiling值或f1oor值</span>
-np<span class="token punctuation">.</span>rint<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的四舍五入值</span>
-np<span class="token punctuation">.</span>modf<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#将数组各元素的小数和整数部分以两个独立数组形式返回</span>
-np<span class="token punctuation">.</span>cos<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>cosh<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>sin<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>sinh<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的普通型和双曲型三角函数</span>
-np<span class="token punctuation">.</span>tan<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>tanh<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>exp<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的指数值</span>
-np<span class="token punctuation">.</span>sign<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的符号值，1(+)，0，-1(-)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>NumPy二元函数:</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-<span class="token operator">+</span> <span class="token operator">-</span> <span class="token operator">*</span> <span class="token operator">/</span> <span class="token operator">**</span> <span class="token comment">#两个数组各元素进行对应运算</span>
-np<span class="token punctuation">.</span>maximum<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fmax<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>minimum<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fmin<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#元素级的最大值/最小值计算</span>
-np<span class="token punctuation">.</span>mod<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span> <span class="token comment">#元素级的模运算</span>
-np<span class="token punctuation">.</span>copysign<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span> <span class="token comment">#将数组y中各元素值的符号赋值给数组x对应元素</span>
-<span class="token operator">&gt;</span><span class="token operator">&lt;</span> <span class="token operator">&gt;=</span> <span class="token operator">&lt;=</span> <span class="token operator">==</span> <span class="token operator">!=</span> <span class="token comment">#算术比较，产生布尔型数组</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>Numpy数据存取:</strong></p>
-<p>csv格式:</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920004240502-1839875867.png"></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>savetxt<span class="token punctuation">(</span>frame<span class="token punctuation">,</span>array<span class="token punctuation">,</span>fmt<span class="token operator">=</span><span class="token string">'%.18e'</span><span class="token punctuation">,</span>delimiter<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<ul>
-<li>frame：文件、字符串或产生器，可以是.gz或.bz2的压缩文件</li>
-<li>array:存入文件的数组</li>
-<li>fmt:写入文件的格式，例如：%d%.2f%.18e</li>
-<li>delimiter:分割字符串，默认是任何空格</li>
-</ul>
-<p>其他：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>loadtxt<span class="token punctuation">(</span>frame<span class="token punctuation">,</span>dtype<span class="token operator">=</span>np<span class="token punctuation">.</span><span class="token builtin">float</span><span class="token punctuation">,</span>delimiter<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span>
-unpack<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<ul>
-<li>frame:文件、字符串或产生器，可以是.gz或.bz2的压缩文件</li>
-<li>dtype:数据类型，可选</li>
-<li>delimiter:分割字符串，默认是任何空格</li>
-<li>unpack:如果True,读入属性将分别写入不同变量</li>
-</ul>
-<p>其他：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">.</span>tofile<span class="token punctuation">(</span>frame<span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">,</span> <span class="token builtin">format</span><span class="token operator">=</span><span class="token string">'%s'</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fromfile<span class="token punctuation">(</span>frame<span class="token punctuation">,</span> dtype<span class="token operator">=</span><span class="token builtin">float</span><span class="token punctuation">,</span> count<span class="token operator">=</span>‐<span class="token number">1</span><span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p><strong>numpy随机数函数子库:</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span><span class="token operator">*</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-rand<span class="token punctuation">(</span>d0<span class="token punctuation">,</span>d1<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span>dn<span class="token punctuation">)</span> <span class="token comment">#根据d0-dn创建随机数数组，浮点数，[0,1)，均匀分布</span>
-randn<span class="token punctuation">(</span>d0<span class="token punctuation">,</span>d1<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span>dn<span class="token punctuation">)</span> <span class="token comment">#根据d0-dn创建随机数数组，标准正态分布</span>
-randint<span class="token punctuation">(</span>low<span class="token punctuation">[</span><span class="token punctuation">,</span>high<span class="token punctuation">,</span>shape<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#根据shapet创建随机整数或整数数组，范围是[low,high)</span>
-seed<span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token comment">#随机数种子，s是给定的种子值</span>
-shuffle<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#根据数组a的第1轴进行随排列，改变数组×</span>
-permutation<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#根据数组a的第1轴产生一个新的乱序数组，不改变数组x</span>
-choice<span class="token punctuation">(</span>a<span class="token punctuation">[</span><span class="token punctuation">,</span>size<span class="token punctuation">,</span>replace<span class="token punctuation">,</span>p<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#从一维数组a中以概率p抽取元素，形成size形状新数组 replace表示是否可以重用元素，默认为False</span>
-uniform<span class="token punctuation">(</span>low<span class="token punctuation">,</span>high<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有均匀分布的数组，low起始值，high结束值，size形状</span>
-normal<span class="token punctuation">(</span>loc<span class="token punctuation">,</span>scale<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有正态分布的数组，loc均值，scale标准差，size形状</span>
-poisson<span class="token punctuation">(</span>lam<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有泊松分布的数组，lam随机事件发生率，size形状</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>numpy统计函数:</strong></p>
-<pre class="line-numbers language-none"><code class="language-none">np.*<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-<span class="token builtin">sum</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素之和，axis整数或元组</span>
-mean<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的期望，axis整数或元组</span>
-average<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span>weights<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的加权平均值</span>
-std<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的标准差</span>
-var<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的方差</span>
-<span class="token builtin">min</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>
-<span class="token builtin">max</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素的最小值、最大值</span>
-argmin<span class="token punctuation">(</span>a<span class="token punctuation">)</span>
-argmax<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素最小值、最大值的降一维后下标</span>
-unravel_index<span class="token punctuation">(</span>index<span class="token punctuation">,</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shape?将一维下标index转换成多维下标</span>
-ptp<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素最大值与最小值的差</span>
-median<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素的中位数（中值）</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><strong>numpy替换函数:</strong></p>
-<ul>
-<li>np.where(condition, x, y) ——满足条件(condition)，输出x，不满足输出y。</li>
-<li>只有条件 (condition)，没有x和y，则输出满足条件 (即非0) 元素的坐标 (等价于numpy.nonzero)</li>
-</ul>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920005642662-1268532120.png"></p>
-<h3 id="numpy数据存取与函数"><a href="#numpy数据存取与函数" class="headerlink" title="numpy数据存取与函数**"></a><strong>numpy</strong>数据存取与函数**</h3><p>CSV文件</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>loadtxt<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>savetxt<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p>多维数据存取</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">.</span>tofile<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fromfile<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>save<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>savez<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>load<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>随机函数</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>rand<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randn<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>seed<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>shuffle<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>permutation<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>choice<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-]]></content>
-      <categories>
-        <category>数据分析</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>数据分析</tag>
-        <tag>numpy</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Z-Lib 安卓app | Zlibrary永久有效的电子书库 无视网站迁移</title>
-    <url>/posts/23703.html</url>
-    <content><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p>软件名称： <strong>Z-lib</strong></p>
-<p>软件大小：31 MB</p>
-<p>安装环境： 安卓</p>
-<p>下载链接： <a href="https://wwke.lanzoub.com/iJp5F10zzc1a">Z-lib.apk - 蓝奏云 (lanzoub.com)</a></p>
-<p>软件介绍：Z-Library安卓应用是一个知识爱好者的宝藏，它使用户可以随时随地获取到大量的电子书和学术文章。这款应用来源于Z-Library（z-lib.org），这是一个拥有超过5百万本电子书和7,700万篇科学文章的在线资源库，致力于为全球用户提供全面而高质量的知识资料。Z-Library安卓应用继承了其网页版的主要特点，拥有强大的搜索功能，用户可以通过书名、作者名、ISBN或者关键词进行查找，为读者带来便捷的阅读体验。（甚至连<u>顶尖考研</u>最新的考研扫描书都能搜到）。</p>
-<h2 id="心得体会"><a href="#心得体会" class="headerlink" title="心得体会"></a>心得体会</h2><p>Zlibrary的网站会经常换，但app是一直有效的。</p>
-<p>Zlibrary有很多国产盗版网站，不充值一本书都不能下（如果支持支付宝，微信支付开会员大概率是盗版网站）。</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230702000731385-1763095700.png"></p>
-<p>Z-lib每天能免费下10本书，不需要开会员，app没有广告。</p>
-<p>当然这是一个正版官网：<a href="https://zh.zlibrary-ar.se/">https://zh.zlibrary-ar.se/</a></p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230702001402038-1506176577.png"></p>
-<h2 id="官网下载地址：博客：Z-库桌面启动器"><a href="#官网下载地址：博客：Z-库桌面启动器" class="headerlink" title="官网下载地址：博客：Z 库桌面启动器"></a>官网下载地址：<a href="https://zh.zlibrary-ar.se/blog/44">博客：Z 库桌面启动器</a></h2><p>我们的团队继续努力改善我们库的可访问性，我们现在想介绍适用于 Windows、macOS 和 Linux 的桌面启动器的 alpha 版本。此启动器将为您省去搜索工作网站链接的麻烦，因为它将为您处理所有事情。此外，该应用程序可以通过 TOR 网络运行，因此您将始终能够在保持隐私的同时使用该库。作为一个小奖励，<strong>所有通过桌面应用程序访问库的用户都将获得一个月的高级会员资格和双倍的每日下载限制</strong>（从第一次应用程序启动开始）！</p>
-<p>请注意，由于这是alpha版本，该应用程序可能无法在您的计算机上运行。如果您遇到任何问题，请随时联系我们<a href="mailto:support@z-lib.se">的支持团队 support@z-lib.se</a>，我们将为您提供帮助。</p>
-<p>⚠️ 首次启动应用程序时，您可能会遇到有关未经验证的开发人员的警告消息。这是意料之中的，因为我们在这些平台上还没有开发者帐户。</p>
-<p><img src="https://zh.zlibrary-ar.se/img/z-access/windows.svg"></p>
-<p>Windows 120 MB：<a href="https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.exe">https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.exe</a></p>
-<p><img src="https://zh.zlibrary-ar.se/img/z-access/macos.svg"></p>
-<p>Mac OS 119 MB：<a href="https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.dmg">https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.dmg</a></p>
-<p><img src="https://zh.zlibrary-ar.se/img/z-access/linux.svg"></p>
-<p>Linux 89 MB：<a href="https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.deb">https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.deb</a></p>
-<h3 id="新版本的安卓应用程序"><a href="#新版本的安卓应用程序" class="headerlink" title="新版本的安卓应用程序"></a>新版本的安卓应用程序</h3><p>除了桌面启动器之外，我们还发布了新版本的Android应用程序。我们提高了应用程序的稳定性，增加了通过 TOR 网络的操作，并引入了多种授权方法（使用 QR 码或 Z-Access 页面上的令牌）。我们建议在安装新版本之前卸载旧版本的应用程序。</p>
-<p><img src="https://zh.zlibrary-ar.se/img/z-access/android.svg"></p>
-<p>安卓 APK：<a href="https://go-to-zlibrary.se/soft/zlibrary-app-latest.apk">https://go-to-zlibrary.se/soft/zlibrary-app-latest.apk</a></p>
-<h3 id="“共享”按钮"><a href="#“共享”按钮" class="headerlink" title="“共享”按钮"></a>“共享”按钮</h3><p>您可能注意到网站上出现了分享按钮，使您可以更轻松地在社交媒体上与朋友分享 Z-Library。随意使用它们！</p>
-<p>每个在其公共博客、频道或社交媒体帐户（必须可公开访问）上分享 Z-Library 链接并 <a href="mailto:support@z-lib.se">support@z-lib.se</a> 该帖子的链接发送给我们的人，都将<strong>获得 1 个月的高级会员身份</strong>。</p>
-<p>如果您还没有听说过，我们有以下新闻帐户：</p>
-<p>乳齿象 - <a href="https://mastodon.social/@Z_Lib_official">https://mastodon.social/@Z_Lib_official</a></p>
-<p>推特 - <a href="https://twitter.com/Z_Lib_official">https://twitter.com/Z_Lib_official</a></p>
-<p>电报 - <a href="https://t.me/zlibrary_official">https://t.me/zlibrary_official</a></p>
-<p>尽管我们是新来的，但我们会逐渐在频道中填充有关图书馆的信息和新闻。加入吧！</p>
-]]></content>
-      <categories>
-        <category>资源分享</category>
-      </categories>
-      <tags>
-        <tag>电子书</tag>
-        <tag>zlibrary</tag>
-        <tag>免费</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python数据分析教程（二）：Pandas</title>
     <url>/posts/13141.html</url>
     <content><![CDATA[<h2 id="Pandas介绍"><a href="#Pandas介绍" class="headerlink" title="Pandas介绍"></a>Pandas介绍</h2><h3 id="Pandas导入"><a href="#Pandas导入" class="headerlink" title="Pandas导入"></a><strong>Pandas导入</strong></h3><ul>
@@ -699,599 +409,6 @@ np<span class="token punctuation">.</span>random<span class="token punctuation">
       </tags>
   </entry>
   <entry>
-    <title>我们应该为Copilot X 的到来做好什么准备？</title>
-    <url>/posts/16892.html</url>
-    <content><![CDATA[<h1 id="申请github-copilot学生认证以及Jetbrain专业版学生教育免费教程-申请加入Copilot-X-Waitlist"><a href="#申请github-copilot学生认证以及Jetbrain专业版学生教育免费教程-申请加入Copilot-X-Waitlist" class="headerlink" title="申请github copilot学生认证以及Jetbrain专业版学生教育免费教程+申请加入Copilot X Waitlist."></a>申请github copilot学生认证以及Jetbrain专业版学生教育免费教程+申请加入Copilot X Waitlist.</h1><h2 id="教程概览"><a href="#教程概览" class="headerlink" title="教程概览"></a>教程概览</h2><p>1.学信网下载学籍认证pdf</p>
-<p>2.acrobat修改部分中文为英文</p>
-<p>3.修改github profile更改个人真实信息</p>
-<p>3.github education认证学生身份</p>
-<p>4.去github删除掉学生邮箱</p>
-<p>5.去jetbrain网站用github学生包申请学生免费使用</p>
-<h2 id="学籍证明"><a href="#学籍证明" class="headerlink" title="学籍证明"></a>学籍证明</h2><p>进入学籍查询页面:<a href="https://my.chsi.com.cn/archive/bab/index.action">学信档案 (chsi.com.cn)</a></p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325200401242-1573147258.png" style="zoom:50%;">
-
-<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325200531503-986496590.png" style="zoom:50%;">
-
-<p>下载完成后使用可以编辑pdf的软件打开，建议<a href="https://www.superso.top/Adobe/Adobe_Acrobat_Pro_DC_2022.html">Acrobat DC</a></p>
-<p>按照如下要求更改：需要修改姓名 院校 形式 学籍状态 查询时间</p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325200848336-1864084922.png" style="zoom: 50%;">
-
-<h2 id="修改Github-Profile"><a href="#修改Github-Profile" class="headerlink" title="修改Github Profile"></a>修改Github Profile</h2><p>修改个人信息profile地址：<a href="https://github.com/settings/profile">github.com</a></p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325201439599-667522946.png" style="zoom:50%;">
-
-<h2 id="申请认证"><a href="#申请认证" class="headerlink" title="申请认证"></a>申请认证</h2><p>认证地址：<a href="https://education.github.com/discount_requests/application">Request a discount - GitHub Education</a></p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325202044639-406144827.png" style="zoom:50%;">
-
-<p>下一步，就是上传证明文件，建议用<strong>手机拍照</strong>上传，也就是手机进入上述网页申请。（由于我已经认证完了这里没有图。）</p>
-<blockquote>
-<p>有几点要注意的：</p>
-<p>1、要用摄像头拍。如果上传的话他会拒绝，说上传的操作空间大，拍照比较可靠。如果电脑不方便可以用手机拍。</p>
-<p>2、证明类型。我就填的student ID是可以的。</p>
-<p>3、学籍证明。在学信网申请学籍认证就好了，也很快，几分钟就搞定了。这里要注意要英文的，所以用浏览器翻译一下就好了，电脑上打开，手机对着拍张照就ok。</p>
-<p>4、位置。最好在学校里，因为申请它会看location，我前几次一直因为location被机验就不通过，弄了一下午。</p>
-<p>5、个人信息。一定要填的真诚，头像用真人头像，简介，地区也写一写。</p>
-<p>大概就是这些都弄好，然后多申请几次，申请拒绝他会告诉你哪里没弄好，照着说的去做就好了。不过申请也搞了一下午，主要是网不好，机验不通过。<br>原文链接：<a href="https://blog.csdn.net/weixin_41753316/article/details/127039448">https://blog.csdn.net/weixin_41753316/article/details/127039448</a></p>
-</blockquote>
-<h2 id="申请Jetbrain学生免费许可证"><a href="#申请Jetbrain学生免费许可证" class="headerlink" title="申请Jetbrain学生免费许可证"></a>申请Jetbrain学生免费许可证</h2><p>由于如果在github添加了学生edu邮箱会被block（白嫖的太多了）</p>
-<p>所以在github主页中删除edu邮箱（没事以后还可以加回来）：<a href="https://github.com/settings/emails">Email settings (github.com)</a></p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325202513795-445937298.png" style="zoom: 67%;">
-
-<p>然后去jetbrain官网使用认证通过的github账号授权申请就好了：<a href="https://www.jetbrains.com/shop/eform/students/">JetBrains 学习产品</a></p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325202634653-1992779395.png" style="zoom:50%;">
-
-<h2 id="加入Copilot-X-Wailist"><a href="#加入Copilot-X-Wailist" class="headerlink" title="加入Copilot X Wailist"></a>加入Copilot X Wailist</h2><p>上一代的 GitHub Copilot，在协助开发者完成编程任务时，便有着极其出色的体验。诞生至今两年，便自动生成了 46% 的代码，更将编码速度提高了 55%。</p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230326102547435-1201350013.png" style="zoom: 50%;">
-
-<p>此次更新的 GitHub Copilot X，又给我们带来了哪些惊喜呢？请看：</p>
-<ol>
-<li>集成了 GPT-4（微软亲儿子，必须安排上）；</li>
-<li>GitHub Copilot Chat（边写代码边跟 AI 对话）；</li>
-<li>Copilot for Pull Requests（AI 协助处理 PR）；</li>
-<li>Copilot for Docs（智能文档系统）；</li>
-<li>Copilot for CLI（让命令行用起来更智能）。</li>
-<li>Copilot Voice（直接语音生成代码，牛逼！）；</li>
-</ol>
-<p>申请进入Copilot X Waitlist：<a href="https://github.com/github-copilot/chat_waitlist_signup/join">GitHub · Where software is built</a></p>
-<p>申请进入Copilot CLI Waitlist：<a href="https://githubnext.com/projects/copilot-cli">GitHub Next | Copilot for CLI</a></p>
-<p>申请进入Copilot Voice Waitlist：<a href="https://githubnext.com/projects/copilot-voice">GitHub Next | Copilot Voice</a></p>
-<p>有关Copilot X的介绍请看这篇文章：<a href="https://zhuanlan.zhihu.com/p/616250941">动动嘴，就能帮你生成代码！焕然一新的代码编辑器：GitHub Copilot X，来了！ - 知乎 (zhihu.com)</a></p>
-]]></content>
-      <categories>
-        <category>人工智能</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
-        <tag>Copilot X</tag>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个100%立即获得New bing资格的方法教程-点击就送bing chat</title>
-    <url>/posts/16891.html</url>
-    <content><![CDATA[<p>之前加入waitlist的账号一个多月过去了还没有任何反应，但是身边朋友却“点击就送”？</p>
-<p>深入调查后发现原来是IP的影响，相信说到这里就已经有人知道该怎么做了</p>
-<p>方法：</p>
-<ol>
-<li>将节点IP更换为日本全局（不会换ip的看这个<a href="https://blog.onefly.top/posts/16888.html">简易教程</a>)</li>
-</ol>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230312113249267-1194007670.png"></p>
-<ol start="2">
-<li>进入new bing 申请网站点击立即加入</li>
-</ol>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230312113536042-1695660571.png"></p>
-<p>之后就可以直接在bing搜索中开启聊天了<br><a href="https://www.bing.com/?/ai">https://www.bing.com/?/ai</a><br>其他建议：先退账号，删除注册表，vpn登录国外邮箱，现在秒成功<br>其他方案：<a href="https://mp.weixin.qq.com/s/MW7hdkhfixveEr48UUd16A">https://mp.weixin.qq.com/s/MW7hdkhfixveEr48UUd16A</a></p>
-]]></content>
-      <categories>
-        <category>前沿技术</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>技术分享</tag>
-        <tag>人工智能</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>抖音快手粉丝|百度网盘SVIP|各大视频会员|苹果ID|推特粉丝|WPS会员</title>
-    <url>/posts/23711.html</url>
-    <content><![CDATA[<p>给大家介绍一个<strong>低价会员租号网站</strong>：</p>
-<p><strong><a href="https://shop.onefly.top/">https://shop.onefly.top</a></strong></p>
-<p><strong><a href="https://hy.huoyuan.cf/a/b/c///">https://hy.huoyuan.cf/a/b/c///</a></strong></p>
-<h2 id="热-门-🔥-推-荐"><a href="#热-门-🔥-推-荐" class="headerlink" title="热 门 🔥 推 荐"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse14">热 门 🔥 推 荐</a></h2><table>
-<thead>
-<tr>
-<th>🥰 windows微信消息弹窗提醒</th>
-<th><strong>3.3</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=14&amp;tid=353">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>🍟豪华绿钻3天1月1号1次</td>
-<td><strong>0.22</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=14&amp;tid=280">立即购买</a></td>
-</tr>
-<tr>
-<td>🔥微信提现永久免手续费</td>
-<td><strong>0.55</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=14&amp;tid=230">立即购买</a></td>
-</tr>
-<tr>
-<td>🔥阿里资源网站聚合+福利码更新</td>
-<td><strong>1.1</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=14&amp;tid=228">立即购买</a></td>
-</tr>
-<tr>
-<td>🐥80+个高清观影站(1080p)</td>
-<td><strong>1.1</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=14&amp;tid=88">立即购买</a></td>
-</tr>
-<tr>
-<td>👍直充货源，零门槛使用，秒到账</td>
-<td><strong>3.3</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=14&amp;tid=223">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="账-号-购-买"><a href="#账-号-购-买" class="headerlink" title="账 号 购 买"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse19928">账 号 购 买</a></h2><table>
-<thead>
-<tr>
-<th>📧 2000+个网易邮箱号</th>
-<th><strong>1.1</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=354">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>🔥 共享可用chatGpt，1000+账号，免登录</td>
-<td><strong>2.2</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=370">立即购买</a></td>
-</tr>
-<tr>
-<td>🤖 ChatGPT 新注册GPT 5刀+key</td>
-<td><strong>8.8</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=344">立即购买</a></td>
-</tr>
-<tr>
-<td>🍎空白 Apple ID（未激活iCloud）</td>
-<td><strong>4.4</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=322">立即购买</a></td>
-</tr>
-<tr>
-<td>🍎空白 Apple ID（已激活iCloud）</td>
-<td><strong>7.7</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=372">立即购买</a></td>
-</tr>
-<tr>
-<td>📧 Outlook账号</td>
-<td><strong>3.3</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=338">立即购买</a></td>
-</tr>
-<tr>
-<td>✈️ 注册TG号 | 美国 | 加拿大 | API</td>
-<td><strong>7.7</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=332">立即购买</a></td>
-</tr>
-<tr>
-<td>🛩️ 纸飞机/电报 成品号 全平台登陆</td>
-<td><strong>22</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=368">立即购买</a></td>
-</tr>
-<tr>
-<td>📮【全新】Gmail 谷歌邮箱账户 稳定不弹手机验证</td>
-<td><strong>5.5</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=333">立即购买</a></td>
-</tr>
-<tr>
-<td>🕊️【全新】 推特Twitter 小白号</td>
-<td><strong>4.4</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=334">立即购买</a></td>
-</tr>
-<tr>
-<td>👻【全新】 脸书Facebook 小白号</td>
-<td><strong>7.7</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=335">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="百-度-网-盘"><a href="#百-度-网-盘" class="headerlink" title="百 度 网 盘"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse1">百 度 网 盘</a></h2><table>
-<thead>
-<tr>
-<th>【特价】25-30天Svip</th>
-<th><strong>2.53</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=136">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>【极速】20-30天Svip</td>
-<td><strong>6.6</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=330">立即购买</a></td>
-</tr>
-<tr>
-<td>【极速】3个月Svip</td>
-<td><strong>16.5</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=152">立即购买</a></td>
-</tr>
-<tr>
-<td>【极速】6个月Svip</td>
-<td><strong>29.7</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=25">立即购买</a></td>
-</tr>
-<tr>
-<td>【极速】1年Svip</td>
-<td><strong>58.3</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=35">立即购买</a></td>
-</tr>
-<tr>
-<td>🟢百度网盘svip账号永久使用</td>
-<td><strong>22</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=331">立即购买</a></td>
-</tr>
-<tr>
-<td>👍pc百度网盘自己号满速下载，持续更新</td>
-<td><strong>7.7</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=323">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="哔-哩-哔-哩"><a href="#哔-哩-哔-哩" class="headerlink" title="哔 哩 哔 哩"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse10">哔 哩 哔 哩</a></h2><table>
-<thead>
-<tr>
-<th>✨【租号】大会员80–90天</th>
-<th><strong>16.5</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=10&amp;tid=155">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>【租号】大会员350–365天</td>
-<td><strong>47.3</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=10&amp;tid=80">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="迅-雷-网-盘"><a href="#迅-雷-网-盘" class="headerlink" title="迅 雷 网 盘"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse12">迅 雷 网 盘</a></h2><table>
-<thead>
-<tr>
-<th>迅雷所有平台PJ版</th>
-<th><strong>1.65</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=12&amp;tid=371">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>迅雷白金会员，禁止苹果设备【25~30天】</td>
-<td><strong>3.96</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=12&amp;tid=225">立即购买</a></td>
-</tr>
-<tr>
-<td>迅雷超级会员，禁止苹果设备【25~30天】</td>
-<td><strong>5.06</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=12&amp;tid=226">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="海-外-苹-果-ID"><a href="#海-外-苹-果-ID" class="headerlink" title="海 外 苹 果 ID"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse7">海 外 苹 果 ID</a></h2><table>
-<thead>
-<tr>
-<th>[租] 海外苹果ID（已购小火箭）</th>
-<th><strong>7.7</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=7&amp;tid=11">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>[租] 海外苹果ID（已购 Quantumult(黑圈)）</td>
-<td><strong>7.7</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=7&amp;tid=148">立即购买</a></td>
-</tr>
-<tr>
-<td>[租] 海外苹果ID（已购 Choc ）</td>
-<td><strong>7.7</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=7&amp;tid=224">立即购买</a></td>
-</tr>
-<tr>
-<td>[独享] 美区ID带已购小火煎账号</td>
-<td><strong>26.95</strong></td>
-<td></td>
-</tr>
-</tbody></table>
-<h2 id="国-内-粉-丝"><a href="#国-内-粉-丝" class="headerlink" title="国 内 粉 丝"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse18">国 内 粉 丝</a></h2><table>
-<thead>
-<tr>
-<th>DY播放1000(可倍拍秒刷)</th>
-<th><strong>0.22</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=18&amp;tid=249">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>DY点赞1000(可倍拍)🔥</td>
-<td><strong>25.3</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=18&amp;tid=234">立即购买</a></td>
-</tr>
-<tr>
-<td>DY粉丝1000(🔥)</td>
-<td><strong>165</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=18&amp;tid=236">立即购买</a></td>
-</tr>
-<tr>
-<td>KS播放1000(可倍拍秒刷)</td>
-<td><strong>0.11</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=18&amp;tid=244">立即购买</a></td>
-</tr>
-<tr>
-<td>KS点赞1000(可倍拍)</td>
-<td><strong>5.5</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=18&amp;tid=242">立即购买</a></td>
-</tr>
-<tr>
-<td>KS粉丝1000(可倍拍)</td>
-<td><strong>28.6</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=18&amp;tid=247">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="海-外-粉-丝"><a href="#海-外-粉-丝" class="headerlink" title="海 外 粉 丝"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse19">海 外 粉 丝</a></h2><table>
-<thead>
-<tr>
-<th>TG频道最后1条帖子 - 100浏览量</th>
-<th><strong>0.11</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=251">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>TG频道最后5条帖子 - 100浏览量</td>
-<td><strong>0.55</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=252">立即购买</a></td>
-</tr>
-<tr>
-<td>TG帖子单个表情 - 50个</td>
-<td><strong>1.1</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=318">立即购买</a></td>
-</tr>
-<tr>
-<td>TG帖子混合表情 - 50个</td>
-<td><strong>1.1</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=316">立即购买</a></td>
-</tr>
-<tr>
-<td>【老·频道和群组专拍】TG粉丝 - 1千人，稳定零掉落</td>
-<td><strong>14.3</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=258">立即购买</a></td>
-</tr>
-<tr>
-<td>【新·频道和群组专拍】TG粉丝 - 1千人，稳定零掉落</td>
-<td><strong>18.7</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=324">立即购买</a></td>
-</tr>
-<tr>
-<td>Twitter高质量稳定粉丝1千人 - 可补充</td>
-<td><strong>27.5</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=326">立即购买</a></td>
-</tr>
-<tr>
-<td>油管视频点赞 50赞</td>
-<td><strong>1.1</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=349">立即购买</a></td>
-</tr>
-<tr>
-<td>油管视频浏览量 100浏览</td>
-<td><strong>1.65</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=348">立即购买</a></td>
-</tr>
-<tr>
-<td>油管订阅者 100个</td>
-<td><strong>17.6</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=347">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="WPS-x2F-文库-x2F-音乐"><a href="#WPS-x2F-文库-x2F-音乐" class="headerlink" title="WPS / 文库 / 音乐"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse23">WPS / 文库 / 音乐</a></h2><table>
-<thead>
-<tr>
-<th>【租】酷我音乐VIP会员月号（不包下载额度）</th>
-<th><strong>2.42</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=23&amp;tid=351">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>【租】喜马拉雅FM会员月号</td>
-<td><strong>3.52</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=23&amp;tid=352">立即购买</a></td>
-</tr>
-<tr>
-<td>【租】网易云黑胶会员一月</td>
-<td><strong>4.13</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=23&amp;tid=157">立即购买</a></td>
-</tr>
-<tr>
-<td>【租号】百度文库会员一个月</td>
-<td><strong>2.53</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=23&amp;tid=319">立即购买</a></td>
-</tr>
-<tr>
-<td>【租】WPS超级会员+稻壳会员【25~30天】</td>
-<td><strong>7.15</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=23&amp;tid=282">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="电-视-会-员"><a href="#电-视-会-员" class="headerlink" title="电 视 会 员"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse11">电 视 会 员</a></h2><table>
-<thead>
-<tr>
-<th>【电视专用租号】芒果电视会员 月【25~30天】</th>
-<th><strong>4.18</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=11&amp;tid=254">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>【电视专用租号】芒果电视会员 月【25~30天-稳定版】</td>
-<td><strong>6.6</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=11&amp;tid=255">立即购买</a></td>
-</tr>
-<tr>
-<td>【电视专用租号】芒果电视会员 年【330~360天稳定版】</td>
-<td><strong>40.7</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=11&amp;tid=257">立即购买</a></td>
-</tr>
-<tr>
-<td>【电视会员租号】 酷喵电视会员25-31天 售后20天</td>
-<td><strong>6.38</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=11&amp;tid=73">立即购买</a></td>
-</tr>
-<tr>
-<td>【电视专用租号】云视听极光 25-31天 一台设备使用 售后25天</td>
-<td><strong>9.9</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=11&amp;tid=72">立即购买</a></td>
-</tr>
-<tr>
-<td>【电视会员】哔哩哔哩电视会员25-30天 售后25天</td>
-<td><strong>9.57</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=11&amp;tid=71">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="腾-讯-视-频"><a href="#腾-讯-视-频" class="headerlink" title="腾 讯 视 频"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse3">腾 讯 视 频</a></h2><table>
-<thead>
-<tr>
-<th>【永久免费】腾讯高清播放通道</th>
-<th><strong>5.11</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=3&amp;tid=5">立即购买</a></th>
-</tr>
-</thead>
-</table>
-<h2 id="优-酷-视-频"><a href="#优-酷-视-频" class="headerlink" title="优 酷 视 频"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse2">优 酷 视 频</a></h2><table>
-<thead>
-<tr>
-<th>优酷1080p高清通道，vip的也可看</th>
-<th><strong>5.62</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=2&amp;tid=161">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>🔥【共享】20-30天 优酷vip</td>
-<td><strong>4.95</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=2&amp;tid=50">立即购买</a></td>
-</tr>
-<tr>
-<td>【共享】80-90天 优酷会员</td>
-<td><strong>14.3</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=2&amp;tid=51">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="芒-果-T-v"><a href="#芒-果-T-v" class="headerlink" title="芒 果 T v"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse9">芒 果 T v</a></h2><table>
-<thead>
-<tr>
-<th>【共享】芒果 25-31天 仅电脑使用</th>
-<th><strong>2.75</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=9&amp;tid=342">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>【共享】芒果 27-31天 小程序或者网页使用</td>
-<td><strong>3.08</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=9&amp;tid=341">立即购买</a></td>
-</tr>
-<tr>
-<td>【共享】芒果 25-31天 仅手机APP使用</td>
-<td><strong>4.18</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=9&amp;tid=343">立即购买</a></td>
-</tr>
-<tr>
-<td>【永久免费】芒果Tv1080p播放通道</td>
-<td><strong>5.11</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=9&amp;tid=24">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="爱-奇-艺"><a href="#爱-奇-艺" class="headerlink" title="爱 奇 艺"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse8">爱 奇 艺</a></h2><table>
-<thead>
-<tr>
-<th>【永久免费】爱奇艺白嫖播放通道(跨平台)</th>
-<th><strong>5.11</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=8&amp;tid=19">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>【共享】会员号5-7天 - 售后5天</td>
-<td><strong>5.5</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=8&amp;tid=340">立即购买</a></td>
-</tr>
-<tr>
-<td>【共享】会员月号 - 售后25天</td>
-<td><strong>11</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=8&amp;tid=339">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="主机-VPS-云电脑"><a href="#主机-VPS-云电脑" class="headerlink" title="主机 VPS 云电脑"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse13">主机 VPS 云电脑</a></h2><table>
-<thead>
-<tr>
-<th>🔥 高配置挂机宝，支持2毛5小时重复拍</th>
-<th><strong>1.1</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=13&amp;tid=367">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>🖥️白嫖云电脑</td>
-<td><strong>1.1</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=13&amp;tid=291">立即购买</a></td>
-</tr>
-<tr>
-<td>🏄 一个在线使用的美国千兆浏览器</td>
-<td><strong>2.2</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=13&amp;tid=350">立即购买</a></td>
-</tr>
-<tr>
-<td>【稳】香港1元虚拟机，详见简介</td>
-<td><strong>1.1</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=13&amp;tid=12">立即购买</a></td>
-</tr>
-<tr>
-<td>白嫖永久虚拟主机、VPS、挂机宝，配置见详情</td>
-<td><strong>16.5</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=13&amp;tid=6">立即购买</a></td>
-</tr>
-</tbody></table>
-<h2 id="其-他-共-享"><a href="#其-他-共-享" class="headerlink" title="其 他 共 享"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse19929">其 他 共 享</a></h2><table>
-<thead>
-<tr>
-<th>【共享】多多视频/人人视频会员25-30天 售后25天</th>
-<th><strong>3.43</strong></th>
-<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=19929&amp;tid=361">立即购买</a></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>【共享】搜狐视频会员25-30天 售后25天</td>
-<td><strong>3.8</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19929&amp;tid=362">立即购买</a></td>
-</tr>
-<tr>
-<td>【共享】咪咕视频钻石会员25-30天</td>
-<td><strong>3.85</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19929&amp;tid=363">立即购买</a></td>
-</tr>
-<tr>
-<td>【共享】作业帮会员25-30天 售后25天</td>
-<td><strong>3.96</strong></td>
-<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19929&amp;tid=365">立即购买</a></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>资源分享</category>
-      </categories>
-      <tags>
-        <tag>百度网盘</tag>
-        <tag>视频会员</tag>
-        <tag>自媒体粉丝</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>投资学博迪第十版.pdf下载</title>
-    <url>/posts/15785.html</url>
-    <content><![CDATA[<p>作者：（美）滋维&amp;middot;博迪（Zvi Bodie）,（美）亚历克斯&amp;middot;凯恩（Alex Kane）,（美）艾伦J.马库斯（Alan J.Marcus）</p>
-<p>出版社：<a href="http://www.txtepub.com/tag/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE">机械工业出版社</a></p>
-格式: PDF
-
-<p>封面：</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083837829-995145796.png"></p>
-<p>下载链接：扫描下方<u>二维码</u>关注<code>公众号</code>并回复<code>投资学</code>免费下载</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221014121626471-157482862.png"></p>
-<p>资源来自于互联网，如分享有损你的权益，请联系我删除！</p>
-]]></content>
-      <categories>
-        <category>电子书</category>
-      </categories>
-      <tags>
-        <tag>电子书</tag>
-        <tag>经管</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Typora 1.6.7 安装包下载及安装教程 | typora最新版破解教程</title>
     <url>/posts/23701.html</url>
     <content><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p>软件名称: <strong>Typora 1.6.7 永久激活包</strong></p>
@@ -1338,20 +455,92 @@ np<span class="token punctuation">.</span>random<span class="token punctuation">
       </tags>
   </entry>
   <entry>
-    <title>第一行代码Android（第3版）pdf</title>
-    <url>/posts/43427.html</url>
-    <content><![CDATA[<p>2020年人民邮电出版社出版的图书<br>《第一行代码Android（第3版）》是2020年4月人民邮电出版社出版的图书，作者是郭霖。</p>
-<p>封面：<br><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083910008-28177591.png"></p>
-<p>内容简介：<br>《第一行代码 Android 第3版》被Android开发者誉为“Android学习第一书”。全书系统全面、循序渐进地介绍了Android软件开发的必备知识、经验和技巧。<br>《第一行代码 Android 第3版》基于Android 10.0对第2版进行了全面更新，不仅将所有知识点都在Android 10.0系统上进行了重新适配，同时加入Kotlin语言的全面讲解，使用Kotlin对全书代码进行重写，而且还介绍了最新系统特性以及Jetpack架构组件的使用，使本书更加实用。<br>《第一行代码 Android 第3版》内容通俗易懂，由浅入深，既是Android初学者的入门必备，也是Android开发者的进阶首选。 </p>
-<p>下载地址：<a href="https://wwp.lanzoub.com/iNBcu0bh15xi">https://wwp.lanzoub.com/iNBcu0bh15xi</a></p>
-<p>资源来自于互联网，如分享有损你的权益，请私信我删除！</p>
+    <title>Z-Lib 安卓app | Zlibrary永久有效的电子书库 无视网站迁移</title>
+    <url>/posts/23703.html</url>
+    <content><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p>软件名称： <strong>Z-lib</strong></p>
+<p>软件大小：31 MB</p>
+<p>安装环境： 安卓</p>
+<p>下载链接： <a href="https://wwke.lanzoub.com/iJp5F10zzc1a">Z-lib.apk - 蓝奏云 (lanzoub.com)</a></p>
+<p>软件介绍：Z-Library安卓应用是一个知识爱好者的宝藏，它使用户可以随时随地获取到大量的电子书和学术文章。这款应用来源于Z-Library（z-lib.org），这是一个拥有超过5百万本电子书和7,700万篇科学文章的在线资源库，致力于为全球用户提供全面而高质量的知识资料。Z-Library安卓应用继承了其网页版的主要特点，拥有强大的搜索功能，用户可以通过书名、作者名、ISBN或者关键词进行查找，为读者带来便捷的阅读体验。（甚至连<u>顶尖考研</u>最新的考研扫描书都能搜到）。</p>
+<h2 id="心得体会"><a href="#心得体会" class="headerlink" title="心得体会"></a>心得体会</h2><p>Zlibrary的网站会经常换，但app是一直有效的。</p>
+<p>Zlibrary有很多国产盗版网站，不充值一本书都不能下（如果支持支付宝，微信支付开会员大概率是盗版网站）。</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230702000731385-1763095700.png"></p>
+<p>Z-lib每天能免费下10本书，不需要开会员，app没有广告。</p>
+<p>当然这是一个正版官网：<a href="https://zh.zlibrary-ar.se/">https://zh.zlibrary-ar.se/</a></p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230702001402038-1506176577.png"></p>
+<h2 id="官网下载地址：博客：Z-库桌面启动器"><a href="#官网下载地址：博客：Z-库桌面启动器" class="headerlink" title="官网下载地址：博客：Z 库桌面启动器"></a>官网下载地址：<a href="https://zh.zlibrary-ar.se/blog/44">博客：Z 库桌面启动器</a></h2><p>我们的团队继续努力改善我们库的可访问性，我们现在想介绍适用于 Windows、macOS 和 Linux 的桌面启动器的 alpha 版本。此启动器将为您省去搜索工作网站链接的麻烦，因为它将为您处理所有事情。此外，该应用程序可以通过 TOR 网络运行，因此您将始终能够在保持隐私的同时使用该库。作为一个小奖励，<strong>所有通过桌面应用程序访问库的用户都将获得一个月的高级会员资格和双倍的每日下载限制</strong>（从第一次应用程序启动开始）！</p>
+<p>请注意，由于这是alpha版本，该应用程序可能无法在您的计算机上运行。如果您遇到任何问题，请随时联系我们<a href="mailto:support@z-lib.se">的支持团队 support@z-lib.se</a>，我们将为您提供帮助。</p>
+<p>⚠️ 首次启动应用程序时，您可能会遇到有关未经验证的开发人员的警告消息。这是意料之中的，因为我们在这些平台上还没有开发者帐户。</p>
+<p><img src="https://zh.zlibrary-ar.se/img/z-access/windows.svg"></p>
+<p>Windows 120 MB：<a href="https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.exe">https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.exe</a></p>
+<p><img src="https://zh.zlibrary-ar.se/img/z-access/macos.svg"></p>
+<p>Mac OS 119 MB：<a href="https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.dmg">https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.dmg</a></p>
+<p><img src="https://zh.zlibrary-ar.se/img/z-access/linux.svg"></p>
+<p>Linux 89 MB：<a href="https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.deb">https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.deb</a></p>
+<h3 id="新版本的安卓应用程序"><a href="#新版本的安卓应用程序" class="headerlink" title="新版本的安卓应用程序"></a>新版本的安卓应用程序</h3><p>除了桌面启动器之外，我们还发布了新版本的Android应用程序。我们提高了应用程序的稳定性，增加了通过 TOR 网络的操作，并引入了多种授权方法（使用 QR 码或 Z-Access 页面上的令牌）。我们建议在安装新版本之前卸载旧版本的应用程序。</p>
+<p><img src="https://zh.zlibrary-ar.se/img/z-access/android.svg"></p>
+<p>安卓 APK：<a href="https://go-to-zlibrary.se/soft/zlibrary-app-latest.apk">https://go-to-zlibrary.se/soft/zlibrary-app-latest.apk</a></p>
+<h3 id="“共享”按钮"><a href="#“共享”按钮" class="headerlink" title="“共享”按钮"></a>“共享”按钮</h3><p>您可能注意到网站上出现了分享按钮，使您可以更轻松地在社交媒体上与朋友分享 Z-Library。随意使用它们！</p>
+<p>每个在其公共博客、频道或社交媒体帐户（必须可公开访问）上分享 Z-Library 链接并 <a href="mailto:support@z-lib.se">support@z-lib.se</a> 该帖子的链接发送给我们的人，都将<strong>获得 1 个月的高级会员身份</strong>。</p>
+<p>如果您还没有听说过，我们有以下新闻帐户：</p>
+<p>乳齿象 - <a href="https://mastodon.social/@Z_Lib_official">https://mastodon.social/@Z_Lib_official</a></p>
+<p>推特 - <a href="https://twitter.com/Z_Lib_official">https://twitter.com/Z_Lib_official</a></p>
+<p>电报 - <a href="https://t.me/zlibrary_official">https://t.me/zlibrary_official</a></p>
+<p>尽管我们是新来的，但我们会逐渐在频道中填充有关图书馆的信息和新闻。加入吧！</p>
+]]></content>
+      <categories>
+        <category>资源分享</category>
+      </categories>
+      <tags>
+        <tag>电子书</tag>
+        <tag>zlibrary</tag>
+        <tag>免费</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个100%立即获得New bing资格的方法教程-点击就送bing chat</title>
+    <url>/posts/16891.html</url>
+    <content><![CDATA[<p>之前加入waitlist的账号一个多月过去了还没有任何反应，但是身边朋友却“点击就送”？</p>
+<p>深入调查后发现原来是IP的影响，相信说到这里就已经有人知道该怎么做了</p>
+<p>方法：</p>
+<ol>
+<li>将节点IP更换为日本全局（不会换ip的看这个<a href="https://blog.onefly.top/posts/16888.html">简易教程</a>)</li>
+</ol>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230312113249267-1194007670.png"></p>
+<ol start="2">
+<li>进入new bing 申请网站点击立即加入</li>
+</ol>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230312113536042-1695660571.png"></p>
+<p>之后就可以直接在bing搜索中开启聊天了<br><a href="https://www.bing.com/?/ai">https://www.bing.com/?/ai</a><br>其他建议：先退账号，删除注册表，vpn登录国外邮箱，现在秒成功<br>其他方案：<a href="https://mp.weixin.qq.com/s/MW7hdkhfixveEr48UUd16A">https://mp.weixin.qq.com/s/MW7hdkhfixveEr48UUd16A</a></p>
+]]></content>
+      <categories>
+        <category>前沿技术</category>
+      </categories>
+      <tags>
+        <tag>技术分享</tag>
+        <tag>AI</tag>
+        <tag>人工智能</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>投资学博迪第十版.pdf下载</title>
+    <url>/posts/15785.html</url>
+    <content><![CDATA[<p>作者：（美）滋维&amp;middot;博迪（Zvi Bodie）,（美）亚历克斯&amp;middot;凯恩（Alex Kane）,（美）艾伦J.马库斯（Alan J.Marcus）</p>
+<p>出版社：<a href="http://www.txtepub.com/tag/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE">机械工业出版社</a></p>
+格式: PDF
+
+<p>封面：</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083837829-995145796.png"></p>
+<p>下载链接：扫描下方<u>二维码</u>关注<code>公众号</code>并回复<code>投资学</code>免费下载</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221014121626471-157482862.png"></p>
+<p>资源来自于互联网，如分享有损你的权益，请联系我删除！</p>
 ]]></content>
       <categories>
         <category>电子书</category>
       </categories>
       <tags>
         <tag>电子书</tag>
-        <tag>开发</tag>
+        <tag>经管</tag>
       </tags>
   </entry>
   <entry>
@@ -3311,6 +2500,817 @@ np<span class="token punctuation">.</span>random<span class="token punctuation">
         <tag>chatgpt</tag>
         <tag>免费</tag>
         <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我们应该为Copilot X 的到来做好什么准备？</title>
+    <url>/posts/16892.html</url>
+    <content><![CDATA[<h1 id="申请github-copilot学生认证以及Jetbrain专业版学生教育免费教程-申请加入Copilot-X-Waitlist"><a href="#申请github-copilot学生认证以及Jetbrain专业版学生教育免费教程-申请加入Copilot-X-Waitlist" class="headerlink" title="申请github copilot学生认证以及Jetbrain专业版学生教育免费教程+申请加入Copilot X Waitlist."></a>申请github copilot学生认证以及Jetbrain专业版学生教育免费教程+申请加入Copilot X Waitlist.</h1><h2 id="教程概览"><a href="#教程概览" class="headerlink" title="教程概览"></a>教程概览</h2><p>1.学信网下载学籍认证pdf</p>
+<p>2.acrobat修改部分中文为英文</p>
+<p>3.修改github profile更改个人真实信息</p>
+<p>3.github education认证学生身份</p>
+<p>4.去github删除掉学生邮箱</p>
+<p>5.去jetbrain网站用github学生包申请学生免费使用</p>
+<h2 id="学籍证明"><a href="#学籍证明" class="headerlink" title="学籍证明"></a>学籍证明</h2><p>进入学籍查询页面:<a href="https://my.chsi.com.cn/archive/bab/index.action">学信档案 (chsi.com.cn)</a></p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325200401242-1573147258.png" style="zoom:50%;">
+
+<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325200531503-986496590.png" style="zoom:50%;">
+
+<p>下载完成后使用可以编辑pdf的软件打开，建议<a href="https://www.superso.top/Adobe/Adobe_Acrobat_Pro_DC_2022.html">Acrobat DC</a></p>
+<p>按照如下要求更改：需要修改姓名 院校 形式 学籍状态 查询时间</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325200848336-1864084922.png" style="zoom: 50%;">
+
+<h2 id="修改Github-Profile"><a href="#修改Github-Profile" class="headerlink" title="修改Github Profile"></a>修改Github Profile</h2><p>修改个人信息profile地址：<a href="https://github.com/settings/profile">github.com</a></p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325201439599-667522946.png" style="zoom:50%;">
+
+<h2 id="申请认证"><a href="#申请认证" class="headerlink" title="申请认证"></a>申请认证</h2><p>认证地址：<a href="https://education.github.com/discount_requests/application">Request a discount - GitHub Education</a></p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325202044639-406144827.png" style="zoom:50%;">
+
+<p>下一步，就是上传证明文件，建议用<strong>手机拍照</strong>上传，也就是手机进入上述网页申请。（由于我已经认证完了这里没有图。）</p>
+<blockquote>
+<p>有几点要注意的：</p>
+<p>1、要用摄像头拍。如果上传的话他会拒绝，说上传的操作空间大，拍照比较可靠。如果电脑不方便可以用手机拍。</p>
+<p>2、证明类型。我就填的student ID是可以的。</p>
+<p>3、学籍证明。在学信网申请学籍认证就好了，也很快，几分钟就搞定了。这里要注意要英文的，所以用浏览器翻译一下就好了，电脑上打开，手机对着拍张照就ok。</p>
+<p>4、位置。最好在学校里，因为申请它会看location，我前几次一直因为location被机验就不通过，弄了一下午。</p>
+<p>5、个人信息。一定要填的真诚，头像用真人头像，简介，地区也写一写。</p>
+<p>大概就是这些都弄好，然后多申请几次，申请拒绝他会告诉你哪里没弄好，照着说的去做就好了。不过申请也搞了一下午，主要是网不好，机验不通过。<br>原文链接：<a href="https://blog.csdn.net/weixin_41753316/article/details/127039448">https://blog.csdn.net/weixin_41753316/article/details/127039448</a></p>
+</blockquote>
+<h2 id="申请Jetbrain学生免费许可证"><a href="#申请Jetbrain学生免费许可证" class="headerlink" title="申请Jetbrain学生免费许可证"></a>申请Jetbrain学生免费许可证</h2><p>由于如果在github添加了学生edu邮箱会被block（白嫖的太多了）</p>
+<p>所以在github主页中删除edu邮箱（没事以后还可以加回来）：<a href="https://github.com/settings/emails">Email settings (github.com)</a></p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325202513795-445937298.png" style="zoom: 67%;">
+
+<p>然后去jetbrain官网使用认证通过的github账号授权申请就好了：<a href="https://www.jetbrains.com/shop/eform/students/">JetBrains 学习产品</a></p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230325202634653-1992779395.png" style="zoom:50%;">
+
+<h2 id="加入Copilot-X-Wailist"><a href="#加入Copilot-X-Wailist" class="headerlink" title="加入Copilot X Wailist"></a>加入Copilot X Wailist</h2><p>上一代的 GitHub Copilot，在协助开发者完成编程任务时，便有着极其出色的体验。诞生至今两年，便自动生成了 46% 的代码，更将编码速度提高了 55%。</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230326102547435-1201350013.png" style="zoom: 50%;">
+
+<p>此次更新的 GitHub Copilot X，又给我们带来了哪些惊喜呢？请看：</p>
+<ol>
+<li>集成了 GPT-4（微软亲儿子，必须安排上）；</li>
+<li>GitHub Copilot Chat（边写代码边跟 AI 对话）；</li>
+<li>Copilot for Pull Requests（AI 协助处理 PR）；</li>
+<li>Copilot for Docs（智能文档系统）；</li>
+<li>Copilot for CLI（让命令行用起来更智能）。</li>
+<li>Copilot Voice（直接语音生成代码，牛逼！）；</li>
+</ol>
+<p>申请进入Copilot X Waitlist：<a href="https://github.com/github-copilot/chat_waitlist_signup/join">GitHub · Where software is built</a></p>
+<p>申请进入Copilot CLI Waitlist：<a href="https://githubnext.com/projects/copilot-cli">GitHub Next | Copilot for CLI</a></p>
+<p>申请进入Copilot Voice Waitlist：<a href="https://githubnext.com/projects/copilot-voice">GitHub Next | Copilot Voice</a></p>
+<p>有关Copilot X的介绍请看这篇文章：<a href="https://zhuanlan.zhihu.com/p/616250941">动动嘴，就能帮你生成代码！焕然一新的代码编辑器：GitHub Copilot X，来了！ - 知乎 (zhihu.com)</a></p>
+]]></content>
+      <categories>
+        <category>人工智能</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+        <tag>AI</tag>
+        <tag>Copilot X</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>抖音快手粉丝|百度网盘SVIP|各大视频会员|苹果ID|推特粉丝|WPS会员</title>
+    <url>/posts/23711.html</url>
+    <content><![CDATA[<p>给大家介绍一个<strong>低价会员租号网站</strong>：</p>
+<p><strong><a href="https://shop.onefly.top/">https://shop.onefly.top</a></strong></p>
+<p><strong><a href="https://hy.huoyuan.cf/a/b/c///">https://hy.huoyuan.cf/a/b/c///</a></strong></p>
+<h2 id="热-门-🔥-推-荐"><a href="#热-门-🔥-推-荐" class="headerlink" title="热 门 🔥 推 荐"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse14">热 门 🔥 推 荐</a></h2><table>
+<thead>
+<tr>
+<th>🥰 windows微信消息弹窗提醒</th>
+<th><strong>3.3</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=14&amp;tid=353">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>🍟豪华绿钻3天1月1号1次</td>
+<td><strong>0.22</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=14&amp;tid=280">立即购买</a></td>
+</tr>
+<tr>
+<td>🔥微信提现永久免手续费</td>
+<td><strong>0.55</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=14&amp;tid=230">立即购买</a></td>
+</tr>
+<tr>
+<td>🔥阿里资源网站聚合+福利码更新</td>
+<td><strong>1.1</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=14&amp;tid=228">立即购买</a></td>
+</tr>
+<tr>
+<td>🐥80+个高清观影站(1080p)</td>
+<td><strong>1.1</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=14&amp;tid=88">立即购买</a></td>
+</tr>
+<tr>
+<td>👍直充货源，零门槛使用，秒到账</td>
+<td><strong>3.3</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=14&amp;tid=223">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="账-号-购-买"><a href="#账-号-购-买" class="headerlink" title="账 号 购 买"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse19928">账 号 购 买</a></h2><table>
+<thead>
+<tr>
+<th>📧 2000+个网易邮箱号</th>
+<th><strong>1.1</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=354">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>🔥 共享可用chatGpt，1000+账号，免登录</td>
+<td><strong>2.2</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=370">立即购买</a></td>
+</tr>
+<tr>
+<td>🤖 ChatGPT 新注册GPT 5刀+key</td>
+<td><strong>8.8</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=344">立即购买</a></td>
+</tr>
+<tr>
+<td>🍎空白 Apple ID（未激活iCloud）</td>
+<td><strong>4.4</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=322">立即购买</a></td>
+</tr>
+<tr>
+<td>🍎空白 Apple ID（已激活iCloud）</td>
+<td><strong>7.7</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=372">立即购买</a></td>
+</tr>
+<tr>
+<td>📧 Outlook账号</td>
+<td><strong>3.3</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=338">立即购买</a></td>
+</tr>
+<tr>
+<td>✈️ 注册TG号 | 美国 | 加拿大 | API</td>
+<td><strong>7.7</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=332">立即购买</a></td>
+</tr>
+<tr>
+<td>🛩️ 纸飞机/电报 成品号 全平台登陆</td>
+<td><strong>22</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=368">立即购买</a></td>
+</tr>
+<tr>
+<td>📮【全新】Gmail 谷歌邮箱账户 稳定不弹手机验证</td>
+<td><strong>5.5</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=333">立即购买</a></td>
+</tr>
+<tr>
+<td>🕊️【全新】 推特Twitter 小白号</td>
+<td><strong>4.4</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=334">立即购买</a></td>
+</tr>
+<tr>
+<td>👻【全新】 脸书Facebook 小白号</td>
+<td><strong>7.7</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19928&amp;tid=335">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="百-度-网-盘"><a href="#百-度-网-盘" class="headerlink" title="百 度 网 盘"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse1">百 度 网 盘</a></h2><table>
+<thead>
+<tr>
+<th>【特价】25-30天Svip</th>
+<th><strong>2.53</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=136">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>【极速】20-30天Svip</td>
+<td><strong>6.6</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=330">立即购买</a></td>
+</tr>
+<tr>
+<td>【极速】3个月Svip</td>
+<td><strong>16.5</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=152">立即购买</a></td>
+</tr>
+<tr>
+<td>【极速】6个月Svip</td>
+<td><strong>29.7</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=25">立即购买</a></td>
+</tr>
+<tr>
+<td>【极速】1年Svip</td>
+<td><strong>58.3</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=35">立即购买</a></td>
+</tr>
+<tr>
+<td>🟢百度网盘svip账号永久使用</td>
+<td><strong>22</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=331">立即购买</a></td>
+</tr>
+<tr>
+<td>👍pc百度网盘自己号满速下载，持续更新</td>
+<td><strong>7.7</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=1&amp;tid=323">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="哔-哩-哔-哩"><a href="#哔-哩-哔-哩" class="headerlink" title="哔 哩 哔 哩"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse10">哔 哩 哔 哩</a></h2><table>
+<thead>
+<tr>
+<th>✨【租号】大会员80–90天</th>
+<th><strong>16.5</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=10&amp;tid=155">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>【租号】大会员350–365天</td>
+<td><strong>47.3</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=10&amp;tid=80">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="迅-雷-网-盘"><a href="#迅-雷-网-盘" class="headerlink" title="迅 雷 网 盘"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse12">迅 雷 网 盘</a></h2><table>
+<thead>
+<tr>
+<th>迅雷所有平台PJ版</th>
+<th><strong>1.65</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=12&amp;tid=371">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>迅雷白金会员，禁止苹果设备【25~30天】</td>
+<td><strong>3.96</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=12&amp;tid=225">立即购买</a></td>
+</tr>
+<tr>
+<td>迅雷超级会员，禁止苹果设备【25~30天】</td>
+<td><strong>5.06</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=12&amp;tid=226">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="海-外-苹-果-ID"><a href="#海-外-苹-果-ID" class="headerlink" title="海 外 苹 果 ID"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse7">海 外 苹 果 ID</a></h2><table>
+<thead>
+<tr>
+<th>[租] 海外苹果ID（已购小火箭）</th>
+<th><strong>7.7</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=7&amp;tid=11">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>[租] 海外苹果ID（已购 Quantumult(黑圈)）</td>
+<td><strong>7.7</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=7&amp;tid=148">立即购买</a></td>
+</tr>
+<tr>
+<td>[租] 海外苹果ID（已购 Choc ）</td>
+<td><strong>7.7</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=7&amp;tid=224">立即购买</a></td>
+</tr>
+<tr>
+<td>[独享] 美区ID带已购小火煎账号</td>
+<td><strong>26.95</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="国-内-粉-丝"><a href="#国-内-粉-丝" class="headerlink" title="国 内 粉 丝"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse18">国 内 粉 丝</a></h2><table>
+<thead>
+<tr>
+<th>DY播放1000(可倍拍秒刷)</th>
+<th><strong>0.22</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=18&amp;tid=249">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>DY点赞1000(可倍拍)🔥</td>
+<td><strong>25.3</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=18&amp;tid=234">立即购买</a></td>
+</tr>
+<tr>
+<td>DY粉丝1000(🔥)</td>
+<td><strong>165</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=18&amp;tid=236">立即购买</a></td>
+</tr>
+<tr>
+<td>KS播放1000(可倍拍秒刷)</td>
+<td><strong>0.11</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=18&amp;tid=244">立即购买</a></td>
+</tr>
+<tr>
+<td>KS点赞1000(可倍拍)</td>
+<td><strong>5.5</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=18&amp;tid=242">立即购买</a></td>
+</tr>
+<tr>
+<td>KS粉丝1000(可倍拍)</td>
+<td><strong>28.6</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=18&amp;tid=247">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="海-外-粉-丝"><a href="#海-外-粉-丝" class="headerlink" title="海 外 粉 丝"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse19">海 外 粉 丝</a></h2><table>
+<thead>
+<tr>
+<th>TG频道最后1条帖子 - 100浏览量</th>
+<th><strong>0.11</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=251">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>TG频道最后5条帖子 - 100浏览量</td>
+<td><strong>0.55</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=252">立即购买</a></td>
+</tr>
+<tr>
+<td>TG帖子单个表情 - 50个</td>
+<td><strong>1.1</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=318">立即购买</a></td>
+</tr>
+<tr>
+<td>TG帖子混合表情 - 50个</td>
+<td><strong>1.1</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=316">立即购买</a></td>
+</tr>
+<tr>
+<td>【老·频道和群组专拍】TG粉丝 - 1千人，稳定零掉落</td>
+<td><strong>14.3</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=258">立即购买</a></td>
+</tr>
+<tr>
+<td>【新·频道和群组专拍】TG粉丝 - 1千人，稳定零掉落</td>
+<td><strong>18.7</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=324">立即购买</a></td>
+</tr>
+<tr>
+<td>Twitter高质量稳定粉丝1千人 - 可补充</td>
+<td><strong>27.5</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=326">立即购买</a></td>
+</tr>
+<tr>
+<td>油管视频点赞 50赞</td>
+<td><strong>1.1</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=349">立即购买</a></td>
+</tr>
+<tr>
+<td>油管视频浏览量 100浏览</td>
+<td><strong>1.65</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=348">立即购买</a></td>
+</tr>
+<tr>
+<td>油管订阅者 100个</td>
+<td><strong>17.6</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19&amp;tid=347">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="WPS-x2F-文库-x2F-音乐"><a href="#WPS-x2F-文库-x2F-音乐" class="headerlink" title="WPS / 文库 / 音乐"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse23">WPS / 文库 / 音乐</a></h2><table>
+<thead>
+<tr>
+<th>【租】酷我音乐VIP会员月号（不包下载额度）</th>
+<th><strong>2.42</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=23&amp;tid=351">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>【租】喜马拉雅FM会员月号</td>
+<td><strong>3.52</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=23&amp;tid=352">立即购买</a></td>
+</tr>
+<tr>
+<td>【租】网易云黑胶会员一月</td>
+<td><strong>4.13</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=23&amp;tid=157">立即购买</a></td>
+</tr>
+<tr>
+<td>【租号】百度文库会员一个月</td>
+<td><strong>2.53</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=23&amp;tid=319">立即购买</a></td>
+</tr>
+<tr>
+<td>【租】WPS超级会员+稻壳会员【25~30天】</td>
+<td><strong>7.15</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=23&amp;tid=282">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="电-视-会-员"><a href="#电-视-会-员" class="headerlink" title="电 视 会 员"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse11">电 视 会 员</a></h2><table>
+<thead>
+<tr>
+<th>【电视专用租号】芒果电视会员 月【25~30天】</th>
+<th><strong>4.18</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=11&amp;tid=254">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>【电视专用租号】芒果电视会员 月【25~30天-稳定版】</td>
+<td><strong>6.6</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=11&amp;tid=255">立即购买</a></td>
+</tr>
+<tr>
+<td>【电视专用租号】芒果电视会员 年【330~360天稳定版】</td>
+<td><strong>40.7</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=11&amp;tid=257">立即购买</a></td>
+</tr>
+<tr>
+<td>【电视会员租号】 酷喵电视会员25-31天 售后20天</td>
+<td><strong>6.38</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=11&amp;tid=73">立即购买</a></td>
+</tr>
+<tr>
+<td>【电视专用租号】云视听极光 25-31天 一台设备使用 售后25天</td>
+<td><strong>9.9</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=11&amp;tid=72">立即购买</a></td>
+</tr>
+<tr>
+<td>【电视会员】哔哩哔哩电视会员25-30天 售后25天</td>
+<td><strong>9.57</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=11&amp;tid=71">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="腾-讯-视-频"><a href="#腾-讯-视-频" class="headerlink" title="腾 讯 视 频"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse3">腾 讯 视 频</a></h2><table>
+<thead>
+<tr>
+<th>【永久免费】腾讯高清播放通道</th>
+<th><strong>5.11</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=3&amp;tid=5">立即购买</a></th>
+</tr>
+</thead>
+</table>
+<h2 id="优-酷-视-频"><a href="#优-酷-视-频" class="headerlink" title="优 酷 视 频"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse2">优 酷 视 频</a></h2><table>
+<thead>
+<tr>
+<th>优酷1080p高清通道，vip的也可看</th>
+<th><strong>5.62</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=2&amp;tid=161">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>🔥【共享】20-30天 优酷vip</td>
+<td><strong>4.95</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=2&amp;tid=50">立即购买</a></td>
+</tr>
+<tr>
+<td>【共享】80-90天 优酷会员</td>
+<td><strong>14.3</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=2&amp;tid=51">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="芒-果-T-v"><a href="#芒-果-T-v" class="headerlink" title="芒 果 T v"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse9">芒 果 T v</a></h2><table>
+<thead>
+<tr>
+<th>【共享】芒果 25-31天 仅电脑使用</th>
+<th><strong>2.75</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=9&amp;tid=342">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>【共享】芒果 27-31天 小程序或者网页使用</td>
+<td><strong>3.08</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=9&amp;tid=341">立即购买</a></td>
+</tr>
+<tr>
+<td>【共享】芒果 25-31天 仅手机APP使用</td>
+<td><strong>4.18</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=9&amp;tid=343">立即购买</a></td>
+</tr>
+<tr>
+<td>【永久免费】芒果Tv1080p播放通道</td>
+<td><strong>5.11</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=9&amp;tid=24">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="爱-奇-艺"><a href="#爱-奇-艺" class="headerlink" title="爱 奇 艺"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse8">爱 奇 艺</a></h2><table>
+<thead>
+<tr>
+<th>【永久免费】爱奇艺白嫖播放通道(跨平台)</th>
+<th><strong>5.11</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=8&amp;tid=19">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>【共享】会员号5-7天 - 售后5天</td>
+<td><strong>5.5</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=8&amp;tid=340">立即购买</a></td>
+</tr>
+<tr>
+<td>【共享】会员月号 - 售后25天</td>
+<td><strong>11</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=8&amp;tid=339">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="主机-VPS-云电脑"><a href="#主机-VPS-云电脑" class="headerlink" title="主机 VPS 云电脑"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse13">主机 VPS 云电脑</a></h2><table>
+<thead>
+<tr>
+<th>🔥 高配置挂机宝，支持2毛5小时重复拍</th>
+<th><strong>1.1</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=13&amp;tid=367">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>🖥️白嫖云电脑</td>
+<td><strong>1.1</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=13&amp;tid=291">立即购买</a></td>
+</tr>
+<tr>
+<td>🏄 一个在线使用的美国千兆浏览器</td>
+<td><strong>2.2</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=13&amp;tid=350">立即购买</a></td>
+</tr>
+<tr>
+<td>【稳】香港1元虚拟机，详见简介</td>
+<td><strong>1.1</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=13&amp;tid=12">立即购买</a></td>
+</tr>
+<tr>
+<td>白嫖永久虚拟主机、VPS、挂机宝，配置见详情</td>
+<td><strong>16.5</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=13&amp;tid=6">立即购买</a></td>
+</tr>
+</tbody></table>
+<h2 id="其-他-共-享"><a href="#其-他-共-享" class="headerlink" title="其 他 共 享"></a><a href="https://hy.huoyuan.cf/a/b/c///#collapse19929">其 他 共 享</a></h2><table>
+<thead>
+<tr>
+<th>【共享】多多视频/人人视频会员25-30天 售后25天</th>
+<th><strong>3.43</strong></th>
+<th><a href="https://hy.huoyuan.cf/a/b/c///?cid=19929&amp;tid=361">立即购买</a></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>【共享】搜狐视频会员25-30天 售后25天</td>
+<td><strong>3.8</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19929&amp;tid=362">立即购买</a></td>
+</tr>
+<tr>
+<td>【共享】咪咕视频钻石会员25-30天</td>
+<td><strong>3.85</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19929&amp;tid=363">立即购买</a></td>
+</tr>
+<tr>
+<td>【共享】作业帮会员25-30天 售后25天</td>
+<td><strong>3.96</strong></td>
+<td><a href="https://hy.huoyuan.cf/a/b/c///?cid=19929&amp;tid=365">立即购买</a></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>资源分享</category>
+      </categories>
+      <tags>
+        <tag>百度网盘</tag>
+        <tag>视频会员</tag>
+        <tag>自媒体粉丝</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一行代码Android（第3版）pdf</title>
+    <url>/posts/43427.html</url>
+    <content><![CDATA[<p>2020年人民邮电出版社出版的图书<br>《第一行代码Android（第3版）》是2020年4月人民邮电出版社出版的图书，作者是郭霖。</p>
+<p>封面：<br><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083910008-28177591.png"></p>
+<p>内容简介：<br>《第一行代码 Android 第3版》被Android开发者誉为“Android学习第一书”。全书系统全面、循序渐进地介绍了Android软件开发的必备知识、经验和技巧。<br>《第一行代码 Android 第3版》基于Android 10.0对第2版进行了全面更新，不仅将所有知识点都在Android 10.0系统上进行了重新适配，同时加入Kotlin语言的全面讲解，使用Kotlin对全书代码进行重写，而且还介绍了最新系统特性以及Jetpack架构组件的使用，使本书更加实用。<br>《第一行代码 Android 第3版》内容通俗易懂，由浅入深，既是Android初学者的入门必备，也是Android开发者的进阶首选。 </p>
+<p>下载地址：<a href="https://wwp.lanzoub.com/iNBcu0bh15xi">https://wwp.lanzoub.com/iNBcu0bh15xi</a></p>
+<p>资源来自于互联网，如分享有损你的权益，请私信我删除！</p>
+]]></content>
+      <categories>
+        <category>电子书</category>
+      </categories>
+      <tags>
+        <tag>电子书</tag>
+        <tag>开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python数据分析教程（一）：Numpy</title>
+    <url>/posts/13140.html</url>
+    <content><![CDATA[<h2 id="数据的纬度"><a href="#数据的纬度" class="headerlink" title="数据的纬度"></a>数据的纬度</h2><p>一维数据：列表和集合类型</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000249971-1418691440.png"></p>
+<p>二维数据：列表类型</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000618175-248885984.png"></p>
+<p>多维数据：列表类型</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000627314-315089200.png"></p>
+<p>高维数据：字典类型或数据表示格式，如<code>json</code>、<code>xml</code>、<code>yaml</code></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000636576-992489207.png"></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000320410-1397054611.png"></p>
+<p><strong>维度：一组数据的组织形式</strong></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000408689-1436965707.png"></p>
+<p><strong>列表和数组</strong>：<strong>一组数据的有序结构</strong></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000446411-1600490984.png"></p>
+<h2 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a>Numpy</h2><h3 id="Numpy介绍"><a href="#Numpy介绍" class="headerlink" title="Numpy介绍"></a>Numpy介绍</h3><ul>
+<li><p>NumPy是一个开源的Python科学计算基础库，包含：</p>
+<ul>
+<li><p>一个强大的N维数组对象ndarray</p>
+</li>
+<li><p>广播功能函数</p>
+</li>
+<li><p>整合C/C++/Fortran代码的工具</p>
+</li>
+<li><p>线性代数、傅里叶变换、随机数生成等功能</p>
+</li>
+</ul>
+</li>
+<li><p>NumPy是SciPy、Pandas等数据处理或科学计算库的基础</p>
+</li>
+</ul>
+<p><strong>模块导入：</strong></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> numpy <span class="token keyword">as</span> np<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="N维数组对象：ndarray"><a href="#N维数组对象：ndarray" class="headerlink" title="N维数组对象：ndarray"></a><strong>N维数组对象：ndarray</strong></h3><ul>
+<li><p>数组对象可以去掉元素间运算所需的循环，使一维向量更像单个数据</p>
+</li>
+<li><p>设置专门的数组对象，经过优化，可以提升这类应用的运算速度————科学计算中，一个维度所有数据的类型往往相同</p>
+</li>
+<li><p>数组对象采用相同的数据类型，有助于节省运算和存储空间</p>
+</li>
+</ul>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920001445590-1835589251.png"></p>
+<h3 id="ndarray实例"><a href="#ndarray实例" class="headerlink" title="ndarray实例"></a><strong>ndarray实例</strong></h3><ul>
+<li>ndarray是一个多维数组对象，由两部分构成：<ul>
+<li>实际的数据</li>
+<li>描述这些数据的元数据（数据维度、数据类型等）</li>
+</ul>
+</li>
+<li>ndarray数组一般要求所有元素类型相同（同质），数组下标从0开始</li>
+</ul>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920001543215-76244284.png"></p>
+<h3 id="ndarray对象的属性"><a href="#ndarray对象的属性" class="headerlink" title="ndarray对象的属性"></a><strong>ndarray对象的属性</strong></h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#属性&amp;说明</span>
+<span class="token punctuation">.</span>ndim <span class="token comment">#秩，即轴的数量或维度的数量</span>
+<span class="token punctuation">.</span>shape <span class="token comment">#ndarray对象的尺度，对于矩阵，n行m列</span>
+<span class="token punctuation">.</span>size <span class="token comment">#ndarray对象元素的个数，相当于.shape中n*m的值</span>
+<span class="token punctuation">.</span>dtype <span class="token comment">#ndarray对象的元素类型</span>
+<span class="token punctuation">.</span>itemsize <span class="token comment">#ndarray对象中每个元素的大小，以字节为单位</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002133785-897537873.png"></p>
+<h4 id="ndarray的元素类型"><a href="#ndarray的元素类型" class="headerlink" title="ndarray的元素类型"></a><strong>ndarray的元素类型</strong></h4><p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002045637-1873947497.png"></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002050016-1829180101.png"></p>
+<h3 id="ndarray数组的创建方法"><a href="#ndarray数组的创建方法" class="headerlink" title="ndarray数组的创建方法"></a><strong>ndarray数组的创建方法</strong></h3><ul>
+<li>从Python中的列表、元组等类型创建ndarray数组</li>
+<li>使用NumPy中函数创建ndarray数组，如：arange, ones, zeros等</li>
+<li>从字节流（raw bytes）中创建ndarray数组</li>
+<li>从文件中读取特定格式，创建ndarray数组</li>
+</ul>
+<p><strong>通过列表创建ndarray:</strong></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002306999-2099371921.png"></p>
+<p><strong>使用函数创建ndarray:</strong></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
+np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span>n<span class="token punctuation">)</span> <span class="token comment">#类似range()函数，返回ndarray类型，元素从0到n-1</span>
+np<span class="token punctuation">.</span>ones<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shapes生成一个全l数组，shape是元组类型</span>
+np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shape生成一个全数组，shape是元组类型</span>
+np<span class="token punctuation">.</span>full<span class="token punctuation">(</span>shape<span class="token punctuation">,</span>val<span class="token punctuation">)</span> <span class="token comment">#根据shape:生成一个数组，每个元素值都是val</span>
+np<span class="token punctuation">.</span>eye<span class="token punctuation">(</span>n<span class="token punctuation">)</span> <span class="token comment">#创建一个正方的n*n单位矩阵，对角线为1，其余为0</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>ndarray数组的变换:</strong></p>
+<p>对于创建后的ndarray数组，可以对其进行维度变换和元素类型变换</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#方法&amp;说明</span>
+<span class="token punctuation">.</span>reshape<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#不改变数组元素，返回一个shape形状的数组，原数组不变</span>
+<span class="token punctuation">.</span>resize<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#与.reshape()功能一致，但修改原数组</span>
+<span class="token punctuation">.</span>swapaxes<span class="token punctuation">(</span>ax1<span class="token punctuation">,</span>ax2<span class="token punctuation">)</span> <span class="token comment">#将数组n个维度中两个维度进行调换</span>
+<span class="token punctuation">.</span>flatten<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#对数组进行降维，返回折叠后的一维数组，原数组不变</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002943743-1325252769.png"></p>
+<p><strong>数组的索引和切片</strong></p>
+<ul>
+<li>索引：获取数组中特定位置元素的过程</li>
+<li>切片：获取数组元素子集的过程</li>
+</ul>
+<p>一维数组的索引和切片</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003101445-981037972.png"></p>
+<p>多维数组索引</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003139141-484127738.png"></p>
+<p>多维数组切片</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003159689-806595432.png"></p>
+<h3 id="ndarray数组的运算"><a href="#ndarray数组的运算" class="headerlink" title="ndarray数组的运算"></a><strong>ndarray数组的运算</strong></h3><p><strong>NumPy一元函数:</strong></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
+np<span class="token punctuation">.</span><span class="token builtin">abs</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>fabs<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的绝对值</span>
+np<span class="token punctuation">.</span>sqrt<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的平方根</span>
+np<span class="token punctuation">.</span>square<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的平方</span>
+np<span class="token punctuation">.</span>log<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>1og10<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>1og2<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的自然对数、10底对数和2底对数</span>
+np<span class="token punctuation">.</span>ceil<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>floor<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的ceiling值或f1oor值</span>
+np<span class="token punctuation">.</span>rint<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的四舍五入值</span>
+np<span class="token punctuation">.</span>modf<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#将数组各元素的小数和整数部分以两个独立数组形式返回</span>
+np<span class="token punctuation">.</span>cos<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>cosh<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>sin<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>sinh<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的普通型和双曲型三角函数</span>
+np<span class="token punctuation">.</span>tan<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>tanh<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>exp<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的指数值</span>
+np<span class="token punctuation">.</span>sign<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的符号值，1(+)，0，-1(-)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>NumPy二元函数:</strong></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
+<span class="token operator">+</span> <span class="token operator">-</span> <span class="token operator">*</span> <span class="token operator">/</span> <span class="token operator">**</span> <span class="token comment">#两个数组各元素进行对应运算</span>
+np<span class="token punctuation">.</span>maximum<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>fmax<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>minimum<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>fmin<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#元素级的最大值/最小值计算</span>
+np<span class="token punctuation">.</span>mod<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span> <span class="token comment">#元素级的模运算</span>
+np<span class="token punctuation">.</span>copysign<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span> <span class="token comment">#将数组y中各元素值的符号赋值给数组x对应元素</span>
+<span class="token operator">&gt;</span><span class="token operator">&lt;</span> <span class="token operator">&gt;=</span> <span class="token operator">&lt;=</span> <span class="token operator">==</span> <span class="token operator">!=</span> <span class="token comment">#算术比较，产生布尔型数组</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>Numpy数据存取:</strong></p>
+<p>csv格式:</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920004240502-1839875867.png"></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>savetxt<span class="token punctuation">(</span>frame<span class="token punctuation">,</span>array<span class="token punctuation">,</span>fmt<span class="token operator">=</span><span class="token string">'%.18e'</span><span class="token punctuation">,</span>delimiter<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ul>
+<li>frame：文件、字符串或产生器，可以是.gz或.bz2的压缩文件</li>
+<li>array:存入文件的数组</li>
+<li>fmt:写入文件的格式，例如：%d%.2f%.18e</li>
+<li>delimiter:分割字符串，默认是任何空格</li>
+</ul>
+<p>其他：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>loadtxt<span class="token punctuation">(</span>frame<span class="token punctuation">,</span>dtype<span class="token operator">=</span>np<span class="token punctuation">.</span><span class="token builtin">float</span><span class="token punctuation">,</span>delimiter<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span>
+unpack<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<ul>
+<li>frame:文件、字符串或产生器，可以是.gz或.bz2的压缩文件</li>
+<li>dtype:数据类型，可选</li>
+<li>delimiter:分割字符串，默认是任何空格</li>
+<li>unpack:如果True,读入属性将分别写入不同变量</li>
+</ul>
+<p>其他：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">.</span>tofile<span class="token punctuation">(</span>frame<span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">,</span> <span class="token builtin">format</span><span class="token operator">=</span><span class="token string">'%s'</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>fromfile<span class="token punctuation">(</span>frame<span class="token punctuation">,</span> dtype<span class="token operator">=</span><span class="token builtin">float</span><span class="token punctuation">,</span> count<span class="token operator">=</span>‐<span class="token number">1</span><span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p><strong>numpy随机数函数子库:</strong></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span><span class="token operator">*</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
+rand<span class="token punctuation">(</span>d0<span class="token punctuation">,</span>d1<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span>dn<span class="token punctuation">)</span> <span class="token comment">#根据d0-dn创建随机数数组，浮点数，[0,1)，均匀分布</span>
+randn<span class="token punctuation">(</span>d0<span class="token punctuation">,</span>d1<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span>dn<span class="token punctuation">)</span> <span class="token comment">#根据d0-dn创建随机数数组，标准正态分布</span>
+randint<span class="token punctuation">(</span>low<span class="token punctuation">[</span><span class="token punctuation">,</span>high<span class="token punctuation">,</span>shape<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#根据shapet创建随机整数或整数数组，范围是[low,high)</span>
+seed<span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token comment">#随机数种子，s是给定的种子值</span>
+shuffle<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#根据数组a的第1轴进行随排列，改变数组×</span>
+permutation<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#根据数组a的第1轴产生一个新的乱序数组，不改变数组x</span>
+choice<span class="token punctuation">(</span>a<span class="token punctuation">[</span><span class="token punctuation">,</span>size<span class="token punctuation">,</span>replace<span class="token punctuation">,</span>p<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#从一维数组a中以概率p抽取元素，形成size形状新数组 replace表示是否可以重用元素，默认为False</span>
+uniform<span class="token punctuation">(</span>low<span class="token punctuation">,</span>high<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有均匀分布的数组，low起始值，high结束值，size形状</span>
+normal<span class="token punctuation">(</span>loc<span class="token punctuation">,</span>scale<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有正态分布的数组，loc均值，scale标准差，size形状</span>
+poisson<span class="token punctuation">(</span>lam<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有泊松分布的数组，lam随机事件发生率，size形状</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>numpy统计函数:</strong></p>
+<pre class="line-numbers language-none"><code class="language-none">np.*<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
+<span class="token builtin">sum</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素之和，axis整数或元组</span>
+mean<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的期望，axis整数或元组</span>
+average<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span>weights<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的加权平均值</span>
+std<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的标准差</span>
+var<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的方差</span>
+<span class="token builtin">min</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+<span class="token builtin">max</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素的最小值、最大值</span>
+argmin<span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+argmax<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素最小值、最大值的降一维后下标</span>
+unravel_index<span class="token punctuation">(</span>index<span class="token punctuation">,</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shape?将一维下标index转换成多维下标</span>
+ptp<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素最大值与最小值的差</span>
+median<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素的中位数（中值）</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>numpy替换函数:</strong></p>
+<ul>
+<li>np.where(condition, x, y) ——满足条件(condition)，输出x，不满足输出y。</li>
+<li>只有条件 (condition)，没有x和y，则输出满足条件 (即非0) 元素的坐标 (等价于numpy.nonzero)</li>
+</ul>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920005642662-1268532120.png"></p>
+<h3 id="numpy数据存取与函数"><a href="#numpy数据存取与函数" class="headerlink" title="numpy数据存取与函数**"></a><strong>numpy</strong>数据存取与函数**</h3><p>CSV文件</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>loadtxt<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>savetxt<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>多维数据存取</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">.</span>tofile<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>fromfile<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>save<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>savez<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>load<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>随机函数</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>rand<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randn<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>seed<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>shuffle<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>permutation<span class="token punctuation">(</span><span class="token punctuation">)</span>
+np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>choice<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+]]></content>
+      <categories>
+        <category>数据分析</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>数据分析</tag>
+        <tag>numpy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PyCharm专业版最简单的破解教程，永久适用</title>
+    <url>/posts/15000.html</url>
+    <content><![CDATA[<h1 id="PyCharm专业版最简单的破解教程，永久适用"><a href="#PyCharm专业版最简单的破解教程，永久适用" class="headerlink" title="PyCharm专业版最简单的破解教程，永久适用"></a>PyCharm专业版最简单的破解教程，永久适用</h1><h2 id="1-从官网下载PyCharm"><a href="#1-从官网下载PyCharm" class="headerlink" title="1.从官网下载PyCharm"></a>1.从官网下载PyCharm</h2><p>官网的下载速度是很快的！</p>
+<p>PyCharm官网：<a href="https://www.jetbrains.com/pycharm/">PyCharm: the Python IDE for Professional Developers by JetBrains</a></p>
+<p>重点：必须下载2021.2.2及之前的版本，否则只能首次试用30天，之后不可试用（要登录官网账号验证是否试用过）</p>
+<p>下载链接直接放下面了：</p>
+<p>方式一：<strong>直接下载</strong>：<a href="https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1">https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1</a></p>
+<p>方式二：进入下载页面下载：<a href="https://www.jetbrains.com/pycharm/download/other.html">Other Versions - PyCharm (jetbrains.com)</a></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922145852780-920855323.png"></p>
+<h2 id="2-使用脚本清空试用天数续期【无限续期】"><a href="#2-使用脚本清空试用天数续期【无限续期】" class="headerlink" title="2.使用脚本清空试用天数续期【无限续期】"></a>2.使用脚本清空试用天数续期【无限续期】</h2><p>等到过期的时候再使用脚本<code>reset_jetbrains_eval_windows.vbs</code>清空天数就ok</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922150445043-2094612096.png"></p>
+<p>使用方法：双击脚本即可</p>
+<p>另外这个脚本对于所有的<code>JetBrain</code>的产品都是有效的，记住软件版本选择<code>2021.2.2</code>以前的</p>
+<p>脚本下载链接：<a href="https://wwp.lanzoub.com/iQk4t0c5wm7e">https://wwp.lanzoub.com/iQk4t0c5wm7e</a></p>
+]]></content>
+      <categories>
+        <category>破解资源</category>
+      </categories>
+      <tags>
+        <tag>破解软件</tag>
+        <tag>JetBrain</tag>
+        <tag>PyCharm</tag>
       </tags>
   </entry>
 </search>
