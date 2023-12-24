@@ -1,110 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Github和git使用指南：以PyCharm为例</title>
-    <url>/posts/16889.html</url>
-    <content><![CDATA[<h2 id="登录注册"><a href="#登录注册" class="headerlink" title="登录注册"></a>登录注册</h2><p>github一般在白天是可以直接访问的，不需要挂梯子，晚上一般需要vpn才能打开。</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028220559829-1152733958.png" alt="" style="zoom:80%;">
-
-<p>注册按照引导完成就可以了</p>
-<h2 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h2><p>主页功能和布局</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221006171-743174652.png"></p>
-<h2 id="项目仓库"><a href="#项目仓库" class="headerlink" title="项目仓库"></a>项目仓库</h2><h3 id="仓库视图"><a href="#仓库视图" class="headerlink" title="仓库视图"></a>仓库视图</h3><p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221134829-1693496522.png"></p>
-<h3 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221350538-55724732.png" alt="" style="zoom:67%;">
-
-<h3 id="仓库主页"><a href="#仓库主页" class="headerlink" title="仓库主页"></a>仓库主页</h3><p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221749777-1044325588.png"></p>
-<h3 id="如何克隆项目代码"><a href="#如何克隆项目代码" class="headerlink" title="如何克隆项目代码"></a>如何克隆项目代码</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221857033-1672524206.png" alt="" style="zoom:50%;">
-
-<p>克隆项目代码：</p>
-<blockquote>
-<p>前置条件：安装Git</p>
-</blockquote>
-<p><code>git下载</code>链接：<a href="https://wwp.lanzoub.com/iZj1H0erefja">Git-2.38.1-64-bit.exe - 蓝奏云 (lanzoub.com)</a></p>
-<p> <code>git安装配置</code>教程：<a href="https://blog.csdn.net/mukes/article/details/115693833">Git 详细安装教程（详解 Git 安装过程的每一个步骤）</a></p>
-<p> <code>图解git原理</code>：<a href="http://marklodato.github.io/visual-git-guide/index-zh-cn.html">图解Git (marklodato.github.io)</a></p>
-<p> 进入cmd</p>
- <img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028222357121-312629687.png" alt="" style="zoom:50%;">
-
-<p> 然后输入<code>git clone 项目地址</code></p>
- <img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028222449229-753777455.png" alt="" style="zoom:67%;">
-
-<p> <code>上传代码和文件到github</code>参考教程：<a href="https://www.cnblogs.com/ranxi169/p/16717225.html">Git将本地仓库上传到github - 孤飞 - 博客园 (cnblogs.com)</a></p>
-<h2 id="导入项目到IDE"><a href="#导入项目到IDE" class="headerlink" title="导入项目到IDE"></a>导入项目到<strong>IDE</strong></h2><p>以JetBrain的PyCharm为例：</p>
-<h3 id="在起始页面下"><a href="#在起始页面下" class="headerlink" title="在起始页面下"></a>在起始页面下</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029100526155-1605600821.png" alt="" style="zoom:50%;">
-
-<p>填写github仓库地址，然后点击clone</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029100805192-274045963.png" alt="" style="zoom: 50%;">
-
-<h3 id="项目内页"><a href="#项目内页" class="headerlink" title="项目内页"></a>项目内页</h3><p>在<code>VCS</code>-<code>Get from Version Control</code>导入github项目</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029101409506-1968971885.png" alt="" style="zoom:50%;">
-
-<p>下载完项目仓库后会弹出一个对话框，自选</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029101705918-852571062.png" alt="" style="zoom:50%;">
-
-<p>如果初始化或者导入为一个github项目之后就可以使用版本控制工具了</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102213782-1729938436.png" alt="" style="zoom:50%;">
-
-<p>在IDE集成开发环境中就不需要用命令行提交代码了，直接点击就好</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102411820-86730732.png" alt="" style="zoom: 67%;">
-
-<h2 id="关于协作"><a href="#关于协作" class="headerlink" title="关于协作"></a>关于协作</h2><h3 id="添加合作者"><a href="#添加合作者" class="headerlink" title="添加合作者"></a>添加合作者</h3><p>在github打开指定项目进入<code>setting</code></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102623122-291804960.png"></p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102742971-1054957020.png" alt="" style="zoom:80%;">
-
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102834346-1533711273.png" alt="" style="zoom:80%;">
-
-<p>被邀请者需要进入这个github仓库网页【项目仓库主页顶部一行蓝色的邀请函】选择<code>接受邀请</code></p>
-<p>接受邀请后就可以push了</p>
-<p>push之前需要在ide登录自己的github账号</p>
-<p>教程：<a href="https://blog.csdn.net/lxd13699/article/details/80375038">Pycharm+github上传及提交代码_你是太阳暖人心的博客-CSDN博客</a></p>
-<p>也就是File-setting配置git和github账号</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103348325-1377369698.png" alt="" style="zoom: 67%;">
-
-<h3 id="其中git配置"><a href="#其中git配置" class="headerlink" title="其中git配置"></a>其中git配置</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103432765-1705655237.png" alt="" style="zoom:67%;">
-
-<h3 id="其中Github登录"><a href="#其中Github登录" class="headerlink" title="其中Github登录"></a>其中Github登录</h3><p>在github个人主页中选择Setting</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103702211-1141201815.png" alt="" style="zoom: 67%;">
-
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103804838-56805198.png"></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103952162-657527512.png"></p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029104054155-1404753885.png" alt="" style="zoom:80%;">
-
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029104424210-625718386.png"></p>
-<p>在Pycahrm中登录</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103517201-381822925.png" alt="" style="zoom:67%;">
-
-<p>直接点击<code>Generate</code>也可以获取相应权限登Token，而且更快</p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202212/2910984-20221221160054524-486268715.png" style="zoom: 67%;">
-
-<h2 id="使用github和git的常见问题"><a href="#使用github和git的常见问题" class="headerlink" title="使用github和git的常见问题"></a>使用github和git的常见问题</h2><h3 id="push失败"><a href="#push失败" class="headerlink" title="push失败"></a>push失败</h3><p>push失败一般是由于github连接超时导致的</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029105106245-328292962.png" alt="" style="zoom:67%;">
-
-<p>解决方法有</p>
-<ol>
-<li>关闭重启编辑器ide</li>
-<li>关闭或打开clash代理</li>
-<li>在终端中输入以下代码</li>
-</ol>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> config <span class="token parameter variable">--global</span> http.sslVerify <span class="token string">"false"</span>
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> https.sslVerify <span class="token string">"false"</span>
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--unset</span> http.proxy 
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--unset</span> https.proxy<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>其实更加有用的解决方案是：</p>
-<p><a href="https://www.cnblogs.com/ranxi169/p/16956050.html">彻底解决github update push超时 - 孤飞 - 博客园 (cnblogs.com)</a></p>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>git</tag>
-        <tag>github</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>OneKey Card即将关闭中国大陆注册，抓紧最后一次开通ChatGPT4 PLUS的机会 | 美国信用卡注册办理</title>
-    <url>/posts/23808.html</url>
+    <url>/2023/08/08/OneKey%20Card%E5%8D%B3%E5%B0%86%E5%85%B3%E9%97%AD%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E6%B3%A8%E5%86%8C%EF%BC%8C%E6%8A%93%E7%B4%A7%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E5%BC%80%E9%80%9AChatGPT4%20PLUS%E7%9A%84%E6%9C%BA%E4%BC%9A%20%20%E7%BE%8E%E5%9B%BD%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%B3%A8%E5%86%8C%E5%8A%9E%E7%90%86/</url>
     <content><![CDATA[<h2 id="OneKey-Card-News"><a href="#OneKey-Card-News" class="headerlink" title="OneKey Card News"></a>OneKey Card News</h2><p>从2023年9月30日开始，OneKey Card 将停止接受来自以下国家或地区的新用户申请：伊朗、朝鲜、叙利亚、俄罗斯、北马其顿、中国大陆、苏丹、委内瑞拉和津巴布韦。中国大陆新用户在九月底就无法再开通OnekeyCard用来订阅ChatGPT和Midjourney Plus会员了。强烈建议现在还未开通，并且以后学习工作中需要使用的学生、老师和白领先开一个备用，否则日后将不再能够使用。</p>
 <p><img src="https://img2023.cnblogs.com/blog/2910984/202308/2910984-20230808151100167-673120535.png"></p>
 <p>目前OnekeyCard提供的美国优选卡是最稳定安全可用的美国信用卡，手续费也很低，目前仍然在免月费！</p>
@@ -193,7 +91,7 @@
   </entry>
   <entry>
     <title>OpenAI推出超神Chatgpt注册教程来了|Gmail外国手机短信验证码接码</title>
-    <url>/posts/16890.html</url>
+    <url>/2023/05/06/OpenAI%E6%8E%A8%E5%87%BA%E8%B6%85%E7%A5%9EChatgpt%E6%B3%A8%E5%86%8C%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86Gmail%E5%A4%96%E5%9B%BD%E6%89%8B%E6%9C%BA%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%E6%8E%A5%E7%A0%81/</url>
     <content><![CDATA[<p><img src="https://img2023.cnblogs.com/blog/2910984/202212/2910984-20221206113426088-1538964752.png"></p>
 <p>前几天，OpenAI 推出超神 ChatGPT，非常火爆。但是呢，因为不可抗力原因，大部分人无法体验到。这里我分享一下注册的攻略。</p>
 <h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul>
@@ -250,14 +148,138 @@
       </tags>
   </entry>
   <entry>
+    <title>PyCharm专业版最简单的破解教程，永久适用</title>
+    <url>/2022/09/22/PyCharm%E4%B8%93%E4%B8%9A%E7%89%88%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84%E7%A0%B4%E8%A7%A3%E6%95%99%E7%A8%8B%EF%BC%8C%E6%B0%B8%E4%B9%85%E9%80%82%E7%94%A8/</url>
+    <content><![CDATA[<h1 id="PyCharm专业版最简单的破解教程，永久适用"><a href="#PyCharm专业版最简单的破解教程，永久适用" class="headerlink" title="PyCharm专业版最简单的破解教程，永久适用"></a>PyCharm专业版最简单的破解教程，永久适用</h1><h2 id="1-从官网下载PyCharm"><a href="#1-从官网下载PyCharm" class="headerlink" title="1.从官网下载PyCharm"></a>1.从官网下载PyCharm</h2><p>官网的下载速度是很快的！</p>
+<p>PyCharm官网：<a href="https://www.jetbrains.com/pycharm/">PyCharm: the Python IDE for Professional Developers by JetBrains</a></p>
+<p>重点：必须下载2021.2.2及之前的版本，否则只能首次试用30天，之后不可试用（要登录官网账号验证是否试用过）</p>
+<p>下载链接直接放下面了：</p>
+<p>方式一：<strong>直接下载</strong>：<a href="https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1">https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1</a></p>
+<p>方式二：进入下载页面下载：<a href="https://www.jetbrains.com/pycharm/download/other.html">Other Versions - PyCharm (jetbrains.com)</a></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922145852780-920855323.png"></p>
+<h2 id="2-使用脚本清空试用天数续期【无限续期】"><a href="#2-使用脚本清空试用天数续期【无限续期】" class="headerlink" title="2.使用脚本清空试用天数续期【无限续期】"></a>2.使用脚本清空试用天数续期【无限续期】</h2><p>等到过期的时候再使用脚本<code>reset_jetbrains_eval_windows.vbs</code>清空天数就ok</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922150445043-2094612096.png"></p>
+<p>使用方法：双击脚本即可</p>
+<p>另外这个脚本对于所有的<code>JetBrain</code>的产品都是有效的，记住软件版本选择<code>2021.2.2</code>以前的</p>
+<p>脚本下载链接：<a href="https://wwp.lanzoub.com/iQk4t0c5wm7e">https://wwp.lanzoub.com/iQk4t0c5wm7e</a></p>
+]]></content>
+      <categories>
+        <category>破解资源</category>
+      </categories>
+      <tags>
+        <tag>破解软件</tag>
+        <tag>JetBrain</tag>
+        <tag>PyCharm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github和git使用指南：以PyCharm为例</title>
+    <url>/2022/10/29/Github%E5%92%8Cgit%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%EF%BC%9A%E4%BB%A5PyCharm%E4%B8%BA%E4%BE%8B/</url>
+    <content><![CDATA[<h2 id="登录注册"><a href="#登录注册" class="headerlink" title="登录注册"></a>登录注册</h2><p>github一般在白天是可以直接访问的，不需要挂梯子，晚上一般需要vpn才能打开。</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028220559829-1152733958.png" alt="" style="zoom:80%;">
+
+<p>注册按照引导完成就可以了</p>
+<h2 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h2><p>主页功能和布局</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221006171-743174652.png"></p>
+<h2 id="项目仓库"><a href="#项目仓库" class="headerlink" title="项目仓库"></a>项目仓库</h2><h3 id="仓库视图"><a href="#仓库视图" class="headerlink" title="仓库视图"></a>仓库视图</h3><p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221134829-1693496522.png"></p>
+<h3 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221350538-55724732.png" alt="" style="zoom:67%;">
+
+<h3 id="仓库主页"><a href="#仓库主页" class="headerlink" title="仓库主页"></a>仓库主页</h3><p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221749777-1044325588.png"></p>
+<h3 id="如何克隆项目代码"><a href="#如何克隆项目代码" class="headerlink" title="如何克隆项目代码"></a>如何克隆项目代码</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221857033-1672524206.png" alt="" style="zoom:50%;">
+
+<p>克隆项目代码：</p>
+<blockquote>
+<p>前置条件：安装Git</p>
+</blockquote>
+<p><code>git下载</code>链接：<a href="https://wwp.lanzoub.com/iZj1H0erefja">Git-2.38.1-64-bit.exe - 蓝奏云 (lanzoub.com)</a></p>
+<p> <code>git安装配置</code>教程：<a href="https://blog.csdn.net/mukes/article/details/115693833">Git 详细安装教程（详解 Git 安装过程的每一个步骤）</a></p>
+<p> <code>图解git原理</code>：<a href="http://marklodato.github.io/visual-git-guide/index-zh-cn.html">图解Git (marklodato.github.io)</a></p>
+<p> 进入cmd</p>
+ <img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028222357121-312629687.png" alt="" style="zoom:50%;">
+
+<p> 然后输入<code>git clone 项目地址</code></p>
+ <img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028222449229-753777455.png" alt="" style="zoom:67%;">
+
+<p> <code>上传代码和文件到github</code>参考教程：<a href="https://www.cnblogs.com/ranxi169/p/16717225.html">Git将本地仓库上传到github - 孤飞 - 博客园 (cnblogs.com)</a></p>
+<h2 id="导入项目到IDE"><a href="#导入项目到IDE" class="headerlink" title="导入项目到IDE"></a>导入项目到<strong>IDE</strong></h2><p>以JetBrain的PyCharm为例：</p>
+<h3 id="在起始页面下"><a href="#在起始页面下" class="headerlink" title="在起始页面下"></a>在起始页面下</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029100526155-1605600821.png" alt="" style="zoom:50%;">
+
+<p>填写github仓库地址，然后点击clone</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029100805192-274045963.png" alt="" style="zoom: 50%;">
+
+<h3 id="项目内页"><a href="#项目内页" class="headerlink" title="项目内页"></a>项目内页</h3><p>在<code>VCS</code>-<code>Get from Version Control</code>导入github项目</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029101409506-1968971885.png" alt="" style="zoom:50%;">
+
+<p>下载完项目仓库后会弹出一个对话框，自选</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029101705918-852571062.png" alt="" style="zoom:50%;">
+
+<p>如果初始化或者导入为一个github项目之后就可以使用版本控制工具了</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102213782-1729938436.png" alt="" style="zoom:50%;">
+
+<p>在IDE集成开发环境中就不需要用命令行提交代码了，直接点击就好</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102411820-86730732.png" alt="" style="zoom: 67%;">
+
+<h2 id="关于协作"><a href="#关于协作" class="headerlink" title="关于协作"></a>关于协作</h2><h3 id="添加合作者"><a href="#添加合作者" class="headerlink" title="添加合作者"></a>添加合作者</h3><p>在github打开指定项目进入<code>setting</code></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102623122-291804960.png"></p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102742971-1054957020.png" alt="" style="zoom:80%;">
+
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102834346-1533711273.png" alt="" style="zoom:80%;">
+
+<p>被邀请者需要进入这个github仓库网页【项目仓库主页顶部一行蓝色的邀请函】选择<code>接受邀请</code></p>
+<p>接受邀请后就可以push了</p>
+<p>push之前需要在ide登录自己的github账号</p>
+<p>教程：<a href="https://blog.csdn.net/lxd13699/article/details/80375038">Pycharm+github上传及提交代码_你是太阳暖人心的博客-CSDN博客</a></p>
+<p>也就是File-setting配置git和github账号</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103348325-1377369698.png" alt="" style="zoom: 67%;">
+
+<h3 id="其中git配置"><a href="#其中git配置" class="headerlink" title="其中git配置"></a>其中git配置</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103432765-1705655237.png" alt="" style="zoom:67%;">
+
+<h3 id="其中Github登录"><a href="#其中Github登录" class="headerlink" title="其中Github登录"></a>其中Github登录</h3><p>在github个人主页中选择Setting</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103702211-1141201815.png" alt="" style="zoom: 67%;">
+
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103804838-56805198.png"></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103952162-657527512.png"></p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029104054155-1404753885.png" alt="" style="zoom:80%;">
+
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029104424210-625718386.png"></p>
+<p>在Pycahrm中登录</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103517201-381822925.png" alt="" style="zoom:67%;">
+
+<p>直接点击<code>Generate</code>也可以获取相应权限登Token，而且更快</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202212/2910984-20221221160054524-486268715.png" style="zoom: 67%;">
+
+<h2 id="使用github和git的常见问题"><a href="#使用github和git的常见问题" class="headerlink" title="使用github和git的常见问题"></a>使用github和git的常见问题</h2><h3 id="push失败"><a href="#push失败" class="headerlink" title="push失败"></a>push失败</h3><p>push失败一般是由于github连接超时导致的</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029105106245-328292962.png" alt="" style="zoom:67%;">
+
+<p>解决方法有</p>
+<ol>
+<li>关闭重启编辑器ide</li>
+<li>关闭或打开clash代理</li>
+<li>在终端中输入以下代码</li>
+</ol>
+<figure class="highlight shell"><table><tbody><tr><td class="code"><pre><span class="line">git config --global http.sslVerify "false"</span><br><span class="line">git config --global https.sslVerify "false"</span><br><span class="line">git config --global --unset http.proxy </span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></tbody></table></figure>
+
+<p>其实更加有用的解决方案是：</p>
+<p><a href="https://www.cnblogs.com/ranxi169/p/16956050.html">彻底解决github update push超时 - 孤飞 - 博客园 (cnblogs.com)</a></p>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>git</tag>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python数据分析教程（二）：Pandas</title>
-    <url>/posts/13141.html</url>
+    <url>/2022/09/20/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%95%99%E7%A8%8B%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9APandas/</url>
     <content><![CDATA[<h2 id="Pandas介绍"><a href="#Pandas介绍" class="headerlink" title="Pandas介绍"></a>Pandas介绍</h2><h3 id="Pandas导入"><a href="#Pandas导入" class="headerlink" title="Pandas导入"></a><strong>Pandas导入</strong></h3><ul>
 <li>Pandas是Python第三方库，提供高性能易用数据类型和分析工具</li>
 <li>Pandas基于NumPy实现，常与NumPy和Matplotlib一同使用</li>
 <li>两个数据类型：Series, DataFrame</li>
 </ul>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br></pre></td></tr></tbody></table></figure>
 
 <h3 id="Pandas与numpy的比较"><a href="#Pandas与numpy的比较" class="headerlink" title="Pandas与numpy的比较"></a><strong>Pandas</strong>与numpy的比较</h3><p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920204036490-294398481.png"></p>
 <h2 id="Pandas的Series类型"><a href="#Pandas的Series类型" class="headerlink" title="Pandas的Series类型"></a><strong>Pandas的Series类型</strong></h2><p>由一组数据及与之相关的数据索引组成</p>
@@ -409,143 +431,56 @@
       </tags>
   </entry>
   <entry>
-    <title>Typora 1.6.7 安装包下载及安装教程 | typora最新版破解教程</title>
-    <url>/posts/23701.html</url>
-    <content><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p>软件名称: <strong>Typora 1.6.7 永久激活包</strong></p>
-<p>软件大小: 80.3 MB</p>
-<p>安装环境]: Win11/Win 10/Win 7</p>
-<p>下载链接: <a href="https://wwke.lanzoub.com/i6UZw10z9fde">Typora 1.6.7.zip - 蓝奏云 (lanzoub.com)</a></p>
-<p>软件介绍：Typora是一款简洁的Markdown编辑器,支持即时渲染技术,使用起来也是十分方便。使用Typora可以日常记录笔记,代码学习,界面层级清晰,用于日常工作可以提高效率</p>
-<h2 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h2><p>1.选中下载的安装包，鼠标右键选择解压到“Typora 1.6.7“文件夹</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205504020-1956921260.png"></p>
-<p>2.选中“Typora 1.6.7.exe”鼠标右键选择以管理员身份运行</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205456406-1815227489.png"></p>
-<p>3.点击“Install for all users (recommended)”</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205448052-1527644165.png"></p>
-<p>4.选择安装位置，点击“Next”（建议和我的路径保持一致）</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205440634-269826617.png"></p>
-<p>5.勾选”Create a desktop shortcut”，点击“Next”</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205434094-821299412.png"></p>
-<p>6.点击“Install“</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205421584-1170530835.png"></p>
-<p>7.软件正在安装中，请耐心等待安装完成</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205407822-1415242824.png"></p>
-<p>8.取消勾选“Launch Typora“，点击“Finish“</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205403222-1532128650.png"></p>
-<p>9打开安装包，复制“winmm.dll”文件</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205358091-1872128224.png"></p>
-<p>10.鼠标放在软件上，鼠标右键点击“打开文件所在位置”</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205352329-549941236.png"></p>
-<p>11.鼠标放在空白处右键“粘贴”</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205348297-967587077.png"></p>
-<p>12.双击打开软件</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205343398-579212640.png"></p>
-<p>13.激活成功</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205336294-786732545.png"></p>
-<p>14.软件安装完成</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205327655-1547912110.png"></p>
-]]></content>
-      <categories>
-        <category>资源分享</category>
-      </categories>
-      <tags>
-        <tag>typora</tag>
-        <tag>markdown</tag>
-        <tag>破解</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Z-Lib 安卓app | Zlibrary永久有效的电子书库 无视网站迁移</title>
-    <url>/posts/23703.html</url>
-    <content><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p>软件名称： <strong>Z-lib</strong></p>
-<p>软件大小：31 MB</p>
-<p>安装环境： 安卓</p>
-<p>下载链接： <a href="https://wwke.lanzoub.com/iJp5F10zzc1a">Z-lib.apk - 蓝奏云 (lanzoub.com)</a></p>
-<p>软件介绍：Z-Library安卓应用是一个知识爱好者的宝藏，它使用户可以随时随地获取到大量的电子书和学术文章。这款应用来源于Z-Library（z-lib.org），这是一个拥有超过5百万本电子书和7,700万篇科学文章的在线资源库，致力于为全球用户提供全面而高质量的知识资料。Z-Library安卓应用继承了其网页版的主要特点，拥有强大的搜索功能，用户可以通过书名、作者名、ISBN或者关键词进行查找，为读者带来便捷的阅读体验。（甚至连<u>顶尖考研</u>最新的考研扫描书都能搜到）。</p>
-<h2 id="心得体会"><a href="#心得体会" class="headerlink" title="心得体会"></a>心得体会</h2><p>Zlibrary的网站会经常换，但app是一直有效的。</p>
-<p>Zlibrary有很多国产盗版网站，不充值一本书都不能下（如果支持支付宝，微信支付开会员大概率是盗版网站）。</p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230702000731385-1763095700.png"></p>
-<p>Z-lib每天能免费下10本书，不需要开会员，app没有广告。</p>
-<p>当然这是一个正版官网：<a href="https://zh.zlibrary-ar.se/">https://zh.zlibrary-ar.se/</a></p>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230702001402038-1506176577.png"></p>
-<h2 id="官网下载地址：博客：Z-库桌面启动器"><a href="#官网下载地址：博客：Z-库桌面启动器" class="headerlink" title="官网下载地址：博客：Z 库桌面启动器"></a>官网下载地址：<a href="https://zh.zlibrary-ar.se/blog/44">博客：Z 库桌面启动器</a></h2><p>我们的团队继续努力改善我们库的可访问性，我们现在想介绍适用于 Windows、macOS 和 Linux 的桌面启动器的 alpha 版本。此启动器将为您省去搜索工作网站链接的麻烦，因为它将为您处理所有事情。此外，该应用程序可以通过 TOR 网络运行，因此您将始终能够在保持隐私的同时使用该库。作为一个小奖励，<strong>所有通过桌面应用程序访问库的用户都将获得一个月的高级会员资格和双倍的每日下载限制</strong>（从第一次应用程序启动开始）！</p>
-<p>请注意，由于这是alpha版本，该应用程序可能无法在您的计算机上运行。如果您遇到任何问题，请随时联系我们<a href="mailto:support@z-lib.se">的支持团队 support@z-lib.se</a>，我们将为您提供帮助。</p>
-<p>⚠️ 首次启动应用程序时，您可能会遇到有关未经验证的开发人员的警告消息。这是意料之中的，因为我们在这些平台上还没有开发者帐户。</p>
-<p><img src="https://zh.zlibrary-ar.se/img/z-access/windows.svg"></p>
-<p>Windows 120 MB：<a href="https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.exe">https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.exe</a></p>
-<p><img src="https://zh.zlibrary-ar.se/img/z-access/macos.svg"></p>
-<p>Mac OS 119 MB：<a href="https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.dmg">https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.dmg</a></p>
-<p><img src="https://zh.zlibrary-ar.se/img/z-access/linux.svg"></p>
-<p>Linux 89 MB：<a href="https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.deb">https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.deb</a></p>
-<h3 id="新版本的安卓应用程序"><a href="#新版本的安卓应用程序" class="headerlink" title="新版本的安卓应用程序"></a>新版本的安卓应用程序</h3><p>除了桌面启动器之外，我们还发布了新版本的Android应用程序。我们提高了应用程序的稳定性，增加了通过 TOR 网络的操作，并引入了多种授权方法（使用 QR 码或 Z-Access 页面上的令牌）。我们建议在安装新版本之前卸载旧版本的应用程序。</p>
-<p><img src="https://zh.zlibrary-ar.se/img/z-access/android.svg"></p>
-<p>安卓 APK：<a href="https://go-to-zlibrary.se/soft/zlibrary-app-latest.apk">https://go-to-zlibrary.se/soft/zlibrary-app-latest.apk</a></p>
-<h3 id="“共享”按钮"><a href="#“共享”按钮" class="headerlink" title="“共享”按钮"></a>“共享”按钮</h3><p>您可能注意到网站上出现了分享按钮，使您可以更轻松地在社交媒体上与朋友分享 Z-Library。随意使用它们！</p>
-<p>每个在其公共博客、频道或社交媒体帐户（必须可公开访问）上分享 Z-Library 链接并 <a href="mailto:support@z-lib.se">support@z-lib.se</a> 该帖子的链接发送给我们的人，都将<strong>获得 1 个月的高级会员身份</strong>。</p>
-<p>如果您还没有听说过，我们有以下新闻帐户：</p>
-<p>乳齿象 - <a href="https://mastodon.social/@Z_Lib_official">https://mastodon.social/@Z_Lib_official</a></p>
-<p>推特 - <a href="https://twitter.com/Z_Lib_official">https://twitter.com/Z_Lib_official</a></p>
-<p>电报 - <a href="https://t.me/zlibrary_official">https://t.me/zlibrary_official</a></p>
-<p>尽管我们是新来的，但我们会逐渐在频道中填充有关图书馆的信息和新闻。加入吧！</p>
-]]></content>
-      <categories>
-        <category>资源分享</category>
-      </categories>
-      <tags>
-        <tag>电子书</tag>
-        <tag>zlibrary</tag>
-        <tag>免费</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个100%立即获得New bing资格的方法教程-点击就送bing chat</title>
-    <url>/posts/16891.html</url>
-    <content><![CDATA[<p>之前加入waitlist的账号一个多月过去了还没有任何反应，但是身边朋友却“点击就送”？</p>
-<p>深入调查后发现原来是IP的影响，相信说到这里就已经有人知道该怎么做了</p>
-<p>方法：</p>
-<ol>
-<li>将节点IP更换为日本全局（不会换ip的看这个<a href="https://blog.onefly.top/posts/16888.html">简易教程</a>)</li>
-</ol>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230312113249267-1194007670.png"></p>
-<ol start="2">
-<li>进入new bing 申请网站点击立即加入</li>
-</ol>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230312113536042-1695660571.png"></p>
-<p>之后就可以直接在bing搜索中开启聊天了<br><a href="https://www.bing.com/?/ai">https://www.bing.com/?/ai</a><br>其他建议：先退账号，删除注册表，vpn登录国外邮箱，现在秒成功<br>其他方案：<a href="https://mp.weixin.qq.com/s/MW7hdkhfixveEr48UUd16A">https://mp.weixin.qq.com/s/MW7hdkhfixveEr48UUd16A</a></p>
-]]></content>
-      <categories>
-        <category>前沿技术</category>
-      </categories>
-      <tags>
-        <tag>技术分享</tag>
-        <tag>AI</tag>
-        <tag>人工智能</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>投资学博迪第十版.pdf下载</title>
-    <url>/posts/15785.html</url>
-    <content><![CDATA[<p>作者：（美）滋维&amp;middot;博迪（Zvi Bodie）,（美）亚历克斯&amp;middot;凯恩（Alex Kane）,（美）艾伦J.马库斯（Alan J.Marcus）</p>
-<p>出版社：<a href="http://www.txtepub.com/tag/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE">机械工业出版社</a></p>
-格式: PDF
+    <title>Solana土狗交易机器人使用教程【Sol Trading Bot中文教程】</title>
+    <url>/2023/12/24/Solana%E5%9C%9F%E7%8B%97%E4%BA%A4%E6%98%93%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>众所周知，swap工具不仅有滑点，还十分考验手速，慢一点价格又变了，根本不能成功交易，那么有没有一种方法能够丝滑交易呢，那就是交易机器人！</p>
+<p>下面是一篇完整的sol链上交易机器人使用教程【含翻译】： </p>
+<p>【<strong>安全声明</strong>：交易机器人与本人无关，只提供使用教程，使用机器人造成的一切损失自负】</p>
+<h2 id="1-开始使用机器人"><a href="#1-开始使用机器人" class="headerlink" title="1.开始使用机器人"></a>1.开始使用机器人</h2><p>直接点击机器人链接，或在支持跳转telegram的浏览器打开下面的机器人链接，或者复制链接到tg聊天发送给任意对象再点击链接打开。</p>
+<p>机器人链接：<a href="https://t.me/SolanaTradingBot?start=FBcf8IMCf">https://t.me/SolanaTradingBot?start=FBcf8IMCf</a></p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114651851-1104401959.jpg" style="zoom:50%;">
 
-<p>封面：</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083837829-995145796.png"></p>
-<p>下载链接：扫描下方<u>二维码</u>关注<code>公众号</code>并回复<code>投资学</code>免费下载</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221014121626471-157482862.png"></p>
-<p>资源来自于互联网，如分享有损你的权益，请联系我删除！</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114719167-626787221.jpg" style="zoom:50%;">
+
+<h2 id="2-机器人基本菜单介绍"><a href="#2-机器人基本菜单介绍" class="headerlink" title="2.机器人基本菜单介绍"></a>2.机器人基本菜单介绍</h2><p>对应的基本功能见翻译，快捷命令菜单和图中按钮面板一致，不会英文的请熟记以下几个单词，buy是买，sell是卖。</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114841303-1858318205.jpg" style="zoom:50%;">
+
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114858659-1344250239.jpg" style="zoom:50%;">
+
+<h2 id="3-机器人钱包系统介绍"><a href="#3-机器人钱包系统介绍" class="headerlink" title="3.机器人钱包系统介绍"></a>3.机器人钱包系统介绍</h2><p>建议不要告诉机器人自己的私钥，而是创建一个新钱包，然后用自己的钱包给机器人转账，为什么要用机器人是因为机器人能够秒买秒卖，但是有一定安全风险，所以赚多了可以提出来，机器人会告诉你钱包的公钥和私钥，你可以把私钥添加到自己的钱包插件中，这样方便后面监控操作。</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114952964-1330364325.jpg" style="zoom:50%;">
+
+<h2 id="4-机器人买卖币系统介绍"><a href="#4-机器人买卖币系统介绍" class="headerlink" title="4.机器人买卖币系统介绍"></a>4.机器人买卖币系统介绍</h2><p>直接给机器人发送代币合约地址即可开始买卖，机器人首先会回复你币种基本信息，然后下面是买卖功能菜单面板。</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115102492-902648871.jpg" style="zoom:50%;">
+
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115135278-892642567.jpg" style="zoom:50%;">
+
+<h2 id="5-机器人自动买卖和自定义按钮介绍"><a href="#5-机器人自动买卖和自定义按钮介绍" class="headerlink" title="5.机器人自动买卖和自定义按钮介绍"></a>5.机器人自动买卖和自定义按钮介绍</h2><p>bot提供了简单的自动买卖功能，以及一个购买数量的快捷按钮设置，一个适合自己的冲土狗数量快捷单位。 自动买卖指给机器让发送合约地址就会自动买卖，可以选开启自动买还是自动卖。</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115226190-537804814.jpg" style="zoom:50%;">
+
+<p>6.机器人交易收益追踪介绍</p>
+<p>在菜单中选择trade就能看最近10笔订单的收益情况，但是图表，蜡烛图才是交易员的归宿，所以可以用下面的网站链接钱包查看。</p>
+<p><a href="https://birdeye.so/token/7mmXL6Et4SbpDs2iXoZQ3oPEeXeAiyETxh1QjDNi5qnV?chain=solana">https://birdeye.so/token/7mmXL6Et4SbpDs2iXoZQ3oPEeXeAiyETxh1QjDNi5qnV?chain=solana</a></p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115426681-390263752.jpg" style="zoom:50%;">
+
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115606171-455902962.jpg"></p>
+<blockquote>
+<p>机器人链接：<a href="https://t.me/SolanaTradingBot?start=FBcf8IMCf">https://t.me/SolanaTradingBot?start=FBcf8IMCf</a></p>
+<p>原文链接：<a href="https://x.com/Onefly_eth/status/1738755042335985853?s=20">https://x.com/Onefly_eth/status/1738755042335985853?s=20</a></p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>电子书</category>
+        <category>技术教程</category>
       </categories>
       <tags>
-        <tag>电子书</tag>
-        <tag>经管</tag>
+        <tag>web3</tag>
+        <tag>bot</tag>
+        <tag>sol</tag>
       </tags>
   </entry>
   <entry>
     <title>Awesome Free ChatGPT | 免费chatgpt镜像国内免翻无需科学上网</title>
-    <url>/posts/23702.html</url>
+    <url>/2023/07/02/Awesome-Free-ChatGPT%20%E5%85%8D%E8%B4%B9chatgpt%E9%95%9C%E5%83%8F%E5%9B%BD%E5%86%85%E5%85%8D%E7%BF%BB%E6%97%A0%E9%9C%80%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
     <content><![CDATA[<p>🎁 免费的 ChatGPT (<a href="https://chat.openai.com/">https://chat.openai.com/</a>) 镜像网站列表，以及更多免费资源，持续更新。</p>
 <p>此处列出的网站均来源于互联网，请注意不要在这些网站上输入任何个人敏感信息。</p>
 <p>💬 ChatGPT 镜像列表</p>
@@ -2503,8 +2438,122 @@
       </tags>
   </entry>
   <entry>
+    <title>Z-Lib 安卓app | Zlibrary永久有效的电子书库 无视网站迁移</title>
+    <url>/2023/07/03/Z-Lib-%E5%AE%89%E5%8D%93app%20Zlibrary%E6%B0%B8%E4%B9%85%E6%9C%89%E6%95%88%E7%9A%84%E7%94%B5%E5%AD%90%E4%B9%A6%E5%BA%93-%E6%97%A0%E8%A7%86%E7%BD%91%E7%AB%99%E8%BF%81%E7%A7%BB/</url>
+    <content><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p>软件名称： <strong>Z-lib</strong></p>
+<p>软件大小：31 MB</p>
+<p>安装环境： 安卓</p>
+<p>下载链接： <a href="https://wwke.lanzoub.com/iJp5F10zzc1a">Z-lib.apk - 蓝奏云 (lanzoub.com)</a></p>
+<p>软件介绍：Z-Library安卓应用是一个知识爱好者的宝藏，它使用户可以随时随地获取到大量的电子书和学术文章。这款应用来源于Z-Library（z-lib.org），这是一个拥有超过5百万本电子书和7,700万篇科学文章的在线资源库，致力于为全球用户提供全面而高质量的知识资料。Z-Library安卓应用继承了其网页版的主要特点，拥有强大的搜索功能，用户可以通过书名、作者名、ISBN或者关键词进行查找，为读者带来便捷的阅读体验。（甚至连<u>顶尖考研</u>最新的考研扫描书都能搜到）。</p>
+<h2 id="心得体会"><a href="#心得体会" class="headerlink" title="心得体会"></a>心得体会</h2><p>Zlibrary的网站会经常换，但app是一直有效的。</p>
+<p>Zlibrary有很多国产盗版网站，不充值一本书都不能下（如果支持支付宝，微信支付开会员大概率是盗版网站）。</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230702000731385-1763095700.png"></p>
+<p>Z-lib每天能免费下10本书，不需要开会员，app没有广告。</p>
+<p>当然这是一个正版官网：<a href="https://zh.zlibrary-ar.se/">https://zh.zlibrary-ar.se/</a></p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230702001402038-1506176577.png"></p>
+<h2 id="官网下载地址：博客：Z-库桌面启动器"><a href="#官网下载地址：博客：Z-库桌面启动器" class="headerlink" title="官网下载地址：博客：Z 库桌面启动器"></a>官网下载地址：<a href="https://zh.zlibrary-ar.se/blog/44">博客：Z 库桌面启动器</a></h2><p>我们的团队继续努力改善我们库的可访问性，我们现在想介绍适用于 Windows、macOS 和 Linux 的桌面启动器的 alpha 版本。此启动器将为您省去搜索工作网站链接的麻烦，因为它将为您处理所有事情。此外，该应用程序可以通过 TOR 网络运行，因此您将始终能够在保持隐私的同时使用该库。作为一个小奖励，<strong>所有通过桌面应用程序访问库的用户都将获得一个月的高级会员资格和双倍的每日下载限制</strong>（从第一次应用程序启动开始）！</p>
+<p>请注意，由于这是alpha版本，该应用程序可能无法在您的计算机上运行。如果您遇到任何问题，请随时联系我们<a href="mailto:support@z-lib.se">的支持团队 support@z-lib.se</a>，我们将为您提供帮助。</p>
+<p>⚠️ 首次启动应用程序时，您可能会遇到有关未经验证的开发人员的警告消息。这是意料之中的，因为我们在这些平台上还没有开发者帐户。</p>
+<p><img src="https://zh.zlibrary-ar.se/img/z-access/windows.svg"></p>
+<p>Windows 120 MB：<a href="https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.exe">https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.exe</a></p>
+<p><img src="https://zh.zlibrary-ar.se/img/z-access/macos.svg"></p>
+<p>Mac OS 119 MB：<a href="https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.dmg">https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.dmg</a></p>
+<p><img src="https://zh.zlibrary-ar.se/img/z-access/linux.svg"></p>
+<p>Linux 89 MB：<a href="https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.deb">https://zh.zlibrary-ar.se/soft/zlibrary-setup-latest.deb</a></p>
+<h3 id="新版本的安卓应用程序"><a href="#新版本的安卓应用程序" class="headerlink" title="新版本的安卓应用程序"></a>新版本的安卓应用程序</h3><p>除了桌面启动器之外，我们还发布了新版本的Android应用程序。我们提高了应用程序的稳定性，增加了通过 TOR 网络的操作，并引入了多种授权方法（使用 QR 码或 Z-Access 页面上的令牌）。我们建议在安装新版本之前卸载旧版本的应用程序。</p>
+<p><img src="https://zh.zlibrary-ar.se/img/z-access/android.svg"></p>
+<p>安卓 APK：<a href="https://go-to-zlibrary.se/soft/zlibrary-app-latest.apk">https://go-to-zlibrary.se/soft/zlibrary-app-latest.apk</a></p>
+<h3 id="“共享”按钮"><a href="#“共享”按钮" class="headerlink" title="“共享”按钮"></a>“共享”按钮</h3><p>您可能注意到网站上出现了分享按钮，使您可以更轻松地在社交媒体上与朋友分享 Z-Library。随意使用它们！</p>
+<p>每个在其公共博客、频道或社交媒体帐户（必须可公开访问）上分享 Z-Library 链接并 <a href="mailto:support@z-lib.se">support@z-lib.se</a> 该帖子的链接发送给我们的人，都将<strong>获得 1 个月的高级会员身份</strong>。</p>
+<p>如果您还没有听说过，我们有以下新闻帐户：</p>
+<p>乳齿象 - <a href="https://mastodon.social/@Z_Lib_official">https://mastodon.social/@Z_Lib_official</a></p>
+<p>推特 - <a href="https://twitter.com/Z_Lib_official">https://twitter.com/Z_Lib_official</a></p>
+<p>电报 - <a href="https://t.me/zlibrary_official">https://t.me/zlibrary_official</a></p>
+<p>尽管我们是新来的，但我们会逐渐在频道中填充有关图书馆的信息和新闻。加入吧！</p>
+]]></content>
+      <categories>
+        <category>资源分享</category>
+      </categories>
+      <tags>
+        <tag>免费</tag>
+        <tag>电子书</tag>
+        <tag>zlibrary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Typora 1.6.7 安装包下载及安装教程 | typora最新版破解教程</title>
+    <url>/2023/07/01/Typora%201.6.7%E5%AE%89%E8%A3%85%E5%8C%85%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p>软件名称: <strong>Typora 1.6.7 永久激活包</strong></p>
+<p>软件大小: 80.3 MB</p>
+<p>安装环境]: Win11/Win 10/Win 7</p>
+<p>下载链接: <a href="https://wwke.lanzoub.com/i6UZw10z9fde">Typora 1.6.7.zip - 蓝奏云 (lanzoub.com)</a></p>
+<p>软件介绍：Typora是一款简洁的Markdown编辑器,支持即时渲染技术,使用起来也是十分方便。使用Typora可以日常记录笔记,代码学习,界面层级清晰,用于日常工作可以提高效率</p>
+<h2 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h2><p>1.选中下载的安装包，鼠标右键选择解压到“Typora 1.6.7“文件夹</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205504020-1956921260.png"></p>
+<p>2.选中“Typora 1.6.7.exe”鼠标右键选择以管理员身份运行</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205456406-1815227489.png"></p>
+<p>3.点击“Install for all users (recommended)”</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205448052-1527644165.png"></p>
+<p>4.选择安装位置，点击“Next”（建议和我的路径保持一致）</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205440634-269826617.png"></p>
+<p>5.勾选”Create a desktop shortcut”，点击“Next”</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205434094-821299412.png"></p>
+<p>6.点击“Install“</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205421584-1170530835.png"></p>
+<p>7.软件正在安装中，请耐心等待安装完成</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205407822-1415242824.png"></p>
+<p>8.取消勾选“Launch Typora“，点击“Finish“</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205403222-1532128650.png"></p>
+<p>9打开安装包，复制“winmm.dll”文件</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205358091-1872128224.png"></p>
+<p>10.鼠标放在软件上，鼠标右键点击“打开文件所在位置”</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205352329-549941236.png"></p>
+<p>11.鼠标放在空白处右键“粘贴”</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205348297-967587077.png"></p>
+<p>12.双击打开软件</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205343398-579212640.png"></p>
+<p>13.激活成功</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205336294-786732545.png"></p>
+<p>14.软件安装完成</p>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202307/2910984-20230701205327655-1547912110.png"></p>
+]]></content>
+      <categories>
+        <category>资源分享</category>
+      </categories>
+      <tags>
+        <tag>typora</tag>
+        <tag>markdown</tag>
+        <tag>破解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个100%立即获得New bing资格的方法教程-点击就送bing chat</title>
+    <url>/2023/03/20/%E4%B8%80%E4%B8%AA100%25%E7%AB%8B%E5%8D%B3%E8%8E%B7%E5%BE%97New%20bing%E8%B5%84%E6%A0%BC%E7%9A%84%E6%96%B9%E6%B3%95%E6%95%99%E7%A8%8B-%E7%82%B9%E5%87%BB%E5%B0%B1%E9%80%81bing%20chat/</url>
+    <content><![CDATA[<p>之前加入waitlist的账号一个多月过去了还没有任何反应，但是身边朋友却“点击就送”？</p>
+<p>深入调查后发现原来是IP的影响，相信说到这里就已经有人知道该怎么做了</p>
+<p>方法：</p>
+<ol>
+<li>将节点IP更换为日本全局（不会换ip的看这个<a href="https://blog.onefly.top/posts/16888.html">简易教程</a>)</li>
+</ol>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230312113249267-1194007670.png"></p>
+<ol start="2">
+<li>进入new bing 申请网站点击立即加入</li>
+</ol>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230312113536042-1695660571.png"></p>
+<p>之后就可以直接在bing搜索中开启聊天了<br><a href="https://www.bing.com/?/ai">https://www.bing.com/?/ai</a><br>其他建议：先退账号，删除注册表，vpn登录国外邮箱，现在秒成功<br>其他方案：<a href="https://mp.weixin.qq.com/s/MW7hdkhfixveEr48UUd16A">https://mp.weixin.qq.com/s/MW7hdkhfixveEr48UUd16A</a></p>
+]]></content>
+      <categories>
+        <category>前沿技术</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>技术分享</tag>
+        <tag>人工智能</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我们应该为Copilot X 的到来做好什么准备？</title>
-    <url>/posts/16892.html</url>
+    <url>/2023/03/26/%E6%88%91%E4%BB%AC%E5%BA%94%E8%AF%A5%E4%B8%BACopilot%20X%20%E7%9A%84%E5%88%B0%E6%9D%A5%E5%81%9A%E5%A5%BD%E4%BB%80%E4%B9%88%E5%87%86%E5%A4%87%EF%BC%9F/</url>
     <content><![CDATA[<h1 id="申请github-copilot学生认证以及Jetbrain专业版学生教育免费教程-申请加入Copilot-X-Waitlist"><a href="#申请github-copilot学生认证以及Jetbrain专业版学生教育免费教程-申请加入Copilot-X-Waitlist" class="headerlink" title="申请github copilot学生认证以及Jetbrain专业版学生教育免费教程+申请加入Copilot X Waitlist."></a>申请github copilot学生认证以及Jetbrain专业版学生教育免费教程+申请加入Copilot X Waitlist.</h1><h2 id="教程概览"><a href="#教程概览" class="headerlink" title="教程概览"></a>教程概览</h2><p>1.学信网下载学籍认证pdf</p>
 <p>2.acrobat修改部分中文为英文</p>
 <p>3.修改github profile更改个人真实信息</p>
@@ -2570,8 +2619,29 @@
       </tags>
   </entry>
   <entry>
+    <title>投资学博迪第十版.pdf下载</title>
+    <url>/2022/09/14/%E6%8A%95%E8%B5%84%E5%AD%A6%E5%8D%9A%E8%BF%AA%E7%AC%AC%E5%8D%81%E7%89%88.pdf%E4%B8%8B%E8%BD%BD/</url>
+    <content><![CDATA[<p>作者：（美）滋维&amp;middot;博迪（Zvi Bodie）,（美）亚历克斯&amp;middot;凯恩（Alex Kane）,（美）艾伦J.马库斯（Alan J.Marcus）</p>
+<p>出版社：<a href="http://www.txtepub.com/tag/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE">机械工业出版社</a></p>
+格式: PDF
+
+<p>封面：</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083837829-995145796.png"></p>
+<p>下载链接：扫描下方<u>二维码</u>关注<code>公众号</code>并回复<code>投资学</code>免费下载</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221014121626471-157482862.png"></p>
+<p>资源来自于互联网，如分享有损你的权益，请联系我删除！</p>
+]]></content>
+      <categories>
+        <category>电子书</category>
+      </categories>
+      <tags>
+        <tag>电子书</tag>
+        <tag>经管</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>抖音快手粉丝|百度网盘SVIP|各大视频会员|苹果ID|推特粉丝|WPS会员</title>
-    <url>/posts/23711.html</url>
+    <url>/2023/07/11/%E6%8A%96%E9%9F%B3%E5%BF%AB%E6%89%8B%E7%B2%89%E4%B8%9D%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98SVIP%E5%90%84%E5%A4%A7%E8%A7%86%E9%A2%91%E4%BC%9A%E5%91%98%E8%8B%B9%E6%9E%9CID%E6%8E%A8%E7%89%B9%E7%B2%89%E4%B8%9DWPS%E4%BC%9A%E5%91%98/</url>
     <content><![CDATA[<p>给大家介绍一个<strong>低价会员租号网站</strong>：</p>
 <p><strong><a href="https://shop.onefly.top/">https://shop.onefly.top</a></strong></p>
 <p><strong><a href="https://hy.huoyuan.cf/a/b/c///">https://hy.huoyuan.cf/a/b/c///</a></strong></p>
@@ -3051,7 +3121,7 @@
   </entry>
   <entry>
     <title>第一行代码Android（第3版）pdf</title>
-    <url>/posts/43427.html</url>
+    <url>/2022/09/14/%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81Android%E7%AC%AC%E4%B8%89%E7%89%88/</url>
     <content><![CDATA[<p>2020年人民邮电出版社出版的图书<br>《第一行代码Android（第3版）》是2020年4月人民邮电出版社出版的图书，作者是郭霖。</p>
 <p>封面：<br><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083910008-28177591.png"></p>
 <p>内容简介：<br>《第一行代码 Android 第3版》被Android开发者誉为“Android学习第一书”。全书系统全面、循序渐进地介绍了Android软件开发的必备知识、经验和技巧。<br>《第一行代码 Android 第3版》基于Android 10.0对第2版进行了全面更新，不仅将所有知识点都在Android 10.0系统上进行了重新适配，同时加入Kotlin语言的全面讲解，使用Kotlin对全书代码进行重写，而且还介绍了最新系统特性以及Jetpack架构组件的使用，使本书更加实用。<br>《第一行代码 Android 第3版》内容通俗易懂，由浅入深，既是Android初学者的入门必备，也是Android开发者的进阶首选。 </p>
@@ -3068,7 +3138,7 @@
   </entry>
   <entry>
     <title>Python数据分析教程（一）：Numpy</title>
-    <url>/posts/13140.html</url>
+    <url>/2022/09/20/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%95%99%E5%AD%A6/</url>
     <content><![CDATA[<h2 id="数据的纬度"><a href="#数据的纬度" class="headerlink" title="数据的纬度"></a>数据的纬度</h2><p>一维数据：列表和集合类型</p>
 <p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920000249971-1418691440.png"></p>
 <p>二维数据：列表类型</p>
@@ -3099,7 +3169,7 @@
 </li>
 </ul>
 <p><strong>模块导入：</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> numpy <span class="token keyword">as</span> np<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br></pre></td></tr></tbody></table></figure>
 
 <h3 id="N维数组对象：ndarray"><a href="#N维数组对象：ndarray" class="headerlink" title="N维数组对象：ndarray"></a><strong>N维数组对象：ndarray</strong></h3><ul>
 <li><p>数组对象可以去掉元素间运算所需的循环，使一维向量更像单个数据</p>
@@ -3119,12 +3189,7 @@
 <li>ndarray数组一般要求所有元素类型相同（同质），数组下标从0开始</li>
 </ul>
 <p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920001543215-76244284.png"></p>
-<h3 id="ndarray对象的属性"><a href="#ndarray对象的属性" class="headerlink" title="ndarray对象的属性"></a><strong>ndarray对象的属性</strong></h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#属性&amp;说明</span>
-<span class="token punctuation">.</span>ndim <span class="token comment">#秩，即轴的数量或维度的数量</span>
-<span class="token punctuation">.</span>shape <span class="token comment">#ndarray对象的尺度，对于矩阵，n行m列</span>
-<span class="token punctuation">.</span>size <span class="token comment">#ndarray对象元素的个数，相当于.shape中n*m的值</span>
-<span class="token punctuation">.</span>dtype <span class="token comment">#ndarray对象的元素类型</span>
-<span class="token punctuation">.</span>itemsize <span class="token comment">#ndarray对象中每个元素的大小，以字节为单位</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="ndarray对象的属性"><a href="#ndarray对象的属性" class="headerlink" title="ndarray对象的属性"></a><strong>ndarray对象的属性</strong></h3><figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">#属性&amp;说明</span></span><br><span class="line">.ndim <span class="comment">#秩，即轴的数量或维度的数量</span></span><br><span class="line">.shape <span class="comment">#ndarray对象的尺度，对于矩阵，n行m列</span></span><br><span class="line">.size <span class="comment">#ndarray对象元素的个数，相当于.shape中n*m的值</span></span><br><span class="line">.dtype <span class="comment">#ndarray对象的元素类型</span></span><br><span class="line">.itemsize <span class="comment">#ndarray对象中每个元素的大小，以字节为单位</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002133785-897537873.png"></p>
 <h4 id="ndarray的元素类型"><a href="#ndarray的元素类型" class="headerlink" title="ndarray的元素类型"></a><strong>ndarray的元素类型</strong></h4><p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002045637-1873947497.png"></p>
@@ -3138,20 +3203,11 @@
 <p><strong>通过列表创建ndarray:</strong></p>
 <p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002306999-2099371921.png"></p>
 <p><strong>使用函数创建ndarray:</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span>n<span class="token punctuation">)</span> <span class="token comment">#类似range()函数，返回ndarray类型，元素从0到n-1</span>
-np<span class="token punctuation">.</span>ones<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shapes生成一个全l数组，shape是元组类型</span>
-np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shape生成一个全数组，shape是元组类型</span>
-np<span class="token punctuation">.</span>full<span class="token punctuation">(</span>shape<span class="token punctuation">,</span>val<span class="token punctuation">)</span> <span class="token comment">#根据shape:生成一个数组，每个元素值都是val</span>
-np<span class="token punctuation">.</span>eye<span class="token punctuation">(</span>n<span class="token punctuation">)</span> <span class="token comment">#创建一个正方的n*n单位矩阵，对角线为1，其余为0</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">#函数&amp;说明</span></span><br><span class="line">np.arange(n) <span class="comment">#类似range()函数，返回ndarray类型，元素从0到n-1</span></span><br><span class="line">np.ones(shape) <span class="comment">#根据shapes生成一个全l数组，shape是元组类型</span></span><br><span class="line">np.zeros(shape) <span class="comment">#根据shape生成一个全数组，shape是元组类型</span></span><br><span class="line">np.full(shape,val) <span class="comment">#根据shape:生成一个数组，每个元素值都是val</span></span><br><span class="line">np.eye(n) <span class="comment">#创建一个正方的n*n单位矩阵，对角线为1，其余为0</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p><strong>ndarray数组的变换:</strong></p>
 <p>对于创建后的ndarray数组，可以对其进行维度变换和元素类型变换</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#方法&amp;说明</span>
-<span class="token punctuation">.</span>reshape<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#不改变数组元素，返回一个shape形状的数组，原数组不变</span>
-<span class="token punctuation">.</span>resize<span class="token punctuation">(</span>shape<span class="token punctuation">)</span> <span class="token comment">#与.reshape()功能一致，但修改原数组</span>
-<span class="token punctuation">.</span>swapaxes<span class="token punctuation">(</span>ax1<span class="token punctuation">,</span>ax2<span class="token punctuation">)</span> <span class="token comment">#将数组n个维度中两个维度进行调换</span>
-<span class="token punctuation">.</span>flatten<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#对数组进行降维，返回折叠后的一维数组，原数组不变</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">#方法&amp;说明</span></span><br><span class="line">.reshape(shape) <span class="comment">#不改变数组元素，返回一个shape形状的数组，原数组不变</span></span><br><span class="line">.resize(shape) <span class="comment">#与.reshape()功能一致，但修改原数组</span></span><br><span class="line">.swapaxes(ax1,ax2) <span class="comment">#将数组n个维度中两个维度进行调换</span></span><br><span class="line">.flatten() <span class="comment">#对数组进行降维，返回折叠后的一维数组，原数组不变</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920002943743-1325252769.png"></p>
 <p><strong>数组的索引和切片</strong></p>
@@ -3166,39 +3222,15 @@ np<span class="token punctuation">.</span>eye<span class="token punctuation">(</
 <p>多维数组切片</p>
 <p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920003159689-806595432.png"></p>
 <h3 id="ndarray数组的运算"><a href="#ndarray数组的运算" class="headerlink" title="ndarray数组的运算"></a><strong>ndarray数组的运算</strong></h3><p><strong>NumPy一元函数:</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-np<span class="token punctuation">.</span><span class="token builtin">abs</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fabs<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的绝对值</span>
-np<span class="token punctuation">.</span>sqrt<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的平方根</span>
-np<span class="token punctuation">.</span>square<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的平方</span>
-np<span class="token punctuation">.</span>log<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>1og10<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>1og2<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的自然对数、10底对数和2底对数</span>
-np<span class="token punctuation">.</span>ceil<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>floor<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的ceiling值或f1oor值</span>
-np<span class="token punctuation">.</span>rint<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的四舍五入值</span>
-np<span class="token punctuation">.</span>modf<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#将数组各元素的小数和整数部分以两个独立数组形式返回</span>
-np<span class="token punctuation">.</span>cos<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>cosh<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>sin<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>sinh<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的普通型和双曲型三角函数</span>
-np<span class="token punctuation">.</span>tan<span class="token punctuation">(</span>x<span class="token punctuation">)</span>np<span class="token punctuation">.</span>tanh<span class="token punctuation">(</span>x<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>exp<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的指数值</span>
-np<span class="token punctuation">.</span>sign<span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token comment">#计算数组各元素的符号值，1(+)，0，-1(-)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">#函数&amp;说明</span></span><br><span class="line">np.<span class="built_in">abs</span>(x)</span><br><span class="line">np.fabs(x)<span class="comment">#计算数组各元素的绝对值</span></span><br><span class="line">np.sqrt(x)<span class="comment">#计算数组各元素的平方根</span></span><br><span class="line">np.square(x)<span class="comment">#计算数组各元素的平方</span></span><br><span class="line">np.log(x)</span><br><span class="line">np<span class="number">.1</span>og10(x)</span><br><span class="line">np<span class="number">.1</span>og2(x)<span class="comment">#计算数组各元素的自然对数、10底对数和2底对数</span></span><br><span class="line">np.ceil(x)</span><br><span class="line">np.floor(x)<span class="comment">#计算数组各元素的ceiling值或f1oor值</span></span><br><span class="line">np.rint(x)<span class="comment">#计算数组各元素的四舍五入值</span></span><br><span class="line">np.modf(x)<span class="comment">#将数组各元素的小数和整数部分以两个独立数组形式返回</span></span><br><span class="line">np.cos(x)np.cosh(x)</span><br><span class="line">np.sin(x)np.sinh(x)<span class="comment">#计算数组各元素的普通型和双曲型三角函数</span></span><br><span class="line">np.tan(x)np.tanh(x)</span><br><span class="line">np.exp(x)<span class="comment">#计算数组各元素的指数值</span></span><br><span class="line">np.sign(x)<span class="comment">#计算数组各元素的符号值，1(+)，0，-1(-)</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p><strong>NumPy二元函数:</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-<span class="token operator">+</span> <span class="token operator">-</span> <span class="token operator">*</span> <span class="token operator">/</span> <span class="token operator">**</span> <span class="token comment">#两个数组各元素进行对应运算</span>
-np<span class="token punctuation">.</span>maximum<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fmax<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>minimum<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fmin<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">#元素级的最大值/最小值计算</span>
-np<span class="token punctuation">.</span>mod<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span> <span class="token comment">#元素级的模运算</span>
-np<span class="token punctuation">.</span>copysign<span class="token punctuation">(</span>x<span class="token punctuation">,</span>y<span class="token punctuation">)</span> <span class="token comment">#将数组y中各元素值的符号赋值给数组x对应元素</span>
-<span class="token operator">&gt;</span><span class="token operator">&lt;</span> <span class="token operator">&gt;=</span> <span class="token operator">&lt;=</span> <span class="token operator">==</span> <span class="token operator">!=</span> <span class="token comment">#算术比较，产生布尔型数组</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">#函数&amp;说明</span></span><br><span class="line">+ - * / ** <span class="comment">#两个数组各元素进行对应运算</span></span><br><span class="line">np.maximum(x,y)</span><br><span class="line">np.fmax()</span><br><span class="line">np.minimum(x,y)</span><br><span class="line">np.fmin() <span class="comment">#元素级的最大值/最小值计算</span></span><br><span class="line">np.mod(x,y) <span class="comment">#元素级的模运算</span></span><br><span class="line">np.copysign(x,y) <span class="comment">#将数组y中各元素值的符号赋值给数组x对应元素</span></span><br><span class="line">&gt;&lt; &gt;= &lt;= == != <span class="comment">#算术比较，产生布尔型数组</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p><strong>Numpy数据存取:</strong></p>
 <p>csv格式:</p>
 <p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920004240502-1839875867.png"></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>savetxt<span class="token punctuation">(</span>frame<span class="token punctuation">,</span>array<span class="token punctuation">,</span>fmt<span class="token operator">=</span><span class="token string">'%.18e'</span><span class="token punctuation">,</span>delimiter<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">np.savetxt(frame,array,fmt=<span class="string">'%.18e'</span>,delimiter=<span class="literal">None</span>)</span><br></pre></td></tr></tbody></table></figure>
 
 <ul>
 <li>frame：文件、字符串或产生器，可以是.gz或.bz2的压缩文件</li>
@@ -3207,8 +3239,7 @@ np<span class="token punctuation">.</span>copysign<span class="token punctuation
 <li>delimiter:分割字符串，默认是任何空格</li>
 </ul>
 <p>其他：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>loadtxt<span class="token punctuation">(</span>frame<span class="token punctuation">,</span>dtype<span class="token operator">=</span>np<span class="token punctuation">.</span><span class="token builtin">float</span><span class="token punctuation">,</span>delimiter<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span>
-unpack<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">np.loadtxt(frame,dtype=np.<span class="built_in">float</span>,delimiter=<span class="literal">None</span>,</span><br><span class="line">unpack=<span class="literal">False</span>)</span><br></pre></td></tr></tbody></table></figure>
 
 <ul>
 <li>frame:文件、字符串或产生器，可以是.gz或.bz2的压缩文件</li>
@@ -3217,40 +3248,17 @@ unpack<span class="token operator">=</span><span class="token boolean">False</sp
 <li>unpack:如果True,读入属性将分别写入不同变量</li>
 </ul>
 <p>其他：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">.</span>tofile<span class="token punctuation">(</span>frame<span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">,</span> <span class="token builtin">format</span><span class="token operator">=</span><span class="token string">'%s'</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fromfile<span class="token punctuation">(</span>frame<span class="token punctuation">,</span> dtype<span class="token operator">=</span><span class="token builtin">float</span><span class="token punctuation">,</span> count<span class="token operator">=</span>‐<span class="token number">1</span><span class="token punctuation">,</span> sep<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">a.tofile(frame, sep=<span class="string">''</span>, <span class="built_in">format</span>=<span class="string">'%s'</span>)</span><br><span class="line">np.fromfile(frame, dtype=<span class="built_in">float</span>, count=‐<span class="number">1</span>, sep=<span class="string">''</span>)</span><br></pre></td></tr></tbody></table></figure>
 
 <p><strong>numpy随机数函数子库:</strong></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span><span class="token operator">*</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">np.random.*</span><br></pre></td></tr></tbody></table></figure>
 
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-rand<span class="token punctuation">(</span>d0<span class="token punctuation">,</span>d1<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span>dn<span class="token punctuation">)</span> <span class="token comment">#根据d0-dn创建随机数数组，浮点数，[0,1)，均匀分布</span>
-randn<span class="token punctuation">(</span>d0<span class="token punctuation">,</span>d1<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span>dn<span class="token punctuation">)</span> <span class="token comment">#根据d0-dn创建随机数数组，标准正态分布</span>
-randint<span class="token punctuation">(</span>low<span class="token punctuation">[</span><span class="token punctuation">,</span>high<span class="token punctuation">,</span>shape<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#根据shapet创建随机整数或整数数组，范围是[low,high)</span>
-seed<span class="token punctuation">(</span>s<span class="token punctuation">)</span> <span class="token comment">#随机数种子，s是给定的种子值</span>
-shuffle<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#根据数组a的第1轴进行随排列，改变数组×</span>
-permutation<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#根据数组a的第1轴产生一个新的乱序数组，不改变数组x</span>
-choice<span class="token punctuation">(</span>a<span class="token punctuation">[</span><span class="token punctuation">,</span>size<span class="token punctuation">,</span>replace<span class="token punctuation">,</span>p<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">#从一维数组a中以概率p抽取元素，形成size形状新数组 replace表示是否可以重用元素，默认为False</span>
-uniform<span class="token punctuation">(</span>low<span class="token punctuation">,</span>high<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有均匀分布的数组，low起始值，high结束值，size形状</span>
-normal<span class="token punctuation">(</span>loc<span class="token punctuation">,</span>scale<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有正态分布的数组，loc均值，scale标准差，size形状</span>
-poisson<span class="token punctuation">(</span>lam<span class="token punctuation">,</span>size<span class="token punctuation">)</span> <span class="token comment">#产生具有泊松分布的数组，lam随机事件发生率，size形状</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">#函数&amp;说明</span></span><br><span class="line">rand(d0,d1,..,dn) <span class="comment">#根据d0-dn创建随机数数组，浮点数，[0,1)，均匀分布</span></span><br><span class="line">randn(d0,d1,..,dn) <span class="comment">#根据d0-dn创建随机数数组，标准正态分布</span></span><br><span class="line">randint(low[,high,shape]) <span class="comment">#根据shapet创建随机整数或整数数组，范围是[low,high)</span></span><br><span class="line">seed(s) <span class="comment">#随机数种子，s是给定的种子值</span></span><br><span class="line">shuffle(a) <span class="comment">#根据数组a的第1轴进行随排列，改变数组×</span></span><br><span class="line">permutation(a) <span class="comment">#根据数组a的第1轴产生一个新的乱序数组，不改变数组x</span></span><br><span class="line">choice(a[,size,replace,p]) <span class="comment">#从一维数组a中以概率p抽取元素，形成size形状新数组 replace表示是否可以重用元素，默认为False</span></span><br><span class="line">uniform(low,high,size) <span class="comment">#产生具有均匀分布的数组，low起始值，high结束值，size形状</span></span><br><span class="line">normal(loc,scale,size) <span class="comment">#产生具有正态分布的数组，loc均值，scale标准差，size形状</span></span><br><span class="line">poisson(lam,size) <span class="comment">#产生具有泊松分布的数组，lam随机事件发生率，size形状</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p><strong>numpy统计函数:</strong></p>
-<pre class="line-numbers language-none"><code class="language-none">np.*<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">np.*</span><br></pre></td></tr></tbody></table></figure>
 
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#函数&amp;说明</span>
-<span class="token builtin">sum</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素之和，axis整数或元组</span>
-mean<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的期望，axis整数或元组</span>
-average<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">,</span>weights<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的加权平均值</span>
-std<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的标准差</span>
-var<span class="token punctuation">(</span>a<span class="token punctuation">,</span>axis<span class="token operator">=</span><span class="token boolean">None</span><span class="token punctuation">)</span> <span class="token comment">#根据给定轴axis计算数组a相关元素的方差</span>
-<span class="token builtin">min</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>
-<span class="token builtin">max</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素的最小值、最大值</span>
-argmin<span class="token punctuation">(</span>a<span class="token punctuation">)</span>
-argmax<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素最小值、最大值的降一维后下标</span>
-unravel_index<span class="token punctuation">(</span>index<span class="token punctuation">,</span>shape<span class="token punctuation">)</span> <span class="token comment">#根据shape?将一维下标index转换成多维下标</span>
-ptp<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素最大值与最小值的差</span>
-median<span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">#计算数组a中元素的中位数（中值）</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">#函数&amp;说明</span></span><br><span class="line"><span class="built_in">sum</span>(a,axis=<span class="literal">None</span>) <span class="comment">#根据给定轴axis计算数组a相关元素之和，axis整数或元组</span></span><br><span class="line">mean(a,axis=<span class="literal">None</span>) <span class="comment">#根据给定轴axis计算数组a相关元素的期望，axis整数或元组</span></span><br><span class="line">average(a,axis=<span class="literal">None</span>,weights=<span class="literal">None</span>) <span class="comment">#根据给定轴axis计算数组a相关元素的加权平均值</span></span><br><span class="line">std(a,axis=<span class="literal">None</span>) <span class="comment">#根据给定轴axis计算数组a相关元素的标准差</span></span><br><span class="line">var(a,axis=<span class="literal">None</span>) <span class="comment">#根据给定轴axis计算数组a相关元素的方差</span></span><br><span class="line"><span class="built_in">min</span>(a)</span><br><span class="line"><span class="built_in">max</span>(a) <span class="comment">#计算数组a中元素的最小值、最大值</span></span><br><span class="line">argmin(a)</span><br><span class="line">argmax(a) <span class="comment">#计算数组a中元素最小值、最大值的降一维后下标</span></span><br><span class="line">unravel_index(index,shape) <span class="comment">#根据shape?将一维下标index转换成多维下标</span></span><br><span class="line">ptp(a) <span class="comment">#计算数组a中元素最大值与最小值的差</span></span><br><span class="line">median(a) <span class="comment">#计算数组a中元素的中位数（中值）</span></span><br></pre></td></tr></tbody></table></figure>
 
 <p><strong>numpy替换函数:</strong></p>
 <ul>
@@ -3259,24 +3267,13 @@ median<span class="token punctuation">(</span>a<span class="token punctuation">)
 </ul>
 <p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920005642662-1268532120.png"></p>
 <h3 id="numpy数据存取与函数"><a href="#numpy数据存取与函数" class="headerlink" title="numpy数据存取与函数**"></a><strong>numpy</strong>数据存取与函数**</h3><p>CSV文件</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>loadtxt<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>savetxt<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">np.loadtxt()</span><br><span class="line">np.savetxt()</span><br></pre></td></tr></tbody></table></figure>
 
 <p>多维数据存取</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">a<span class="token punctuation">.</span>tofile<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>fromfile<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>save<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>savez<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>load<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">a.tofile()</span><br><span class="line">np.fromfile()</span><br><span class="line">np.save()</span><br><span class="line">np.savez()</span><br><span class="line">np.load()</span><br></pre></td></tr></tbody></table></figure>
 
 <p>随机函数</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>rand<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randn<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>seed<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>shuffle<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>permutation<span class="token punctuation">(</span><span class="token punctuation">)</span>
-np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>choice<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">np.random.rand()</span><br><span class="line">np.random.randn()</span><br><span class="line">np.random.randint()</span><br><span class="line">np.random.seed()</span><br><span class="line">np.random.shuffle()</span><br><span class="line">np.random.permutation()</span><br><span class="line">np.random.choice()</span><br></pre></td></tr></tbody></table></figure>
 
 ]]></content>
       <categories>
@@ -3286,31 +3283,6 @@ np<span class="token punctuation">.</span>random<span class="token punctuation">
         <tag>python</tag>
         <tag>数据分析</tag>
         <tag>numpy</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PyCharm专业版最简单的破解教程，永久适用</title>
-    <url>/posts/15000.html</url>
-    <content><![CDATA[<h1 id="PyCharm专业版最简单的破解教程，永久适用"><a href="#PyCharm专业版最简单的破解教程，永久适用" class="headerlink" title="PyCharm专业版最简单的破解教程，永久适用"></a>PyCharm专业版最简单的破解教程，永久适用</h1><h2 id="1-从官网下载PyCharm"><a href="#1-从官网下载PyCharm" class="headerlink" title="1.从官网下载PyCharm"></a>1.从官网下载PyCharm</h2><p>官网的下载速度是很快的！</p>
-<p>PyCharm官网：<a href="https://www.jetbrains.com/pycharm/">PyCharm: the Python IDE for Professional Developers by JetBrains</a></p>
-<p>重点：必须下载2021.2.2及之前的版本，否则只能首次试用30天，之后不可试用（要登录官网账号验证是否试用过）</p>
-<p>下载链接直接放下面了：</p>
-<p>方式一：<strong>直接下载</strong>：<a href="https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1">https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1</a></p>
-<p>方式二：进入下载页面下载：<a href="https://www.jetbrains.com/pycharm/download/other.html">Other Versions - PyCharm (jetbrains.com)</a></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922145852780-920855323.png"></p>
-<h2 id="2-使用脚本清空试用天数续期【无限续期】"><a href="#2-使用脚本清空试用天数续期【无限续期】" class="headerlink" title="2.使用脚本清空试用天数续期【无限续期】"></a>2.使用脚本清空试用天数续期【无限续期】</h2><p>等到过期的时候再使用脚本<code>reset_jetbrains_eval_windows.vbs</code>清空天数就ok</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922150445043-2094612096.png"></p>
-<p>使用方法：双击脚本即可</p>
-<p>另外这个脚本对于所有的<code>JetBrain</code>的产品都是有效的，记住软件版本选择<code>2021.2.2</code>以前的</p>
-<p>脚本下载链接：<a href="https://wwp.lanzoub.com/iQk4t0c5wm7e">https://wwp.lanzoub.com/iQk4t0c5wm7e</a></p>
-]]></content>
-      <categories>
-        <category>破解资源</category>
-      </categories>
-      <tags>
-        <tag>破解软件</tag>
-        <tag>JetBrain</tag>
-        <tag>PyCharm</tag>
       </tags>
   </entry>
 </search>
