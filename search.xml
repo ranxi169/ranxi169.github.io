@@ -148,6 +148,133 @@
       </tags>
   </entry>
   <entry>
+    <title>Github和git使用指南：以PyCharm为例</title>
+    <url>/posts/16889.html</url>
+    <content><![CDATA[<h2 id="登录注册"><a href="#登录注册" class="headerlink" title="登录注册"></a>登录注册</h2><p>github一般在白天是可以直接访问的，不需要挂梯子，晚上一般需要vpn才能打开。</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028220559829-1152733958.png" alt="" style="zoom:80%;">
+
+<p>注册按照引导完成就可以了</p>
+<h2 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h2><p>主页功能和布局</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221006171-743174652.png"></p>
+<h2 id="项目仓库"><a href="#项目仓库" class="headerlink" title="项目仓库"></a>项目仓库</h2><h3 id="仓库视图"><a href="#仓库视图" class="headerlink" title="仓库视图"></a>仓库视图</h3><p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221134829-1693496522.png"></p>
+<h3 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221350538-55724732.png" alt="" style="zoom:67%;">
+
+<h3 id="仓库主页"><a href="#仓库主页" class="headerlink" title="仓库主页"></a>仓库主页</h3><p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221749777-1044325588.png"></p>
+<h3 id="如何克隆项目代码"><a href="#如何克隆项目代码" class="headerlink" title="如何克隆项目代码"></a>如何克隆项目代码</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221857033-1672524206.png" alt="" style="zoom:50%;">
+
+<p>克隆项目代码：</p>
+<blockquote>
+<p>前置条件：安装Git</p>
+</blockquote>
+<p><code>git下载</code>链接：<a href="https://wwp.lanzoub.com/iZj1H0erefja">Git-2.38.1-64-bit.exe - 蓝奏云 (lanzoub.com)</a></p>
+<p> <code>git安装配置</code>教程：<a href="https://blog.csdn.net/mukes/article/details/115693833">Git 详细安装教程（详解 Git 安装过程的每一个步骤）</a></p>
+<p> <code>图解git原理</code>：<a href="http://marklodato.github.io/visual-git-guide/index-zh-cn.html">图解Git (marklodato.github.io)</a></p>
+<p> 进入cmd</p>
+ <img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028222357121-312629687.png" alt="" style="zoom:50%;">
+
+<p> 然后输入<code>git clone 项目地址</code></p>
+ <img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028222449229-753777455.png" alt="" style="zoom:67%;">
+
+<p> <code>上传代码和文件到github</code>参考教程：<a href="https://www.cnblogs.com/ranxi169/p/16717225.html">Git将本地仓库上传到github - 孤飞 - 博客园 (cnblogs.com)</a></p>
+<h2 id="导入项目到IDE"><a href="#导入项目到IDE" class="headerlink" title="导入项目到IDE"></a>导入项目到<strong>IDE</strong></h2><p>以JetBrain的PyCharm为例：</p>
+<h3 id="在起始页面下"><a href="#在起始页面下" class="headerlink" title="在起始页面下"></a>在起始页面下</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029100526155-1605600821.png" alt="" style="zoom:50%;">
+
+<p>填写github仓库地址，然后点击clone</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029100805192-274045963.png" alt="" style="zoom: 50%;">
+
+<h3 id="项目内页"><a href="#项目内页" class="headerlink" title="项目内页"></a>项目内页</h3><p>在<code>VCS</code>-<code>Get from Version Control</code>导入github项目</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029101409506-1968971885.png" alt="" style="zoom:50%;">
+
+<p>下载完项目仓库后会弹出一个对话框，自选</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029101705918-852571062.png" alt="" style="zoom:50%;">
+
+<p>如果初始化或者导入为一个github项目之后就可以使用版本控制工具了</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102213782-1729938436.png" alt="" style="zoom:50%;">
+
+<p>在IDE集成开发环境中就不需要用命令行提交代码了，直接点击就好</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102411820-86730732.png" alt="" style="zoom: 67%;">
+
+<h2 id="关于协作"><a href="#关于协作" class="headerlink" title="关于协作"></a>关于协作</h2><h3 id="添加合作者"><a href="#添加合作者" class="headerlink" title="添加合作者"></a>添加合作者</h3><p>在github打开指定项目进入<code>setting</code></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102623122-291804960.png"></p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102742971-1054957020.png" alt="" style="zoom:80%;">
+
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102834346-1533711273.png" alt="" style="zoom:80%;">
+
+<p>被邀请者需要进入这个github仓库网页【项目仓库主页顶部一行蓝色的邀请函】选择<code>接受邀请</code></p>
+<p>接受邀请后就可以push了</p>
+<p>push之前需要在ide登录自己的github账号</p>
+<p>教程：<a href="https://blog.csdn.net/lxd13699/article/details/80375038">Pycharm+github上传及提交代码_你是太阳暖人心的博客-CSDN博客</a></p>
+<p>也就是File-setting配置git和github账号</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103348325-1377369698.png" alt="" style="zoom: 67%;">
+
+<h3 id="其中git配置"><a href="#其中git配置" class="headerlink" title="其中git配置"></a>其中git配置</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103432765-1705655237.png" alt="" style="zoom:67%;">
+
+<h3 id="其中Github登录"><a href="#其中Github登录" class="headerlink" title="其中Github登录"></a>其中Github登录</h3><p>在github个人主页中选择Setting</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103702211-1141201815.png" alt="" style="zoom: 67%;">
+
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103804838-56805198.png"></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103952162-657527512.png"></p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029104054155-1404753885.png" alt="" style="zoom:80%;">
+
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029104424210-625718386.png"></p>
+<p>在Pycahrm中登录</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103517201-381822925.png" alt="" style="zoom:67%;">
+
+<p>直接点击<code>Generate</code>也可以获取相应权限登Token，而且更快</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202212/2910984-20221221160054524-486268715.png" style="zoom: 67%;">
+
+<h2 id="使用github和git的常见问题"><a href="#使用github和git的常见问题" class="headerlink" title="使用github和git的常见问题"></a>使用github和git的常见问题</h2><h3 id="push失败"><a href="#push失败" class="headerlink" title="push失败"></a>push失败</h3><p>push失败一般是由于github连接超时导致的</p>
+<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029105106245-328292962.png" alt="" style="zoom:67%;">
+
+<p>解决方法有</p>
+<ol>
+<li>关闭重启编辑器ide</li>
+<li>关闭或打开clash代理</li>
+<li>在终端中输入以下代码</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> config <span class="token parameter variable">--global</span> http.sslVerify <span class="token string">"false"</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> https.sslVerify <span class="token string">"false"</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--unset</span> http.proxy 
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--unset</span> https.proxy<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>其实更加有用的解决方案是：</p>
+<p><a href="https://www.cnblogs.com/ranxi169/p/16956050.html">彻底解决github update push超时 - 孤飞 - 博客园 (cnblogs.com)</a></p>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>git</tag>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PyCharm专业版最简单的破解教程，永久适用</title>
+    <url>/posts/15000.html</url>
+    <content><![CDATA[<h1 id="PyCharm专业版最简单的破解教程，永久适用"><a href="#PyCharm专业版最简单的破解教程，永久适用" class="headerlink" title="PyCharm专业版最简单的破解教程，永久适用"></a>PyCharm专业版最简单的破解教程，永久适用</h1><h2 id="1-从官网下载PyCharm"><a href="#1-从官网下载PyCharm" class="headerlink" title="1.从官网下载PyCharm"></a>1.从官网下载PyCharm</h2><p>官网的下载速度是很快的！</p>
+<p>PyCharm官网：<a href="https://www.jetbrains.com/pycharm/">PyCharm: the Python IDE for Professional Developers by JetBrains</a></p>
+<p>重点：必须下载2021.2.2及之前的版本，否则只能首次试用30天，之后不可试用（要登录官网账号验证是否试用过）</p>
+<p>下载链接直接放下面了：</p>
+<p>方式一：<strong>直接下载</strong>：<a href="https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1">https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1</a></p>
+<p>方式二：进入下载页面下载：<a href="https://www.jetbrains.com/pycharm/download/other.html">Other Versions - PyCharm (jetbrains.com)</a></p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922145852780-920855323.png"></p>
+<h2 id="2-使用脚本清空试用天数续期【无限续期】"><a href="#2-使用脚本清空试用天数续期【无限续期】" class="headerlink" title="2.使用脚本清空试用天数续期【无限续期】"></a>2.使用脚本清空试用天数续期【无限续期】</h2><p>等到过期的时候再使用脚本<code>reset_jetbrains_eval_windows.vbs</code>清空天数就ok</p>
+<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922150445043-2094612096.png"></p>
+<p>使用方法：双击脚本即可</p>
+<p>另外这个脚本对于所有的<code>JetBrain</code>的产品都是有效的，记住软件版本选择<code>2021.2.2</code>以前的</p>
+<p>脚本下载链接：<a href="https://wwp.lanzoub.com/iQk4t0c5wm7e">https://wwp.lanzoub.com/iQk4t0c5wm7e</a></p>
+]]></content>
+      <categories>
+        <category>破解资源</category>
+      </categories>
+      <tags>
+        <tag>破解软件</tag>
+        <tag>JetBrain</tag>
+        <tag>PyCharm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Awesome Free ChatGPT | 免费chatgpt镜像国内免翻无需科学上网</title>
     <url>/posts/23702.html</url>
     <content><![CDATA[<p>🎁 免费的 ChatGPT (<a href="https://chat.openai.com/">https://chat.openai.com/</a>) 镜像网站列表，以及更多免费资源，持续更新。</p>
@@ -2107,155 +2234,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Github和git使用指南：以PyCharm为例</title>
-    <url>/posts/16889.html</url>
-    <content><![CDATA[<h2 id="登录注册"><a href="#登录注册" class="headerlink" title="登录注册"></a>登录注册</h2><p>github一般在白天是可以直接访问的，不需要挂梯子，晚上一般需要vpn才能打开。</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028220559829-1152733958.png" alt="" style="zoom:80%;">
-
-<p>注册按照引导完成就可以了</p>
-<h2 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h2><p>主页功能和布局</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221006171-743174652.png"></p>
-<h2 id="项目仓库"><a href="#项目仓库" class="headerlink" title="项目仓库"></a>项目仓库</h2><h3 id="仓库视图"><a href="#仓库视图" class="headerlink" title="仓库视图"></a>仓库视图</h3><p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221134829-1693496522.png"></p>
-<h3 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221350538-55724732.png" alt="" style="zoom:67%;">
-
-<h3 id="仓库主页"><a href="#仓库主页" class="headerlink" title="仓库主页"></a>仓库主页</h3><p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221749777-1044325588.png"></p>
-<h3 id="如何克隆项目代码"><a href="#如何克隆项目代码" class="headerlink" title="如何克隆项目代码"></a>如何克隆项目代码</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028221857033-1672524206.png" alt="" style="zoom:50%;">
-
-<p>克隆项目代码：</p>
-<blockquote>
-<p>前置条件：安装Git</p>
-</blockquote>
-<p><code>git下载</code>链接：<a href="https://wwp.lanzoub.com/iZj1H0erefja">Git-2.38.1-64-bit.exe - 蓝奏云 (lanzoub.com)</a></p>
-<p> <code>git安装配置</code>教程：<a href="https://blog.csdn.net/mukes/article/details/115693833">Git 详细安装教程（详解 Git 安装过程的每一个步骤）</a></p>
-<p> <code>图解git原理</code>：<a href="http://marklodato.github.io/visual-git-guide/index-zh-cn.html">图解Git (marklodato.github.io)</a></p>
-<p> 进入cmd</p>
- <img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028222357121-312629687.png" alt="" style="zoom:50%;">
-
-<p> 然后输入<code>git clone 项目地址</code></p>
- <img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221028222449229-753777455.png" alt="" style="zoom:67%;">
-
-<p> <code>上传代码和文件到github</code>参考教程：<a href="https://www.cnblogs.com/ranxi169/p/16717225.html">Git将本地仓库上传到github - 孤飞 - 博客园 (cnblogs.com)</a></p>
-<h2 id="导入项目到IDE"><a href="#导入项目到IDE" class="headerlink" title="导入项目到IDE"></a>导入项目到<strong>IDE</strong></h2><p>以JetBrain的PyCharm为例：</p>
-<h3 id="在起始页面下"><a href="#在起始页面下" class="headerlink" title="在起始页面下"></a>在起始页面下</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029100526155-1605600821.png" alt="" style="zoom:50%;">
-
-<p>填写github仓库地址，然后点击clone</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029100805192-274045963.png" alt="" style="zoom: 50%;">
-
-<h3 id="项目内页"><a href="#项目内页" class="headerlink" title="项目内页"></a>项目内页</h3><p>在<code>VCS</code>-<code>Get from Version Control</code>导入github项目</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029101409506-1968971885.png" alt="" style="zoom:50%;">
-
-<p>下载完项目仓库后会弹出一个对话框，自选</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029101705918-852571062.png" alt="" style="zoom:50%;">
-
-<p>如果初始化或者导入为一个github项目之后就可以使用版本控制工具了</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102213782-1729938436.png" alt="" style="zoom:50%;">
-
-<p>在IDE集成开发环境中就不需要用命令行提交代码了，直接点击就好</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102411820-86730732.png" alt="" style="zoom: 67%;">
-
-<h2 id="关于协作"><a href="#关于协作" class="headerlink" title="关于协作"></a>关于协作</h2><h3 id="添加合作者"><a href="#添加合作者" class="headerlink" title="添加合作者"></a>添加合作者</h3><p>在github打开指定项目进入<code>setting</code></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102623122-291804960.png"></p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102742971-1054957020.png" alt="" style="zoom:80%;">
-
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029102834346-1533711273.png" alt="" style="zoom:80%;">
-
-<p>被邀请者需要进入这个github仓库网页【项目仓库主页顶部一行蓝色的邀请函】选择<code>接受邀请</code></p>
-<p>接受邀请后就可以push了</p>
-<p>push之前需要在ide登录自己的github账号</p>
-<p>教程：<a href="https://blog.csdn.net/lxd13699/article/details/80375038">Pycharm+github上传及提交代码_你是太阳暖人心的博客-CSDN博客</a></p>
-<p>也就是File-setting配置git和github账号</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103348325-1377369698.png" alt="" style="zoom: 67%;">
-
-<h3 id="其中git配置"><a href="#其中git配置" class="headerlink" title="其中git配置"></a>其中git配置</h3><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103432765-1705655237.png" alt="" style="zoom:67%;">
-
-<h3 id="其中Github登录"><a href="#其中Github登录" class="headerlink" title="其中Github登录"></a>其中Github登录</h3><p>在github个人主页中选择Setting</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103702211-1141201815.png" alt="" style="zoom: 67%;">
-
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103804838-56805198.png"></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103952162-657527512.png"></p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029104054155-1404753885.png" alt="" style="zoom:80%;">
-
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029104424210-625718386.png"></p>
-<p>在Pycahrm中登录</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029103517201-381822925.png" alt="" style="zoom:67%;">
-
-<p>直接点击<code>Generate</code>也可以获取相应权限登Token，而且更快</p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202212/2910984-20221221160054524-486268715.png" style="zoom: 67%;">
-
-<h2 id="使用github和git的常见问题"><a href="#使用github和git的常见问题" class="headerlink" title="使用github和git的常见问题"></a>使用github和git的常见问题</h2><h3 id="push失败"><a href="#push失败" class="headerlink" title="push失败"></a>push失败</h3><p>push失败一般是由于github连接超时导致的</p>
-<img src="https://img2022.cnblogs.com/blog/2910984/202210/2910984-20221029105106245-328292962.png" alt="" style="zoom:67%;">
-
-<p>解决方法有</p>
-<ol>
-<li>关闭重启编辑器ide</li>
-<li>关闭或打开clash代理</li>
-<li>在终端中输入以下代码</li>
-</ol>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> config <span class="token parameter variable">--global</span> http.sslVerify <span class="token string">"false"</span>
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> https.sslVerify <span class="token string">"false"</span>
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--unset</span> http.proxy 
-<span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--unset</span> https.proxy<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>其实更加有用的解决方案是：</p>
-<p><a href="https://www.cnblogs.com/ranxi169/p/16956050.html">彻底解决github update push超时 - 孤飞 - 博客园 (cnblogs.com)</a></p>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>git</tag>
-        <tag>github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Solana土狗交易机器人使用教程【Sol Trading Bot中文教程】</title>
-    <url>/posts/231224.html</url>
-    <content><![CDATA[<p>众所周知，swap工具不仅有滑点，还十分考验手速，慢一点价格又变了，根本不能成功交易，那么有没有一种方法能够丝滑交易呢，那就是交易机器人！</p>
-<p>下面是一篇完整的sol链上交易机器人使用教程【含翻译】： </p>
-<p>【<strong>安全声明</strong>：交易机器人与本人无关，只提供使用教程，使用机器人造成的一切损失自负】</p>
-<h2 id="1-开始使用机器人"><a href="#1-开始使用机器人" class="headerlink" title="1.开始使用机器人"></a>1.开始使用机器人</h2><p>直接点击机器人链接，或在支持跳转telegram的浏览器打开下面的机器人链接，或者复制链接到tg聊天发送给任意对象再点击链接打开。</p>
-<p>机器人链接：<a href="https://t.me/SolanaTradingBot?start=FBcf8IMCf">https://t.me/SolanaTradingBot?start=FBcf8IMCf</a></p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114651851-1104401959.jpg" style="zoom:50%;">
-
-<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114719167-626787221.jpg" style="zoom:50%;">
-
-<h2 id="2-机器人基本菜单介绍"><a href="#2-机器人基本菜单介绍" class="headerlink" title="2.机器人基本菜单介绍"></a>2.机器人基本菜单介绍</h2><p>对应的基本功能见翻译，快捷命令菜单和图中按钮面板一致，不会英文的请熟记以下几个单词，buy是买，sell是卖。</p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114841303-1858318205.jpg" style="zoom:50%;">
-
-<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114858659-1344250239.jpg" style="zoom:50%;">
-
-<h2 id="3-机器人钱包系统介绍"><a href="#3-机器人钱包系统介绍" class="headerlink" title="3.机器人钱包系统介绍"></a>3.机器人钱包系统介绍</h2><p>建议不要告诉机器人自己的私钥，而是创建一个新钱包，然后用自己的钱包给机器人转账，为什么要用机器人是因为机器人能够秒买秒卖，但是有一定安全风险，所以赚多了可以提出来，机器人会告诉你钱包的公钥和私钥，你可以把私钥添加到自己的钱包插件中，这样方便后面监控操作。</p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114952964-1330364325.jpg" style="zoom:50%;">
-
-<h2 id="4-机器人买卖币系统介绍"><a href="#4-机器人买卖币系统介绍" class="headerlink" title="4.机器人买卖币系统介绍"></a>4.机器人买卖币系统介绍</h2><p>直接给机器人发送代币合约地址即可开始买卖，机器人首先会回复你币种基本信息，然后下面是买卖功能菜单面板。</p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115102492-902648871.jpg" style="zoom:50%;">
-
-<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115135278-892642567.jpg" style="zoom:50%;">
-
-<h2 id="5-机器人自动买卖和自定义按钮介绍"><a href="#5-机器人自动买卖和自定义按钮介绍" class="headerlink" title="5.机器人自动买卖和自定义按钮介绍"></a>5.机器人自动买卖和自定义按钮介绍</h2><p>bot提供了简单的自动买卖功能，以及一个购买数量的快捷按钮设置，一个适合自己的冲土狗数量快捷单位。 自动买卖指给机器让发送合约地址就会自动买卖，可以选开启自动买还是自动卖。</p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115226190-537804814.jpg" style="zoom:50%;">
-
-<h2 id="6-机器人交易收益追踪介绍"><a href="#6-机器人交易收益追踪介绍" class="headerlink" title="6.机器人交易收益追踪介绍"></a>6.机器人交易收益追踪介绍</h2><p>在菜单中选择trade就能看最近10笔订单的收益情况，但是图表，蜡烛图才是交易员的归宿，所以可以用下面的网站链接钱包查看。</p>
-<p><a href="https://birdeye.so/token/7mmXL6Et4SbpDs2iXoZQ3oPEeXeAiyETxh1QjDNi5qnV?chain=solana">https://birdeye.so/token/7mmXL6Et4SbpDs2iXoZQ3oPEeXeAiyETxh1QjDNi5qnV?chain=solana</a></p>
-<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115426681-390263752.jpg" style="zoom:50%;">
-
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115606171-455902962.jpg"></p>
-<blockquote>
-<p>机器人链接：<a href="https://t.me/SolanaTradingBot?start=FBcf8IMCf">https://t.me/SolanaTradingBot?start=FBcf8IMCf</a></p>
-<p>原文链接：<a href="https://x.com/Onefly_eth/status/1738755042335985853?s=20">https://x.com/Onefly_eth/status/1738755042335985853?s=20</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>web3</tag>
-        <tag>bot</tag>
-        <tag>sol</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python数据分析教程（二）：Pandas</title>
     <url>/posts/13141.html</url>
     <content><![CDATA[<h2 id="Pandas介绍"><a href="#Pandas介绍" class="headerlink" title="Pandas介绍"></a>Pandas介绍</h2><h3 id="Pandas导入"><a href="#Pandas导入" class="headerlink" title="Pandas导入"></a><strong>Pandas导入</strong></h3><ul>
@@ -2415,31 +2393,6 @@
       </tags>
   </entry>
   <entry>
-    <title>PyCharm专业版最简单的破解教程，永久适用</title>
-    <url>/posts/15000.html</url>
-    <content><![CDATA[<h1 id="PyCharm专业版最简单的破解教程，永久适用"><a href="#PyCharm专业版最简单的破解教程，永久适用" class="headerlink" title="PyCharm专业版最简单的破解教程，永久适用"></a>PyCharm专业版最简单的破解教程，永久适用</h1><h2 id="1-从官网下载PyCharm"><a href="#1-从官网下载PyCharm" class="headerlink" title="1.从官网下载PyCharm"></a>1.从官网下载PyCharm</h2><p>官网的下载速度是很快的！</p>
-<p>PyCharm官网：<a href="https://www.jetbrains.com/pycharm/">PyCharm: the Python IDE for Professional Developers by JetBrains</a></p>
-<p>重点：必须下载2021.2.2及之前的版本，否则只能首次试用30天，之后不可试用（要登录官网账号验证是否试用过）</p>
-<p>下载链接直接放下面了：</p>
-<p>方式一：<strong>直接下载</strong>：<a href="https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1">https://download.jetbrains.com/python/pycharm-professional-2021.2.2.exe?_ga=2.177314661.139758805.1663811841-1329964021.1654160823&amp;_gl=1</a></p>
-<p>方式二：进入下载页面下载：<a href="https://www.jetbrains.com/pycharm/download/other.html">Other Versions - PyCharm (jetbrains.com)</a></p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922145852780-920855323.png"></p>
-<h2 id="2-使用脚本清空试用天数续期【无限续期】"><a href="#2-使用脚本清空试用天数续期【无限续期】" class="headerlink" title="2.使用脚本清空试用天数续期【无限续期】"></a>2.使用脚本清空试用天数续期【无限续期】</h2><p>等到过期的时候再使用脚本<code>reset_jetbrains_eval_windows.vbs</code>清空天数就ok</p>
-<p><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220922150445043-2094612096.png"></p>
-<p>使用方法：双击脚本即可</p>
-<p>另外这个脚本对于所有的<code>JetBrain</code>的产品都是有效的，记住软件版本选择<code>2021.2.2</code>以前的</p>
-<p>脚本下载链接：<a href="https://wwp.lanzoub.com/iQk4t0c5wm7e">https://wwp.lanzoub.com/iQk4t0c5wm7e</a></p>
-]]></content>
-      <categories>
-        <category>破解资源</category>
-      </categories>
-      <tags>
-        <tag>破解软件</tag>
-        <tag>JetBrain</tag>
-        <tag>PyCharm</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Typora 1.6.7 安装包下载及安装教程 | typora最新版破解教程</title>
     <url>/posts/23701.html</url>
     <content><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p>软件名称: <strong>Typora 1.6.7 永久激活包</strong></p>
@@ -2529,6 +2482,31 @@
       </tags>
   </entry>
   <entry>
+    <title>一个100%立即获得New bing资格的方法教程-点击就送bing chat</title>
+    <url>/posts/16891.html</url>
+    <content><![CDATA[<p>之前加入waitlist的账号一个多月过去了还没有任何反应，但是身边朋友却“点击就送”？</p>
+<p>深入调查后发现原来是IP的影响，相信说到这里就已经有人知道该怎么做了</p>
+<p>方法：</p>
+<ol>
+<li>将节点IP更换为日本全局（不会换ip的看这个<a href="https://blog.onefly.top/posts/16888.html">简易教程</a>)</li>
+</ol>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230312113249267-1194007670.png"></p>
+<ol start="2">
+<li>进入new bing 申请网站点击立即加入</li>
+</ol>
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230312113536042-1695660571.png"></p>
+<p>之后就可以直接在bing搜索中开启聊天了<br><a href="https://www.bing.com/?/ai">https://www.bing.com/?/ai</a><br>其他建议：先退账号，删除注册表，vpn登录国外邮箱，现在秒成功<br>其他方案：<a href="https://mp.weixin.qq.com/s/MW7hdkhfixveEr48UUd16A">https://mp.weixin.qq.com/s/MW7hdkhfixveEr48UUd16A</a></p>
+]]></content>
+      <categories>
+        <category>前沿技术</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>技术分享</tag>
+        <tag>人工智能</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我们应该为Copilot X 的到来做好什么准备？</title>
     <url>/posts/16892.html</url>
     <content><![CDATA[<h1 id="申请github-copilot学生认证以及Jetbrain专业版学生教育免费教程-申请加入Copilot-X-Waitlist"><a href="#申请github-copilot学生认证以及Jetbrain专业版学生教育免费教程-申请加入Copilot-X-Waitlist" class="headerlink" title="申请github copilot学生认证以及Jetbrain专业版学生教育免费教程+申请加入Copilot X Waitlist."></a>申请github copilot学生认证以及Jetbrain专业版学生教育免费教程+申请加入Copilot X Waitlist.</h1><h2 id="教程概览"><a href="#教程概览" class="headerlink" title="教程概览"></a>教程概览</h2><p>1.学信网下载学籍认证pdf</p>
@@ -2590,8 +2568,8 @@
         <category>人工智能</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>github</tag>
+        <tag>AI</tag>
         <tag>Copilot X</tag>
       </tags>
   </entry>
@@ -3097,6 +3075,70 @@
       </tags>
   </entry>
   <entry>
+    <title>第一行代码Android（第3版）pdf</title>
+    <url>/posts/43427.html</url>
+    <content><![CDATA[<p>2020年人民邮电出版社出版的图书<br>《第一行代码Android（第3版）》是2020年4月人民邮电出版社出版的图书，作者是郭霖。</p>
+<p>封面：<br><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083910008-28177591.png"></p>
+<p>内容简介：<br>《第一行代码 Android 第3版》被Android开发者誉为“Android学习第一书”。全书系统全面、循序渐进地介绍了Android软件开发的必备知识、经验和技巧。<br>《第一行代码 Android 第3版》基于Android 10.0对第2版进行了全面更新，不仅将所有知识点都在Android 10.0系统上进行了重新适配，同时加入Kotlin语言的全面讲解，使用Kotlin对全书代码进行重写，而且还介绍了最新系统特性以及Jetpack架构组件的使用，使本书更加实用。<br>《第一行代码 Android 第3版》内容通俗易懂，由浅入深，既是Android初学者的入门必备，也是Android开发者的进阶首选。 </p>
+<p>下载地址：<a href="https://wwp.lanzoub.com/iNBcu0bh15xi">https://wwp.lanzoub.com/iNBcu0bh15xi</a></p>
+<p>资源来自于互联网，如分享有损你的权益，请私信我删除！</p>
+]]></content>
+      <categories>
+        <category>电子书</category>
+      </categories>
+      <tags>
+        <tag>电子书</tag>
+        <tag>开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Solana土狗交易机器人使用教程【Sol Trading Bot中文教程】</title>
+    <url>/posts/231224.html</url>
+    <content><![CDATA[<p>众所周知，swap工具不仅有滑点，还十分考验手速，慢一点价格又变了，根本不能成功交易，那么有没有一种方法能够丝滑交易呢，那就是交易机器人！</p>
+<p>下面是一篇完整的sol链上交易机器人使用教程【含翻译】： </p>
+<p>【<strong>安全声明</strong>：交易机器人与本人无关，只提供使用教程，使用机器人造成的一切损失自负】</p>
+<h2 id="1-开始使用机器人"><a href="#1-开始使用机器人" class="headerlink" title="1.开始使用机器人"></a>1.开始使用机器人</h2><p>直接点击机器人链接，或在支持跳转telegram的浏览器打开下面的机器人链接，或者复制链接到tg聊天发送给任意对象再点击链接打开。</p>
+<p>机器人链接：<a href="https://t.me/SolanaTradingBot?start=FBcf8IMCf">https://t.me/SolanaTradingBot?start=FBcf8IMCf</a></p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114651851-1104401959.jpg" style="zoom:50%;">
+
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114719167-626787221.jpg" style="zoom:50%;">
+
+<h2 id="2-机器人基本菜单介绍"><a href="#2-机器人基本菜单介绍" class="headerlink" title="2.机器人基本菜单介绍"></a>2.机器人基本菜单介绍</h2><p>对应的基本功能见翻译，快捷命令菜单和图中按钮面板一致，不会英文的请熟记以下几个单词，buy是买，sell是卖。</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114841303-1858318205.jpg" style="zoom:50%;">
+
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114858659-1344250239.jpg" style="zoom:50%;">
+
+<h2 id="3-机器人钱包系统介绍"><a href="#3-机器人钱包系统介绍" class="headerlink" title="3.机器人钱包系统介绍"></a>3.机器人钱包系统介绍</h2><p>建议不要告诉机器人自己的私钥，而是创建一个新钱包，然后用自己的钱包给机器人转账，为什么要用机器人是因为机器人能够秒买秒卖，但是有一定安全风险，所以赚多了可以提出来，机器人会告诉你钱包的公钥和私钥，你可以把私钥添加到自己的钱包插件中，这样方便后面监控操作。</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224114952964-1330364325.jpg" style="zoom:50%;">
+
+<h2 id="4-机器人买卖币系统介绍"><a href="#4-机器人买卖币系统介绍" class="headerlink" title="4.机器人买卖币系统介绍"></a>4.机器人买卖币系统介绍</h2><p>直接给机器人发送代币合约地址即可开始买卖，机器人首先会回复你币种基本信息，然后下面是买卖功能菜单面板。</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115102492-902648871.jpg" style="zoom:50%;">
+
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115135278-892642567.jpg" style="zoom:50%;">
+
+<h2 id="5-机器人自动买卖和自定义按钮介绍"><a href="#5-机器人自动买卖和自定义按钮介绍" class="headerlink" title="5.机器人自动买卖和自定义按钮介绍"></a>5.机器人自动买卖和自定义按钮介绍</h2><p>bot提供了简单的自动买卖功能，以及一个购买数量的快捷按钮设置，一个适合自己的冲土狗数量快捷单位。 自动买卖指给机器让发送合约地址就会自动买卖，可以选开启自动买还是自动卖。</p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115226190-537804814.jpg" style="zoom:50%;">
+
+<h2 id="6-机器人交易收益追踪介绍"><a href="#6-机器人交易收益追踪介绍" class="headerlink" title="6.机器人交易收益追踪介绍"></a>6.机器人交易收益追踪介绍</h2><p>在菜单中选择trade就能看最近10笔订单的收益情况，但是图表，蜡烛图才是交易员的归宿，所以可以用下面的网站链接钱包查看。</p>
+<p><a href="https://birdeye.so/token/7mmXL6Et4SbpDs2iXoZQ3oPEeXeAiyETxh1QjDNi5qnV?chain=solana">https://birdeye.so/token/7mmXL6Et4SbpDs2iXoZQ3oPEeXeAiyETxh1QjDNi5qnV?chain=solana</a></p>
+<img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115426681-390263752.jpg" style="zoom:50%;">
+
+<p><img src="https://img2023.cnblogs.com/blog/2910984/202312/2910984-20231224115606171-455902962.jpg"></p>
+<blockquote>
+<p>机器人链接：<a href="https://t.me/SolanaTradingBot?start=FBcf8IMCf">https://t.me/SolanaTradingBot?start=FBcf8IMCf</a></p>
+<p>原文链接：<a href="https://x.com/Onefly_eth/status/1738755042335985853?s=20">https://x.com/Onefly_eth/status/1738755042335985853?s=20</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>bot</tag>
+        <tag>sol</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python数据分析教程（一）：Numpy</title>
     <url>/posts/13140.html</url>
     <content><![CDATA[<h2 id="数据的纬度"><a href="#数据的纬度" class="headerlink" title="数据的纬度"></a>数据的纬度</h2><p>一维数据：列表和集合类型</p>
@@ -3316,48 +3358,6 @@ np<span class="token punctuation">.</span>random<span class="token punctuation">
         <tag>python</tag>
         <tag>数据分析</tag>
         <tag>numpy</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一行代码Android（第3版）pdf</title>
-    <url>/posts/43427.html</url>
-    <content><![CDATA[<p>2020年人民邮电出版社出版的图书<br>《第一行代码Android（第3版）》是2020年4月人民邮电出版社出版的图书，作者是郭霖。</p>
-<p>封面：<br><img src="https://img2022.cnblogs.com/blog/2910984/202209/2910984-20220920083910008-28177591.png"></p>
-<p>内容简介：<br>《第一行代码 Android 第3版》被Android开发者誉为“Android学习第一书”。全书系统全面、循序渐进地介绍了Android软件开发的必备知识、经验和技巧。<br>《第一行代码 Android 第3版》基于Android 10.0对第2版进行了全面更新，不仅将所有知识点都在Android 10.0系统上进行了重新适配，同时加入Kotlin语言的全面讲解，使用Kotlin对全书代码进行重写，而且还介绍了最新系统特性以及Jetpack架构组件的使用，使本书更加实用。<br>《第一行代码 Android 第3版》内容通俗易懂，由浅入深，既是Android初学者的入门必备，也是Android开发者的进阶首选。 </p>
-<p>下载地址：<a href="https://wwp.lanzoub.com/iNBcu0bh15xi">https://wwp.lanzoub.com/iNBcu0bh15xi</a></p>
-<p>资源来自于互联网，如分享有损你的权益，请私信我删除！</p>
-]]></content>
-      <categories>
-        <category>电子书</category>
-      </categories>
-      <tags>
-        <tag>电子书</tag>
-        <tag>开发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个100%立即获得New bing资格的方法教程-点击就送bing chat</title>
-    <url>/posts/16891.html</url>
-    <content><![CDATA[<p>之前加入waitlist的账号一个多月过去了还没有任何反应，但是身边朋友却“点击就送”？</p>
-<p>深入调查后发现原来是IP的影响，相信说到这里就已经有人知道该怎么做了</p>
-<p>方法：</p>
-<ol>
-<li>将节点IP更换为日本全局（不会换ip的看这个<a href="https://blog.onefly.top/posts/16888.html">简易教程</a>)</li>
-</ol>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230312113249267-1194007670.png"></p>
-<ol start="2">
-<li>进入new bing 申请网站点击立即加入</li>
-</ol>
-<p><img src="https://img2023.cnblogs.com/blog/2910984/202303/2910984-20230312113536042-1695660571.png"></p>
-<p>之后就可以直接在bing搜索中开启聊天了<br><a href="https://www.bing.com/?/ai">https://www.bing.com/?/ai</a><br>其他建议：先退账号，删除注册表，vpn登录国外邮箱，现在秒成功<br>其他方案：<a href="https://mp.weixin.qq.com/s/MW7hdkhfixveEr48UUd16A">https://mp.weixin.qq.com/s/MW7hdkhfixveEr48UUd16A</a></p>
-]]></content>
-      <categories>
-        <category>前沿技术</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>技术分享</tag>
-        <tag>人工智能</tag>
       </tags>
   </entry>
 </search>
