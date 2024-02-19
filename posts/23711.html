@@ -431,8 +431,74 @@
         font-size: 1.4rem;
     }
 </style>
-<div class="row">
-    <div id="main-content" class="col s12 m12 l9">
+<!-- 左侧边栏 -->
+<div id="sidebar" style="width: 325px; position: fixed; top: 35%; left: 20px; transform: translateY(-50%); height: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <!-- sidebar.ejs -->
+
+<style>
+    .sidebar {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 15px;    /* 四角圆弧形边框 */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加轻微的阴影效果 */
+    }
+
+    .profile .profile-pic {
+        width: 270px;
+        height: 100px;
+        border-radius: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .sidebar-nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sidebar-nav li {
+        margin: 10px 0; 
+    }
+
+    .sidebar-nav a {
+        text-decoration: none;
+        color: #333;
+    }
+</style>
+
+
+<aside class="sidebar">
+    <div class="profile">        
+        <h3>孤飞</h3>
+        <img src="https://images.cnblogs.com/cnblogs_com/blogs/757245/galleries/2178271/o_220723103231_wechat.png" alt="Profile Picture" class="profile-pic">
+        <p>欢迎关注微信公众号！</p>
+        <p><strong><span style="color: red;">OKX </span></strong>是<strong>安全正规</strong>的<strong>比特币交易所</strong>：<a target="_blank" rel="noopener" href="https://www.nuancebot.com/cn/join/8385429">https://okx.com/cn/join/8385429</a></p>
+        <p><strong><span style="color: rgb(240, 137, 12);">加密货币交易所 </span></strong><strong>购买比特币教程</strong>：<a href="https://onefly.top/posts/24219.html">https://onefly.top/posts/24219.html</a></p>
+        <p>谷歌等账户注册短信验证码接码：<a target="_blank" rel="noopener" href="https://sms-activate.org/cn?ref=2713386">https://sms-activate.org/cn?ref=2713386</a></p>
+        <p>视频网盘等会员和自媒体刷粉：<a target="_blank" rel="noopener" href="https://hy.huoyuan.xyz/a/b/c///">https://hy.huoyuan.xyz/a/b/c///</a></p>
+    </div>    
+</aside>
+</div>
+<script>
+    var isMobile = /mobile/i.test(navigator.userAgent);
+    if (isMobile) {
+        document.getElementById('sidebar').style.display = 'none';
+    }
+</script>
+<div class="container" style="display: flex; justify-content: space-between; width: 100%; max-width: 1200px; margin: 0 auto;">
+
+<style>
+    @media (max-width: 768px) {
+        .container {
+            width: 100%;
+        }
+        #main-content img {
+            max-width: 100%;
+        }
+    }
+</style>
+    <!-- 正文 -->
+    <div id="main-content" style="flex-grow: 1; margin: 0 0px;">
         <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
@@ -511,7 +577,7 @@
             <div id="articleContent">
                 <p>给大家介绍一个<strong>低价会员租号网站</strong>：</p>
 <p><strong><a target="_blank" rel="noopener" href="https://shop.onefly.top/">https://shop.onefly.top</a></strong></p>
-<p><strong><a target="_blank" rel="noopener" href="https://hy.huoyuan.cf/a/b/c///">https://hy.huoyuan.cf/a/b/c///</a></strong></p>
+<p><strong><a target="_blank" rel="noopener" href="https://hy.huoyuan.xyz/a/b/c///">https://hy.huoyuan.xyz/a/b/c///</a></strong></p>
 <h2 id="热-门-🔥-推-荐"><a href="#热-门-🔥-推-荐" class="headerlink" title="热 门 🔥 推 荐"></a><a target="_blank" rel="noopener" href="https://hy.huoyuan.cf/a/b/c///#collapse14">热 门 🔥 推 荐</a></h2><table>
 <thead>
 <tr>
@@ -1620,14 +1686,21 @@
 
 
     </div>
-    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+
+    <!-- 右侧边栏 -->
+    <div id="toc-aside" style="width: 230px;">
         <div class="toc-widget card" style="background-color: white;">
             <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
             <div id="toc-content"></div>
         </div>
     </div>
+    <script>
+        var isMobile = /mobile/i.test(navigator.userAgent);
+        if (isMobile) {
+            document.getElementById('toc-aside').style.display = 'none';
+        }
+    </script>
 </div>
-
 <!-- TOC 悬浮按钮. -->
 
 <div id="floating-toc-btn" class="hide-on-med-and-down">
