@@ -40,9 +40,9 @@
     
     <category term="web3" scheme="https://onefly.top/tags/web3/"/>
     
-    <category term="strk" scheme="https://onefly.top/tags/strk/"/>
-    
     <category term="交易所" scheme="https://onefly.top/tags/%E4%BA%A4%E6%98%93%E6%89%80/"/>
+    
+    <category term="strk" scheme="https://onefly.top/tags/strk/"/>
     
   </entry>
   
@@ -69,9 +69,9 @@
     
     <category term="web3" scheme="https://onefly.top/tags/web3/"/>
     
-    <category term="交易所" scheme="https://onefly.top/tags/%E4%BA%A4%E6%98%93%E6%89%80/"/>
-    
     <category term="虚拟货币" scheme="https://onefly.top/tags/%E8%99%9A%E6%8B%9F%E8%B4%A7%E5%B8%81/"/>
+    
+    <category term="交易所" scheme="https://onefly.top/tags/%E4%BA%A4%E6%98%93%E6%89%80/"/>
     
   </entry>
   
@@ -155,11 +155,11 @@
     <category term="技术教程" scheme="https://onefly.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
     
+    <category term="chatgpt" scheme="https://onefly.top/tags/chatgpt/"/>
+    
     <category term="visa" scheme="https://onefly.top/tags/visa/"/>
     
     <category term="信用卡" scheme="https://onefly.top/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1/"/>
-    
-    <category term="chatgpt" scheme="https://onefly.top/tags/chatgpt/"/>
     
   </entry>
   
@@ -485,9 +485,9 @@
     <category term="数据分析" scheme="https://onefly.top/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
     
-    <category term="数据分析" scheme="https://onefly.top/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
     <category term="python" scheme="https://onefly.top/tags/python/"/>
+    
+    <category term="数据分析" scheme="https://onefly.top/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
     <category term="pandas" scheme="https://onefly.top/tags/pandas/"/>
     
@@ -515,9 +515,9 @@
     <category term="数据分析" scheme="https://onefly.top/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
     
-    <category term="数据分析" scheme="https://onefly.top/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
     <category term="python" scheme="https://onefly.top/tags/python/"/>
+    
+    <category term="数据分析" scheme="https://onefly.top/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
     <category term="numpy" scheme="https://onefly.top/tags/numpy/"/>
     
