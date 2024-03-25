@@ -80,7 +80,7 @@
     <link href="https://onefly.top/posts/24219.html"/>
     <id>https://onefly.top/posts/24219.html</id>
     <published>2024-02-19T02:06:51.000Z</published>
-    <updated>2024-03-02T13:54:35.231Z</updated>
+    <updated>2024-03-25T12:02:21.613Z</updated>
     
     
       
@@ -184,11 +184,11 @@
     <category term="技术教程" scheme="https://onefly.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
     
+    <category term="chatgpt" scheme="https://onefly.top/tags/chatgpt/"/>
+    
     <category term="visa" scheme="https://onefly.top/tags/visa/"/>
     
     <category term="信用卡" scheme="https://onefly.top/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1/"/>
-    
-    <category term="chatgpt" scheme="https://onefly.top/tags/chatgpt/"/>
     
   </entry>
   
@@ -197,7 +197,7 @@
     <link href="https://onefly.top/posts/231224.html"/>
     <id>https://onefly.top/posts/231224.html</id>
     <published>2023-12-24T03:15:51.000Z</published>
-    <updated>2023-12-25T04:11:05.000Z</updated>
+    <updated>2024-03-19T03:40:44.000Z</updated>
     
     
       
@@ -205,7 +205,7 @@
         
         
     <summary type="html">&lt;p&gt;众所周知，swap工具不仅有滑点，还十分考验手速，慢一点价格又变了，根本不能成功交易，那么有没有一种方法能够丝滑交易呢，那就是交易机器人！&lt;/p&gt;
-&lt;p&gt;下面是一篇完整的sol链上交易机器人使用教程【含翻译】：</summary>
+&lt;h2 id=&quot;其他Solana土狗机器人推荐&quot;&gt;&lt;a href=&quot;#其他Solana土狗机器人推荐&quot;</summary>
         
       
     
@@ -275,11 +275,11 @@
     <category term="资源分享" scheme="https://onefly.top/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/"/>
     
     
+    <category term="免费" scheme="https://onefly.top/tags/%E5%85%8D%E8%B4%B9/"/>
+    
     <category term="电子书" scheme="https://onefly.top/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
     
     <category term="zlibrary" scheme="https://onefly.top/tags/zlibrary/"/>
-    
-    <category term="免费" scheme="https://onefly.top/tags/%E5%85%8D%E8%B4%B9/"/>
     
   </entry>
   
@@ -306,9 +306,9 @@
     
     <category term="chatgpt" scheme="https://onefly.top/tags/chatgpt/"/>
     
-    <category term="AI" scheme="https://onefly.top/tags/AI/"/>
-    
     <category term="免费" scheme="https://onefly.top/tags/%E5%85%8D%E8%B4%B9/"/>
+    
+    <category term="AI" scheme="https://onefly.top/tags/AI/"/>
     
   </entry>
   
@@ -393,9 +393,9 @@
     <category term="人工智能" scheme="https://onefly.top/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
     
-    <category term="github" scheme="https://onefly.top/tags/github/"/>
-    
     <category term="AI" scheme="https://onefly.top/tags/AI/"/>
+    
+    <category term="github" scheme="https://onefly.top/tags/github/"/>
     
     <category term="Copilot X" scheme="https://onefly.top/tags/Copilot-X/"/>
     
@@ -426,9 +426,9 @@
     <category term="前沿技术" scheme="https://onefly.top/categories/%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="技术分享" scheme="https://onefly.top/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
-    
     <category term="AI" scheme="https://onefly.top/tags/AI/"/>
+    
+    <category term="技术分享" scheme="https://onefly.top/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
     
     <category term="人工智能" scheme="https://onefly.top/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
@@ -458,9 +458,9 @@
     
     <category term="python" scheme="https://onefly.top/tags/python/"/>
     
-    <category term="git" scheme="https://onefly.top/tags/git/"/>
-    
     <category term="github" scheme="https://onefly.top/tags/github/"/>
+    
+    <category term="git" scheme="https://onefly.top/tags/git/"/>
     
   </entry>
   
@@ -514,9 +514,9 @@
     <category term="数据分析" scheme="https://onefly.top/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
     
-    <category term="python" scheme="https://onefly.top/tags/python/"/>
-    
     <category term="数据分析" scheme="https://onefly.top/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+    <category term="python" scheme="https://onefly.top/tags/python/"/>
     
     <category term="pandas" scheme="https://onefly.top/tags/pandas/"/>
     
@@ -544,39 +544,11 @@
     <category term="数据分析" scheme="https://onefly.top/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
     
-    <category term="python" scheme="https://onefly.top/tags/python/"/>
-    
     <category term="数据分析" scheme="https://onefly.top/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
+    <category term="python" scheme="https://onefly.top/tags/python/"/>
+    
     <category term="numpy" scheme="https://onefly.top/tags/numpy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一行代码Android（第3版）pdf</title>
-    <link href="https://onefly.top/posts/43427.html"/>
-    <id>https://onefly.top/posts/43427.html</id>
-    <published>2022-09-13T16:06:51.000Z</published>
-    <updated>2022-09-20T01:24:19.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;2020年人民邮电出版社出版的图书&lt;br&gt;《第一行代码Android（第3版）》是2020年4月人民邮电出版社出版的图书，作者是郭霖。&lt;/p&gt;
-&lt;p&gt;封面：&lt;br&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="电子书" scheme="https://onefly.top/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
-    
-    
-    <category term="电子书" scheme="https://onefly.top/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
-    
-    <category term="开发" scheme="https://onefly.top/tags/%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
@@ -605,6 +577,34 @@
     <category term="电子书" scheme="https://onefly.top/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
     
     <category term="经管" scheme="https://onefly.top/tags/%E7%BB%8F%E7%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一行代码Android（第3版）pdf</title>
+    <link href="https://onefly.top/posts/43427.html"/>
+    <id>https://onefly.top/posts/43427.html</id>
+    <published>2022-09-13T16:06:51.000Z</published>
+    <updated>2022-09-20T01:24:19.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2020年人民邮电出版社出版的图书&lt;br&gt;《第一行代码Android（第3版）》是2020年4月人民邮电出版社出版的图书，作者是郭霖。&lt;/p&gt;
+&lt;p&gt;封面：&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="电子书" scheme="https://onefly.top/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+    
+    
+    <category term="电子书" scheme="https://onefly.top/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+    
+    <category term="开发" scheme="https://onefly.top/tags/%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
