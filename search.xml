@@ -3696,7 +3696,7 @@ np<span class="token punctuation">.</span>random<span class="token punctuation">
 </ul>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">codesign <span class="token parameter variable">--verbose</span> <span class="token parameter variable">--force</span> <span class="token parameter variable">--deep</span> <span class="token parameter variable">-s</span> - /Applications/MATLAB_R2024a.app/bin/maci64/matlab_startup_plugins/lmgrimpl/libmwlmgrimpl.dylib<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><p>扫描下方二维码关注<code>公众号</code>并回复<code>macmatlab</code>免费获取下载链接</p>
+<h2 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h2><p>扫描下方二维码关注<code>公众号</code>并回复<code>MacMatlab</code>免费获取下载链接</p>
 <img src="https://img2023.cnblogs.com/blog/2910984/202404/2910984-20240430230627509-2093241857.png" style="zoom: 40%;">
 
 ]]></content>
