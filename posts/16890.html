@@ -369,7 +369,7 @@
     }
 </style>
 <!-- 左侧边栏 -->
-<div id="sidebar" style="width: 325px; position: fixed; top: 35%; left: 20px; transform: translateY(-50%); height: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+<div id="sidebar" style="width: 20vw; position: fixed; top: 35%; left: 20px; transform: translateY(-50%); height: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
     <!-- sidebar.ejs -->
 
 <style>
@@ -422,21 +422,16 @@
         document.getElementById('sidebar').style.display = 'none';
     }
 </script>
+
 <div class="container" style="display: flex; justify-content: space-between; width: 100%; max-width: 1200px; margin: 0 auto;">
 
-<style>
-    @media (max-width: 768px) {
-        .container {
-            width: 100%;
-        }
-        #main-content img {
-            max-width: 100%;
-        }
-    }
-</style>
+    <!-- 左侧占位元素 -->
+    <div style="width: 15vw;"></div>
+
     <!-- 正文 -->
-    <div id="main-content" style="flex-grow: 1; margin: 0 0px;">
-        <!-- 文章内容详情 -->
+    <div id="main-content" style="flex-basis: 75vw; margin: 0 0px; overflow-x: auto;">
+        <div style="width: 100%;">
+            <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
@@ -1200,10 +1195,11 @@
 <script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
 
 
+        </div>
     </div>
 
     <!-- 右侧边栏 -->
-    <div id="toc-aside" style="width: 230px;">
+    <div id="toc-aside" style="width: 10vw;">
         <div class="toc-widget card" style="background-color: white;">
             <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
             <div id="toc-content"></div>
@@ -1216,6 +1212,7 @@
         }
     </script>
 </div>
+
 <!-- TOC 悬浮按钮. -->
 
 <div id="floating-toc-btn" class="hide-on-med-and-down">
