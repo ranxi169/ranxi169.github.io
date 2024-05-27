@@ -426,7 +426,15 @@
 <div class="container" style="display: flex; justify-content: space-between; width: 100%; max-width: 1200px; margin: 0 auto;">
 
     <!-- 左侧占位元素 -->
-    <div style="width: 15vw;"></div>
+    <div id="left-padding" style="width: 15vw;"></div>
+    <script>
+        var isMobile = /mobile/i.test(navigator.userAgent);
+        if (isMobile) {
+            var leftPadding = document.getElementById('left-padding');
+            leftPadding.style.visibility = 'hidden';
+            leftPadding.style.width = '0';
+        }
+    </script>
 
     <!-- 正文 -->
     <div id="main-content" style="flex-basis: 75vw; margin: 0 0px; overflow-x: auto;">
